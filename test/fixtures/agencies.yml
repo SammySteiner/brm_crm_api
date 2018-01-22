@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  acronym: MyString
+  category: 1
+  mayoral: false
+  citynet: false
+  commissioner: one
+
+two:
+  name: MyString
+  acronym: MyString
+  category: 1
+  mayoral: false
+  citynet: false
+  commissioner: two

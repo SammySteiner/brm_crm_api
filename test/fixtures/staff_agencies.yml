@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  staff: one
+  agency: one
+
+two:
+  staff: two
+  agency: two

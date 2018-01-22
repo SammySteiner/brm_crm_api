@@ -1,0 +1,2 @@
+class ExecutiveCommunication < ApplicationRecord
+end

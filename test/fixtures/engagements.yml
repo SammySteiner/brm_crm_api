@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  engagement_type: 
+  cio: 
+  date: 
+  notes: MyText
+
+two:
+  engagement_type: 
+  cio: 
+  date: 
+  notes: MyText
