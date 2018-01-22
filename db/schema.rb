@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180122183242) do
+ActiveRecord::Schema.define(version: 20180122185414) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -42,6 +42,47 @@ ActiveRecord::Schema.define(version: 20180122183242) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["engagement_type_id"], name: "index_engagements_on_engagement_type_id"
+  end
+
+  create_table "events", force: :cascade do |t|
+    t.string "title"
+    t.text "description"
+    t.string "location"
+    t.datetime "time"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "executive_communications", force: :cascade do |t|
+    t.string "subject"
+    t.text "content"
+    t.datetime "time"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "issues", force: :cascade do |t|
+    t.text "description"
+    t.text "notes"
+    t.boolean "escalation"
+    t.integer "priority"
+    t.boolean "actionable"
+    t.string "ksr"
+    t.boolean "key_project"
+    t.bigint "agency_id"
+    t.bigint "service_id"
+    t.bigint "engagement_id"
+    t.integer "created_by_id"
+    t.datetime "start_time"
+    t.datetime "last_modified_on"
+    t.integer "last_modified_by_id"
+    t.datetime "resolved_on"
+    t.text "resolution_notes"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["agency_id"], name: "index_issues_on_agency_id"
+    t.index ["engagement_id"], name: "index_issues_on_engagement_id"
+    t.index ["service_id"], name: "index_issues_on_service_id"
   end
 
   create_table "roles", force: :cascade do |t|
@@ -89,6 +130,9 @@ ActiveRecord::Schema.define(version: 20180122183242) do
   end
 
   add_foreign_key "engagements", "engagement_types"
+  add_foreign_key "issues", "agencies"
+  add_foreign_key "issues", "engagements"
+  add_foreign_key "issues", "services"
   add_foreign_key "staff_agencies", "agencies"
   add_foreign_key "staff_agencies", "staffs"
   add_foreign_key "staff_engagements", "engagements"

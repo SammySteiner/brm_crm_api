@@ -22,27 +22,25 @@ attendance = StaffEngagement.create(staff_id: 1, engagement_id: 1)
 
 service = Service.create(title: 'arm assistance', description: 'Have your arm help you with whatever escalations you need!', sla: 5, sdl_id: 1)
 
-# create_table :events do |t|
-#   t.string :title
-#   t.text :description
-#   t.string :location
-#   t.datetime :time
-#
-#   create_table :executive_communications do |t|
-#     t.string :subject
-#     t.text :content
-#     t.datetime :time
+event = Event.create(title: 'test event', description: 'this is going to be a great test event.', location: '123 Fake St.', time: DateTime.now())
 
-# t.references, :engagement_type
-# t.boolean, :cio
-# t.datetime, :date
+execom = ExecutiveCommunication.create(subject: 'something important', content: 'this is the body of the really important email.', time: DateTime.now())
+
+issue = Issue.create(description: 'this is a really important issue', notes: 'after connecting with the agency, we need to help!', escalation: true, priority: 1, actionable: false, ksr: 'ksr12345', key_project: true, agency_id: 1, service_id: 1, engagement_id: 1, created_by_id: 1, start_time: DateTime.now(), last_modified_on: DateTime.now(), last_modified_by_id: 1)
+
+# t.text :description
 # t.text :notes
-
-# t.string :name
-# t.string :acronym
-# t.integer :category
-# t.boolean :mayoral
-# t.boolean :citynet
-# t.references :commissioner, references: :staffs
-# t.references :cio, references: :staffs
-# t.references :arm, references: :staffs
+# t.boolean :escalation
+# t.integer :priority
+# t.boolean :actionable
+# t.string :ksr
+# t.boolean :key_project
+# t.references :agency, foreign_key: true
+# t.references :service, foreign_key: true
+# t.references :engagement, foreign_key: true
+# t.integer :created_by
+# t.datetime :start_time
+# t.datetime :last_modified_on
+# t.integer :last_modified_by
+# t.datetime :resolved_on
+# t.text :resolution_notes
