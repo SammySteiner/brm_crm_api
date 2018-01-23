@@ -6,41 +6,76 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-arm = Role.create(title: 'ARM', description: 'Agency Relation Manager')
+require 'csv'
 
-sammy = Staff.create(name: 'Sammy Steiner', email: 'sasteiner@doitt.nyc.gov', phone: '7184038786', role_id: 1)
+def roles_import
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'roles.csv'))
+  csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+  csv.each do |row|
+    t = Role.new
+    t.title = row[0]
+    t.description = row['description']
+    t.save
+  end
+end
 
-agency = Agency.create(name: 'Department of Information Technology', acronym: 'DoITT', category: 1, mayoral: true, citynet: true, commissioner_id: 1, cio_id: 1, arm_id: 1)
+def agencies_import
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'agencies.csv'))
+  csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+  csv.each do |row|
+    t = Agency.new
+    t.name = row["﻿name"]
+    t.acronym = row['acronym']
+    t.category = row['category']
+    t.mayoral = row['mayoral']
+    t.citynet = row['citynet']
+    t.save
+  end
+end
 
-sammy_doitt = StaffAgency.create(staff_id: 1, agency_id: 1)
+def staff_import
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'staff.csv'))
+  csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+  csv.each do |row|
+    t = Staff.new
+    t.first_name = row["﻿first_name"]
+    beybug
+    t.last_name = row["﻿last_name"]
+    t.email = row['email']
+    t.office_phone = row['office_phone']
+    t.cell_phone = row['cell_phone']
+    t.role_id = row['role_id']
+    t.agency_id = row['agency_id']
+    t.save
+  end
+end
 
-engagement_type = EngagementType.create(medium: 'CIO Check In')
+roles_import
+agencies_import
+staff_import
 
-engagement = Engagement.create(engagement_type_id: 1, cio: true, date: DateTime.now(), notes: 'an awesome CIO meeting with nothing to report')
 
-attendance = StaffEngagement.create(staff_id: 1, engagement_id: 1)
 
-service = Service.create(title: 'arm assistance', description: 'Have your arm help you with whatever escalations you need!', sla: 5, sdl_id: 1)
 
-event = Event.create(title: 'test event', description: 'this is going to be a great test event.', location: '123 Fake St.', time: DateTime.now())
 
-execom = ExecutiveCommunication.create(subject: 'something important', content: 'this is the body of the really important email.', time: DateTime.now())
 
-issue = Issue.create(description: 'this is a really important issue', notes: 'after connecting with the agency, we need to help!', escalation: true, priority: 1, actionable: false, ksr: 'ksr12345', key_project: true, agency_id: 1, service_id: 1, engagement_id: 1, created_by_id: 1, start_time: DateTime.now(), last_modified_on: DateTime.now(), last_modified_by_id: 1)
 
-# t.text :description
-# t.text :notes
-# t.boolean :escalation
-# t.integer :priority
-# t.boolean :actionable
-# t.string :ksr
-# t.boolean :key_project
-# t.references :agency, foreign_key: true
-# t.references :service, foreign_key: true
-# t.references :engagement, foreign_key: true
-# t.integer :created_by
-# t.datetime :start_time
-# t.datetime :last_modified_on
-# t.integer :last_modified_by
-# t.datetime :resolved_on
-# t.text :resolution_notes
+# arm = Role.create(title: 'ARM', description: 'Agency Relation Manager')
+#
+# agency = Agency.create(name: 'Department of Information Technology', acronym: 'DoITT', category: 1, mayoral: true, citynet: true)
+#
+# sammy = Staff.create(first_name: 'Sammy', last_name: 'Steiner', email: 'sasteiner@doitt.nyc.gov', office_phone: '7184038786', cell_phone: '6465744359', role_id: 1, agency_id: 1)
+#
+# engagement_type = EngagementType.create(medium: 'CIO Check In')
+#
+# engagement = Engagement.create(engagement_type_id: 1, cio: true, date: DateTime.now(), notes: 'an awesome CIO meeting with nothing to report')
+#
+# attendance = StaffEngagement.create(staff_id: 1, engagement_id: 1)
+#
+# service = Service.create(title: 'arm assistance', description: 'Have your arm help you with whatever escalations you need!', sla: 5, sdl_id: 1)
+#
+# event = Event.create(title: 'test event', description: 'this is going to be a great test event.', location: '123 Fake St.', time: DateTime.now())
+#
+# execom = ExecutiveCommunication.create(subject: 'something important', content: 'this is the body of the really important email.', time: DateTime.now())
+#
+# issue = Issue.create(description: 'this is a really important issue', notes: 'after connecting with the agency, we need to help!', escalation: true, priority: 1, actionable: false, ksr: 'ksr12345', key_project: true, agency_id: 1, service_id: 1, engagement_id: 1, created_by_id: 1, start_time: DateTime.now(), last_modified_on: DateTime.now(), last_modified_by_id: 1)

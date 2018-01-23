@@ -21,9 +21,6 @@ ActiveRecord::Schema.define(version: 20180122185414) do
     t.integer "category"
     t.boolean "mayoral"
     t.boolean "citynet"
-    t.integer "commissioner_id"
-    t.integer "cio_id"
-    t.integer "arm_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -101,15 +98,6 @@ ActiveRecord::Schema.define(version: 20180122185414) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "staff_agencies", force: :cascade do |t|
-    t.bigint "staff_id"
-    t.bigint "agency_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["agency_id"], name: "index_staff_agencies_on_agency_id"
-    t.index ["staff_id"], name: "index_staff_agencies_on_staff_id"
-  end
-
   create_table "staff_engagements", force: :cascade do |t|
     t.bigint "staff_id"
     t.bigint "engagement_id"
@@ -120,12 +108,16 @@ ActiveRecord::Schema.define(version: 20180122185414) do
   end
 
   create_table "staffs", force: :cascade do |t|
-    t.string "name"
+    t.string "first_name"
+    t.string "last_name"
     t.string "email"
-    t.string "phone"
+    t.string "cell_phone"
+    t.string "office_phone"
     t.bigint "role_id"
+    t.bigint "agency_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["agency_id"], name: "index_staffs_on_agency_id"
     t.index ["role_id"], name: "index_staffs_on_role_id"
   end
 
@@ -133,9 +125,8 @@ ActiveRecord::Schema.define(version: 20180122185414) do
   add_foreign_key "issues", "agencies"
   add_foreign_key "issues", "engagements"
   add_foreign_key "issues", "services"
-  add_foreign_key "staff_agencies", "agencies"
-  add_foreign_key "staff_agencies", "staffs"
   add_foreign_key "staff_engagements", "engagements"
   add_foreign_key "staff_engagements", "staffs"
+  add_foreign_key "staffs", "agencies"
   add_foreign_key "staffs", "roles"
 end
