@@ -6,6 +6,7 @@ class CreateAgencies < ActiveRecord::Migration[5.1]
       t.integer :category
       t.boolean :mayoral
       t.boolean :citynet
+      t.string :address
 
       t.timestamps
     end

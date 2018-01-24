@@ -21,6 +21,14 @@ ActiveRecord::Schema.define(version: 20180122185414) do
     t.integer "category"
     t.boolean "mayoral"
     t.boolean "citynet"
+    t.string "address"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "divisions", force: :cascade do |t|
+    t.string "name"
+    t.integer "deputy_commissioner_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -94,8 +102,10 @@ ActiveRecord::Schema.define(version: 20180122185414) do
     t.text "description"
     t.integer "sla"
     t.integer "sdl_id"
+    t.bigint "division_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["division_id"], name: "index_services_on_division_id"
   end
 
   create_table "staff_engagements", force: :cascade do |t|
@@ -125,6 +135,7 @@ ActiveRecord::Schema.define(version: 20180122185414) do
   add_foreign_key "issues", "agencies"
   add_foreign_key "issues", "engagements"
   add_foreign_key "issues", "services"
+  add_foreign_key "services", "divisions"
   add_foreign_key "staff_engagements", "engagements"
   add_foreign_key "staff_engagements", "staffs"
   add_foreign_key "staffs", "agencies"
