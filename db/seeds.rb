@@ -13,8 +13,8 @@ def roles_import
   csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
   csv.each do |row|
     t = Role.new
-    t.title = row[0]
-    t.description = row['description']
+    t.title = row[0].strip
+    t.description = row['description'].strip
     t.save
   end
 end
@@ -24,10 +24,10 @@ def agencies_import
   csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
   csv.each do |row|
     t = Agency.new
-    t.name = row["﻿name"]
+    t.name = row["﻿name"].strip
     t.acronym = row['acronym']
-    t.category = row['category']
-    t.mayoral = row['mayoral']
+    t.category = row['category'].strip
+    t.mayoral = row['mayoral'].strip
     t.citynet = row['citynet']
     t.save
   end
@@ -38,14 +38,30 @@ def staff_import
   csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
   csv.each do |row|
     t = Staff.new
-    t.first_name = row["﻿first_name"]
-    beybug
-    t.last_name = row["﻿last_name"]
+    t.first_name = row["﻿first_name"].strip
+    t.last_name = row["last_name"].strip
     t.email = row['email']
     t.office_phone = row['office_phone']
     t.cell_phone = row['cell_phone']
-    t.role_id = row['role_id']
-    t.agency_id = row['agency_id']
+    t.role_id = row['role_id'].strip
+    t.agency_id = row['agency_id'].strip
+    t.save
+  end
+end
+
+def services_import
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'services.csv'))
+  csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+  csv.each do |row|
+    t = Service.new
+    t.title = row["title"].strip
+    t.description = row["description"].strip
+    t.sla = row['sla'].strip
+    sdl = row['sdl'].strip
+    first = sdl.split(' ')[0].strip
+    last = sdl.split(' ')[1].strip
+    t.sdl_id = Staff.find_by(first_name:first, last_name:last).id
+    puts t.title
     t.save
   end
 end
@@ -53,6 +69,7 @@ end
 roles_import
 agencies_import
 staff_import
+services_import
 
 
 

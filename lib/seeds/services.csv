@@ -1,1 +1,51 @@
-﻿title,description,sla,sdlBUSINESS APPLICATION DEVELOPMENT ,Build a new app or enhance an existing app,0,Prince GuptaDATA EXCHANGE,Connect local apps and systems to city wide data feeds,0,Gregory SotoMAPPING/LOCATION SERVICES,Build or enhance an app with GIS for info and analysis,0,Tim KeaneMOBILE DEVELOPMENT ,Build a new mobile app or enhance an existing app,0,Prince GuptaPERFORMANCE TEST,Pre-launch infrastructure & efficiency analysis,0,Vidhya ShanmugamQUALITY ASSURANCE SUPPORT ,Onboarding an agency onto QA tools and training,0,Gregory DvorkinUSER EXPERIENCE DESIGN,Bring a UX designer on a DoITT Project,0,Lois LastWEBSITE DESIGN BUILD AND MAINTENANCE  ,"Build, enhance, or maintain a website",0,Prince GuptaWORKSHOPS,Knowledge sharing for agency best practices and workshops,0,Kathleen O’BrienWP ENGINE PLATFORM,Migrate or create a WP site hosted by DoITT (non secure),0,Christopher LongCABLE INFRASTRUCTURE,"Voice, data, & specialized cable installation (physical)",0,Talal QureshiCONTACT CENTER SOLUTIONS,Setting up a call center with rule based routing (lang.),0,Talal QureshiDATA CONNECTIVITY,Assess city internet service access needs and installation,0,Talal QureshiEMAIL,Onboarding internal or external email service,0,Diane WitekINFRASTRUCTURE PROVISIONING,Spin up a VM to host an app,0,Jorge DiazINFRASTRUCTURE SELF PROVISIONING,BOM info to spin up a VM to host an app,0,Ahailia RamloganMAINFRAME,Spin up mainframe for DB intesive apps,0,Diane SciabarraMOBILE DEVICES AND SERVICES,"Cellphone, tablet, and data card hardware & service",0,Cesar BayasNEW YORK WIRELESS NETWORK (NYCWIN),First responder secure wireless hardware and internet ,0,Joseph DekerSECURE WIRELESS (LAN) SERVICES,Secure employee and guest local wifi,0,Talal QureshiSHAREPOINT,A website CMS ,0,John ScadutoSITEB SERVICES,Disaster app backup and recovery service,0,Helen McCormakTWO-WAY RADIO COMMUNICATION,Access to Citywide Radio Network (CRN),0,Henry LukacikVIDEO CONFERENCING SOLUTIONS,"Room, PC, and Cell video conferencing",0,Talal QureshiVOICE SERVICES AND DEVICES,Landline telephones and access code for phone service,0,Talal QureshiAPPLICATION AUTHENTICATION AND AUTHORIZATION,Use NYC.ID to handle auth for internal city services,0,Rakesh PatelAUTOMATIC USER DE-PROVISIONING,Automated or maual system to de-provision users,0,Rakesh PatelIDENTITY MANAGEMENT ,Onboard Agency users to citywide ID Management,0,Rakesh PatelMCAFEE DESKTOP AND SERVER ANTI-VIRUS HOSTED SOLUTION ,Antivirus SaaS on DoITT's licence agreement,0,Jamie ArnoldNYC.ID/IDENTITY MANAGEMENT ,Onboard Agency users to citywide ID Management,0,Rakesh PatelPASSWORD SELF-SERVICE,Agency user password retrieval via cityshare,0,Rakesh PatelPUBLIC ACCOUNT MANAGEMENT (NYC.ID) ,Use NYC.ID for account management on public apps,0,Rakesh PatelSITE-TO-SITE VPN,Connect remote offices to city services with VPNs ,0,Karan NagpalSOFTWARE SECURITY ASSURANCE,Compliance verification for citywide security policies,0,Victoria KoveshnikovSSL REMOTE ACCESS,"Remote desktop, application, and data access ",0,Karan NagpalWEB SINGLE SIGN-ON,Use SM login to access NYC.ID for SSO capability,0,Rakesh PatelADVISORY SERVICES ,"Tech strategy, eval, review",0,Steve BezmanCLOUD REVIEW,Validate cloud use case,0,Rod BergerADOBE ETLA,Access to Adobe ELA,0,James MayorCDWG - IT GOODS AND RELATED SERVICES ,Purchase IT Hardware,0,John KatsorhisCISCO MAINTENANCE CONTRACT,Initial or renewal of CISCO hardware/software,0,John GioiaCITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS,Renew Oracle hardware and software,0,John GioiaGEOGRAPHIC INFORMATION TECHNOLOGIES AND SERVICES (GIS),GIS app dev service via an approved contractor,0,Tim KeaneINFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4),Create an RFP for IT consulting services,0,Michael WilliamsIT SECURITY ( SECURITY CLASS II),Preventing and fixing malicious technology threats,0,Kevin TimoneyMICROSOFT ELA,Access to Microsoft ELA,0,James MayorQUALITY CONTROL SERVICES (QC),App dev service via an approved contractor,0,Kevin TimoneySYSTEMS INTEGRATION SERVICES (SI),System integration service via an approved contractor,0,Kevin TimoneyVMWARE ELA,Access to Vmware ELA,0,James MayorCITYWIDE SERVICE DESK,Onboard agency to DoITT technical support,0,Licinia Lugo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+title,description,sla,sdl
+BUSINESS APPLICATION DEVELOPMENT ,Build a new app or enhance an existing app,0,Prince Gupta
+DATA EXCHANGE,Connect local apps and systems to city wide data feeds,0,Gregory Soto
+MAPPING/LOCATION SERVICES,Build or enhance an app with GIS for info and analysis,0,Tim Keane
+MOBILE DEVELOPMENT ,Build a new mobile app or enhance an existing app,0,Prince Gupta
+PERFORMANCE TEST,Pre-launch infrastructure & efficiency analysis,0,Vidhya Shanmugam
+QUALITY ASSURANCE SUPPORT ,Onboarding an agency onto QA tools and training,0,Gregory Dvorkin
+USER EXPERIENCE DESIGN,Bring a UX designer on a DoITT Project,0,Lois Last
+WEBSITE DESIGN BUILD AND MAINTENANCE  ,"Build, enhance, or maintain a website",0,Prince Gupta
+WORKSHOPS,Knowledge sharing for agency best practices and workshops,0,Kathleen O'Brien
+WP ENGINE PLATFORM,Migrate or create a WP site hosted by DoITT (non secure),0,Christopher Long
+CABLE INFRASTRUCTURE,"Voice, data, & specialized cable installation (physical)",0,Talal Qureshi
+CONTACT CENTER SOLUTIONS,Setting up a call center with rule based routing (lang.),0,Talal Qureshi
+DATA CONNECTIVITY,Assess city internet service access needs and installation,0,Talal Qureshi
+EMAIL,Onboarding internal or external email service,0,Diane Witek
+INFRASTRUCTURE PROVISIONING,Spin up a VM to host an app,0,Jorge Diaz
+INFRASTRUCTURE SELF PROVISIONING,BOM info to spin up a VM to host an app,0,Ahailia Ramlogan
+MAINFRAME,Spin up mainframe for DB intesive apps,0,Diane Sciabarra
+MOBILE DEVICES AND SERVICES,"Cellphone, tablet, and data card hardware & service",0,Cesar Bayas
+NEW YORK WIRELESS NETWORK (NYCWIN),First responder secure wireless hardware and internet ,0,Joseph Deker
+SECURE WIRELESS (LAN) SERVICES,Secure employee and guest local wifi,0,Talal Qureshi
+SHAREPOINT,A website CMS ,0,John Scaduto
+SITEB SERVICES,Disaster app backup and recovery service,0,Helen McCormak
+TWO-WAY RADIO COMMUNICATION,Access to Citywide Radio Network (CRN),0,Henry Lukacik
+VIDEO CONFERENCING SOLUTIONS,"Room, PC, and Cell video conferencing",0,Talal Qureshi
+VOICE SERVICES AND DEVICES,Landline telephones and access code for phone service,0,Talal Qureshi
+APPLICATION AUTHENTICATION AND AUTHORIZATION,Use NYC.ID to handle auth for internal city services,0,Rakesh Patel
+AUTOMATIC USER DE-PROVISIONING,Automated or maual system to de-provision users,0,Rakesh Patel
+IDENTITY MANAGEMENT ,Onboard Agency users to citywide ID Management,0,Rakesh Patel
+MCAFEE DESKTOP AND SERVER ANTI-VIRUS HOSTED SOLUTION ,Antivirus SaaS on DoITT's licence agreement,0,Jamie Arnold
+NYC.ID/IDENTITY MANAGEMENT ,Onboard Agency users to citywide ID Management,0,Rakesh Patel
+PASSWORD SELF-SERVICE,Agency user password retrieval via cityshare,0,Rakesh Patel
+PUBLIC ACCOUNT MANAGEMENT (NYC.ID) ,Use NYC.ID for account management on public apps,0,Rakesh Patel
+SITE-TO-SITE VPN,Connect remote offices to city services with VPNs ,0,Karan Nagpal
+SOFTWARE SECURITY ASSURANCE,Compliance verification for citywide security policies,0,Victoria Koveshnikov
+SSL REMOTE ACCESS,"Remote desktop, application, and data access ",0,Karan Nagpal
+WEB SINGLE SIGN-ON,Use SM login to access NYC.ID for SSO capability,0,Rakesh Patel
+ADVISORY SERVICES ,"Tech strategy, eval, review",0,Steve Bezman
+CLOUD REVIEW,Validate cloud use case,0,Rod Berger
+ADOBE ETLA,Access to Adobe ELA,0,James Mayor
+CDWG - IT GOODS AND RELATED SERVICES ,Purchase IT Hardware,0,John Katsorhis
+CISCO MAINTENANCE CONTRACT,Initial or renewal of CISCO hardware/software,0,John Gioia
+CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS,Renew Oracle hardware and software,0,John Gioia
+GEOGRAPHIC INFORMATION TECHNOLOGIES AND SERVICES (GIS),GIS app dev service via an approved contractor,0,Tim Keane
+INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4),Create an RFP for IT consulting services,0,Michael Williams
+IT SECURITY ( SECURITY CLASS II),Preventing and fixing malicious technology threats,0,Kevin Timoney
+MICROSOFT ELA,Access to Microsoft ELA,0,James Mayor
+QUALITY CONTROL SERVICES (QC),App dev service via an approved contractor,0,Kevin Timoney
+SYSTEMS INTEGRATION SERVICES (SI),System integration service via an approved contractor,0,Kevin Timoney
+VMWARE ELA,Access to Vmware ELA,0,James Mayor
+CITYWIDE SERVICE DESK,Onboard agency to DoITT technical support,0,Licinia Lugo
