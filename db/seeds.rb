@@ -30,6 +30,7 @@ def agencies_import
     t.mayoral = row['mayoral'].strip
     t.citynet = row['citynet']
     t.address = row['address']
+
     t.save
   end
 end
@@ -46,6 +47,7 @@ def staff_import
     t.cell_phone = row['cell_phone']
     t.role_id = row['role_id'].strip
     t.agency_id = row['agency_id'].strip
+
     t.save
   end
 end
@@ -83,9 +85,26 @@ def services_import
   end
 end
 
+def arms_agencies_import
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'arms_agencies.csv'))
+  csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+  csv.each do |row|
+    t = ArmAgency.new
+    arm = row['arm'].strip
+    first = arm.split(' ')[0].strip
+    last = arm.split(' ')[1].strip
+    t.arm_id = Staff.find_by(first_name:first, last_name:last).id
+    agency = row['agency'].strip
+    t.agency = Agency.find_by(acronym: agency)
+
+    t.save
+  end
+end
+
 roles_import
 agencies_import
 staff_import
+arms_agencies_import
 divisions_import
 services_import
 
