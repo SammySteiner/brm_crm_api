@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :engagements, only: [:index, :create, :update, :destroy, :show ]
       resources :issues, only: [:index, :create, :update, :destroy, :show ]
       resources :agencies, only: [:index, :create, :update, :destroy, :show ]
+      resources :staff, only: [:index, :create, :update, :destroy, :show ]
     end
   end
 end
