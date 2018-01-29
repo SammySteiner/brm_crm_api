@@ -1,4 +1,7 @@
+include ActiveModel::Serialization
+
 class Agency < ApplicationRecord
+
   has_many :staff
   has_one :arm_agency
   has_one :arm, through: :arm_agency
@@ -10,7 +13,7 @@ class Agency < ApplicationRecord
     find_by_role_id(cio_id)
   end
 
-  def comissioner
+  def commissioner
     commissioner_id = find_role_id("Commissioner")
     find_by_role_id(commissioner_id)
   end

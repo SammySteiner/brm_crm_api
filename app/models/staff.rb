@@ -1,4 +1,7 @@
+include ActiveModel::Serialization
+
 class Staff < ApplicationRecord
+
   belongs_to :role
   belongs_to :agency
   has_many :arm_agencies
