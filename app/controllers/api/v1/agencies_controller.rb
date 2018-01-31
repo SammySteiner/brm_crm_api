@@ -15,8 +15,9 @@ class Api::V1::AgenciesController < ApplicationController
 
   def destroy
     agency = Agency.find(params[:id])
+    staff = agency.staff
     agency.destroy
-    render json: agency
+    render json: staff
   end
 
   def show

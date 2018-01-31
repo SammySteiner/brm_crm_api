@@ -5,7 +5,7 @@ class CreateServices < ActiveRecord::Migration[5.1]
       t.text :description
       t.integer :sla
       t.integer :sdl_id
-      t.references :division, foreign_key: true
+      t.references :division
 
       t.timestamps
     end

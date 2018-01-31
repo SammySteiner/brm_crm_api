@@ -4,7 +4,7 @@ class CreateEngagements < ActiveRecord::Migration[5.1]
       t.boolean :cio
       t.datetime :date
       t.text :notes
-      t.references :engagement_type, foreign_key: true
+      t.references :engagement_type
 
       t.timestamps
     end

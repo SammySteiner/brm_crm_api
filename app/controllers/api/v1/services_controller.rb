@@ -1,7 +1,7 @@
 class Api::V1::ServicesController < ApplicationController
 
   def index
-    services = Service.all
+    services = Service.includes(:sdl, :division)
     render json: services
   end
 

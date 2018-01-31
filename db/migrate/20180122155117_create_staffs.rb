@@ -6,8 +6,8 @@ class CreateStaffs < ActiveRecord::Migration[5.1]
       t.string :email
       t.string :cell_phone
       t.string :office_phone
-      t.references :role, foreign_key: true
-      t.references :agency, foreign_key: true
+      t.references :role
+      t.references :agency
 
       t.timestamps
     end

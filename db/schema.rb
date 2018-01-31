@@ -155,15 +155,7 @@ ActiveRecord::Schema.define(version: 20180130181001) do
     t.index ["role_id"], name: "index_staffs_on_role_id"
   end
 
-  add_foreign_key "cio_agencies", "agencies"
-  add_foreign_key "commissioner_agencies", "agencies"
-  add_foreign_key "engagements", "engagement_types"
-  add_foreign_key "issues", "agencies"
   add_foreign_key "issues", "engagements"
-  add_foreign_key "issues", "services"
-  add_foreign_key "services", "divisions"
   add_foreign_key "staff_engagements", "engagements"
   add_foreign_key "staff_engagements", "staffs"
-  add_foreign_key "staffs", "agencies"
-  add_foreign_key "staffs", "roles"
 end

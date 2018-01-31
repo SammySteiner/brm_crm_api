@@ -5,7 +5,7 @@ class StaffSerializer < ActiveModel::Serializer
   belongs_to :role
 
   class AgencySerializer < ActiveModel::Serializer
-    attributes :name, :acronym
+    attributes :id, :name, :acronym
   end
 
   class RoleSerializer < ActiveModel::Serializer
