@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  commissioner_id: 1
+  agency: one
+
+two:
+  commissioner_id: 1
+  agency: two

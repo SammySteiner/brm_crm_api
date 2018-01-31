@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180125210519) do
+ActiveRecord::Schema.define(version: 20180130181001) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,6 +32,22 @@ ActiveRecord::Schema.define(version: 20180125210519) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["agency_id"], name: "index_arm_agencies_on_agency_id"
+  end
+
+  create_table "cio_agencies", force: :cascade do |t|
+    t.integer "cio_id"
+    t.bigint "agency_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["agency_id"], name: "index_cio_agencies_on_agency_id"
+  end
+
+  create_table "commissioner_agencies", force: :cascade do |t|
+    t.integer "commissioner_id"
+    t.bigint "agency_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["agency_id"], name: "index_commissioner_agencies_on_agency_id"
   end
 
   create_table "divisions", force: :cascade do |t|
@@ -139,6 +155,8 @@ ActiveRecord::Schema.define(version: 20180125210519) do
     t.index ["role_id"], name: "index_staffs_on_role_id"
   end
 
+  add_foreign_key "cio_agencies", "agencies"
+  add_foreign_key "commissioner_agencies", "agencies"
   add_foreign_key "engagements", "engagement_types"
   add_foreign_key "issues", "agencies"
   add_foreign_key "issues", "engagements"

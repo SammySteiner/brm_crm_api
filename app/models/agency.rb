@@ -5,18 +5,10 @@ class Agency < ApplicationRecord
   has_many :staff
   has_one :arm_agency
   has_one :arm, through: :arm_agency
-
-
-
-  def cio
-    cio_id = find_role_id("CIO")
-    find_by_role_id(cio_id)
-  end
-
-  def commissioner
-    commissioner_id = find_role_id("Commissioner")
-    find_by_role_id(commissioner_id)
-  end
+  has_one :cio_agency
+  has_one :cio, through: :cio_agency
+  has_one :commissioner_agency
+  has_one :commissioner, through: :commissioner_agency
 
   def find_role_id(title)
     Role.find_by(title: title).id

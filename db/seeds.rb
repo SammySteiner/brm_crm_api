@@ -101,10 +101,48 @@ def arms_agencies_import
   end
 end
 
+def cios_agencies_import
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'cios_agencies.csv'))
+  csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+  csv.each do |row|
+    t = CioAgency.new
+    cio = row[0].strip
+    first = cio.split(' ')[0].strip
+    last = cio.split(' ')[1].strip
+    if cio.split(' ').count === 3
+      last = cio.split(' ')[1].strip + ' ' + cio.split(' ')[2].strip
+    end
+    t.cio_id = Staff.find_by(first_name:first, last_name:last).id
+    agency = row['agency'].strip
+    t.agency = Agency.find_by(acronym: agency)
+    t.save
+  end
+end
+
+def commissioners_agencies_import
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'commissioners_agencies.csv'))
+  csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+  csv.each do |row|
+    t = CommissionerAgency.new
+    commissioner = row[0].strip
+    first = commissioner.split(' ')[0].strip
+    last = commissioner.split(' ')[1].strip
+    if commissioner.split(' ').count === 3
+      last = commissioner.split(' ')[1].strip + ' ' + commissioner.split(' ')[2].strip
+    end
+    t.commissioner_id = Staff.find_by(first_name:first, last_name:last).id
+    agency = row['agency'].strip
+    t.agency = Agency.find_by(acronym: agency)
+    t.save
+  end
+end
+
 roles_import
 agencies_import
 staff_import
 arms_agencies_import
+cios_agencies_import
+commissioners_agencies_import
 divisions_import
 services_import
 
