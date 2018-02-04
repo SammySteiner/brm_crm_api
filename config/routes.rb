@@ -7,6 +7,10 @@ Rails.application.routes.draw do
       resources :agencies, only: [:index, :create, :update, :destroy, :show ]
       resources :staff, only: [:index, :create, :update, :destroy, :show ]
       resources :services, only: [:index, :create, :update, :destroy, :show ]
+
+      get 'agenciesFormInfo', to: 'agencies#formInfo'
+      get 'staffFormInfo', to: 'staff#formInfo'
+
     end
   end
 end

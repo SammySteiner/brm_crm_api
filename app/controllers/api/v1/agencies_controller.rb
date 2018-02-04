@@ -6,7 +6,8 @@ class Api::V1::AgenciesController < ApplicationController
   end
 
   def create
-
+    agency = Agency.create(agency_params)
+    render json: agency
   end
 
   def update
@@ -26,10 +27,15 @@ class Api::V1::AgenciesController < ApplicationController
     render json: agency_details
   end
 
+  def formInfo
+    agencies_form_info = Agency.select(:id, :name, :acronym)
+    render json: agencies_form_info.to_json
+  end
+
   private
 
-  def staff_params
-    params.require(:agency).permit(:id)
+  def agency_params
+    params.require(:agency).permit(:id, :name, :acronym, :category, :mayoral, :citynet, :address)
   end
 
 end
