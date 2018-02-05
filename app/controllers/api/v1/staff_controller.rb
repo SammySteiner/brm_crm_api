@@ -9,10 +9,19 @@ class Api::V1::StaffController < ApplicationController
     agency = Agency.find_by(name: staff_params['agency'])
     role = Role.find_by(title: staff_params['role'])
     if staff_params['agency'] === "INFORMATION TECHNOLOGY AND TELECOMMUNICATIONS, DEPARTMENT OF"
-      staff = Staff.find_or_create_by(staff_params)
-      #  doitt staff
-      # check first and last name?
-
+      staff = Staff.find_or_create_by(first_name: staff_params['first_name'], last_name: staff_params['last_name'], email: staff_params['email'], office_phone: staff_params['office_phone'], cell_phone: staff_params['cell_phone'], agency: agency, role: role)
+      if staff_params['role'] === 'CIO'
+        CioAgency.create(cio_id: staff.id, agency: agency)
+      elsif staff_params['role'] === 'Commissioner'
+        CommissionerAgency.create(commissioner_id: staff.id, agency: agency)
+      elsif staff_params['role'] === 'SDL'
+        service = Service.find_by(title: staff_params['service'])
+        service.sdl_id = staff.id
+        service.save
+      elsif staff_params['role'] === 'other'
+        OtherAgency.create(staff_id: staff_id, agency: agency)
+      end
+      render json: staff
     else
       staff = Staff.find_or_create_by(first_name: staff_params['first_name'], last_name: staff_params['last_name'], email: staff_params['email'], office_phone: staff_params['office_phone'], cell_phone: staff_params['cell_phone'], agency: agency, role: role)
       if staff_params['role'] === 'CIO'
@@ -43,10 +52,10 @@ class Api::V1::StaffController < ApplicationController
   end
 
   def formInfo
-    staff_info = Staff.select(:id, :first_name, :last_name, :email, :office_phone, :cell_phone)
+    staff_info = Staff.select(:id, :first_name, :last_name, :email, :office_phone, :cell_phone, :role_id, :agency_id)
     role_info = Role.select(:id, :title)
     agency_info = Agency.select(:id, :name)
-    service_info = Service.select(:id, :title)
+    service_info = Service.select(:id, :title, :sdl_id)
     staff_form_info = {staff: staff_info, role: role_info, agency: agency_info, service: service_info}
     render json: staff_form_info.to_json
   end
