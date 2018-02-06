@@ -11,7 +11,9 @@ class Api::V1::AgenciesController < ApplicationController
   end
 
   def update
-
+    agency = Agency.find(agency_params['id'])
+    agency.update(name: agency_params['name'], acronym: agency_params['acronym'], category: agency_params['category'], mayoral: agency_params['mayoral'], citynet: agency_params['citynet'], address: agency_params['address'])
+    render json: agency
   end
 
   def destroy
@@ -23,7 +25,7 @@ class Api::V1::AgenciesController < ApplicationController
 
   def show
     a = Agency.find(params[:id])
-    agency_details = {id: a.id, name: a.name, acronym: a.acronym, mayoral: a.mayoral, citynet: a.citynet, address: a.address, commissioner: a.commissioner, cio: a.cio, arm: a.arm}
+    agency_details = {id: a.id, name: a.name, acronym: a.acronym, mayoral: a.mayoral, citynet: a.citynet, category: a.category, address: a.address, commissioner: a.commissioner, cio: a.cio, arm: a.arm}
     render json: agency_details
   end
 
