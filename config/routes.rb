@@ -10,6 +10,7 @@ Rails.application.routes.draw do
 
       get 'agenciesFormInfo', to: 'agencies#formInfo'
       get 'staffFormInfo', to: 'staff#formInfo'
+      get 'servicesFormInfo', to: 'services#formInfo'
 
     end
   end
