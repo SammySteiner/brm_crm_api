@@ -5,6 +5,7 @@ class CreateServices < ActiveRecord::Migration[5.1]
       t.text :description
       t.integer :sla
       t.integer :sdl_id
+      t.integer :service_owner_id
       t.references :division
 
       t.timestamps

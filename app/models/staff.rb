@@ -7,6 +7,7 @@ class Staff < ApplicationRecord
   has_many :arm_agencies
   has_many :staff_engagement
   has_many :engagements, through: :staff_engagement
+  has_many :services
 
   def fullname
     self.first_name + ' ' + self.last_name

@@ -15,6 +15,7 @@ def roles_import
     t = Role.new
     t.title = row[0].strip
     t.description = row['description'].strip
+    puts t.title
     t.save
   end
 end
@@ -30,7 +31,7 @@ def agencies_import
     t.mayoral = row['mayoral'].strip
     t.citynet = row['citynet']
     t.address = row['address']
-
+    puts t.name
     t.save
   end
 end
@@ -47,7 +48,7 @@ def staff_import
     t.cell_phone = row['cell_phone']
     t.role_id = row['role_id'].strip
     t.agency_id = row['agency_id'].strip
-
+    puts t.last_name
     t.save
   end
 end
@@ -72,14 +73,16 @@ def services_import
   csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
   csv.each do |row|
     t = Service.new
-    t.title = row["title"].strip
+    t.title = row[0].strip
     t.description = row["description"].strip
-    t.sla = row['sla'].strip
-    sdl = row['sdl'].strip
-    first = sdl.split(' ')[0].strip
-    last = sdl.split(' ')[1].strip
-    t.sdl_id = Staff.find_by(first_name:first, last_name:last).id
-    t.division_id = row["division"]
+    sdl_first = row['sdl_first_name'].strip
+    sdl_last = row['sdl_last_name'].strip
+    t.sdl_id = Staff.find_by(first_name:sdl_first, last_name:sdl_last).id
+    service_owner_first = row['service_owner_first_name'].strip
+    service_owner_last = row['service_owner_last_name'].strip
+    t.service_owner_id = Staff.find_by(first_name:service_owner_first, last_name:service_owner_last).id
+    division = Division.find_by(name: row["division"])
+    t.division_id = division.id
     puts t.title
     t.save
   end

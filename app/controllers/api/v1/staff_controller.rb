@@ -42,12 +42,19 @@ class Api::V1::StaffController < ApplicationController
   def destroy
     staff = Staff.find(params[:id])
     staff.destroy
+    if staff.role_id === Role.find_by(title: "SDL")
+      services = Service.where(sdl_id: staff.id)
+      services.each do |service|
+        service.update(sdl_id: null)
+      end
+    end
     render json: staff
   end
 
   def show
     s = Staff.find(params[:id])
-    staff_details = {id: s.id, first_name: s.first_name, last_name: s.last_name, fullname: s.fullname, email: s.email, office_phone: s.office_phone, cell_phone: s.cell_phone, role: s.role, agency: s.agency, assignments: s.assignments}
+    services = Service.where(sdl_id: s.id)
+    staff_details = {id: s.id, first_name: s.first_name, last_name: s.last_name, fullname: s.fullname, email: s.email, office_phone: s.office_phone, cell_phone: s.cell_phone, role: s.role, agency: s.agency, assignments: s.assignments, services: services}
     render json: staff_details
   end
 

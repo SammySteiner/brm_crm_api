@@ -126,6 +126,7 @@ ActiveRecord::Schema.define(version: 20180130181001) do
     t.text "description"
     t.integer "sla"
     t.integer "sdl_id"
+    t.integer "service_owner_id"
     t.bigint "division_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

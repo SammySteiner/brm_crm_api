@@ -1,1 +1,9 @@
-﻿title,descriptionARM,Agency Relationship ManagerCommissioner,Head of an agencyCIO,Chief Information OfficerService Provider,DoITT technology service providerSDL,Service Delivery LeadARM Manager,Management folks in the Service Management divisionService Owner,Responsible for owning the process around a service
+﻿title,description
+ARM,Agency Relationship Manager
+Commissioner,Head of an agency
+CIO,Chief Information Officer
+Service Provider,DoITT technology service provider
+SDL,Service Delivery Lead
+ARM Manager,Management folks in the Service Management division
+Service Owner,Responsible for owning the process around a service
+General,Every other employee of an agency.
