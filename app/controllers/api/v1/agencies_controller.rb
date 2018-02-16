@@ -1,4 +1,5 @@
 class Api::V1::AgenciesController < ApplicationController
+  before_action :authorize_user!
 
   def index
     agencies = Agency.includes(:arm, :cio, :commissioner)

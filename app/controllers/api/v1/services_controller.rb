@@ -1,4 +1,5 @@
 class Api::V1::ServicesController < ApplicationController
+  before_action :authorize_user!
 
   def index
     services = Service.includes(:sdl, :division)
