@@ -9,7 +9,7 @@ class StaffSerializer < ActiveModel::Serializer
   end
 
   class RoleSerializer < ActiveModel::Serializer
-    attributes :title
+    attributes :id, :title
   end
 
 end
