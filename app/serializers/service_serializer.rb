@@ -2,6 +2,7 @@ class ServiceSerializer < ActiveModel::Serializer
   attributes :id, :title, :description
 
   belongs_to :sdl
+  belongs_to :service_owner
   belongs_to :division
 
   class StaffSerializer < ActiveModel::Serializer
