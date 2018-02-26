@@ -97,7 +97,11 @@ class Api::V1::StaffController < ApplicationController
     s = Staff.find(params[:id])
     sdl_services = Service.where(sdl_id: s.id)
     so_services = Service.where(service_owner_id: s.id)
-    dc_services = Division.find_by(deputy_commissioner_id: s.id).services
+    if Division.find_by(deputy_commissioner_id: s.id)
+      dc_services = Division.find_by(deputy_commissioner_id: s.id).services
+    else
+      dc_services = []
+    end
     staff_details = {id: s.id, first_name: s.first_name, last_name: s.last_name, fullname: s.fullname, email: s.email, office_phone: s.office_phone, cell_phone: s.cell_phone, role: s.role, agency: s.agency, assignments: s.assignments, sdl_services: sdl_services, so_services: so_services, dc_services: dc_services}
     render json: staff_details
   end
