@@ -1,6 +1,7 @@
 class ConnectionSerializer < ActiveModel::Serializer
   attributes :id, :date, :notes, :agencies
 
+  belongs_to :arm
   belongs_to :connection_type
   has_many :staff, through: :staff_connections
   has_many :engagements

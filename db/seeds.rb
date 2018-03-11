@@ -178,7 +178,7 @@ engagement_types_import
 
 User.create(email: 'sasteiner@doitt.nyc.gov', password: '123')
 
-c = Connection.create(date: DateTime.now, notes: 'this is a test connection', connection_type: ConnectionType.find(1))
+c = Connection.create(date: DateTime.now, notes: 'this is a test connection', connection_type: ConnectionType.find(1), arm_id: 1)
 StaffConnection.create(staff_id: 1, connection: c)
 StaffConnection.create(staff: Staff.find(75), connection: c)
 e = Engagement.new(
@@ -199,7 +199,7 @@ StaffEngagement.create(staff_id: 1, engagement: e)
 StaffEngagement.create(staff_id: 75, engagement: e)
 StaffEngagement.create(staff_id: 10, engagement: e)
 
-c = Connection.create(date: DateTime.now, notes: 'this is another test connection', connection_type: ConnectionType.find(2))
+c = Connection.create(date: DateTime.now, notes: 'this is another test connection', connection_type: ConnectionType.find(2), arm_id: 1)
 StaffConnection.create(staff_id: 1, connection: c)
 StaffConnection.create(staff: Staff.find(80), connection: c)
 e = Engagement.new(

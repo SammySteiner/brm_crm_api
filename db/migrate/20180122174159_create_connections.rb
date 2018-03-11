@@ -3,6 +3,7 @@ class CreateConnections < ActiveRecord::Migration[5.1]
     create_table :connections do |t|
       t.datetime :date
       t.text :notes
+      t.integer :arm_id
       t.references :connection_type
 
       t.timestamps

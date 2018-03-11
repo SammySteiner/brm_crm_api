@@ -1,5 +1,6 @@
 class Connection < ApplicationRecord
   belongs_to :connection_type
+  belongs_to :arm, :class_name => 'Staff'
   has_many :staff_connections
   has_many :staff, through: :staff_connections
   has_many :engagements

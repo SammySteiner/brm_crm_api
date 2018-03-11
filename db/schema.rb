@@ -59,6 +59,7 @@ ActiveRecord::Schema.define(version: 20180208150652) do
   create_table "connections", force: :cascade do |t|
     t.datetime "date"
     t.text "notes"
+    t.integer "arm_id"
     t.bigint "connection_type_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
