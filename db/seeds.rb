@@ -140,6 +140,28 @@ def commissioners_agencies_import
   end
 end
 
+def connection_types_import
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'connection_types.csv'))
+  csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+  csv.each do |row|
+    t = ConnectionType.new
+    t.via = row["﻿via"].strip
+    puts t.via
+    t.save
+  end
+end
+
+def engagement_types_import
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'engagement_types.csv'))
+  csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+  csv.each do |row|
+    t = EngagementType.new
+    t.via = row["﻿via"].strip
+    puts t.via
+    t.save
+  end
+end
+
 roles_import
 agencies_import
 staff_import
@@ -148,29 +170,54 @@ cios_agencies_import
 commissioners_agencies_import
 divisions_import
 services_import
+connection_types_import
+# connections_import
+engagement_types_import
+# engagements_import
 
 
+User.create(email: 'sasteiner@doitt.nyc.gov', password: '123')
 
+c = Connection.create(date: DateTime.now, notes: 'this is a test connection', connection_type: ConnectionType.find(1))
+StaffConnection.create(staff_id: 1, connection: c)
+StaffConnection.create(staff: Staff.find(75), connection: c)
+e = Engagement.new(
+  title: 'test engagement',
+  description: 'I would like to seed some engagements to simulate this process so I can start coding my views with dummy data.',
+  notes: 'This is a lot of typing, I should really get a Lorum Ipsem generator.',
+  ksr: '123455678',
+  inc: '09876754',
+  priority: 2,
+  service: Service.find(1),
+  connection: c,
+  engagement_type: EngagementType.find(1),
+  created_by_id: 1,
+  last_modified_by_id: 1,
+  start_time: DateTime.now
+)
+StaffEngagement.create(staff_id: 1, engagement: e)
+StaffEngagement.create(staff_id: 75, engagement: e)
+StaffEngagement.create(staff_id: 10, engagement: e)
 
+c = Connection.create(date: DateTime.now, notes: 'this is another test connection', connection_type: ConnectionType.find(2))
+StaffConnection.create(staff_id: 1, connection: c)
+StaffConnection.create(staff: Staff.find(80), connection: c)
+e = Engagement.new(
+  title: 'test engagement 2',
+  description: '2 I would like to seed some engagements to simulate this process so I can start coding my views with dummy data.',
+  notes: '2 This is a lot of typing, I should really get a Lorum Ipsem generator.',
+  ksr: '1234556780',
+  inc: '098767540',
+  priority: 3,
+  service: Service.find(2),
+  connection: c,
+  engagement_type: EngagementType.find(1),
+  created_by_id: 1,
+  last_modified_by_id: 1,
+  start_time: DateTime.now
+)
+StaffEngagement.create(staff_id: 1, engagement: e)
+StaffEngagement.create(staff_id: 80, engagement: e)
+StaffEngagement.create(staff_id: 11, engagement: e)
 
-
-
-# arm = Role.create(title: 'ARM', description: 'Agency Relation Manager')
-#
-# agency = Agency.create(name: 'Department of Information Technology', acronym: 'DoITT', category: 1, mayoral: true, citynet: true)
-#
-# sammy = Staff.create(first_name: 'Sammy', last_name: 'Steiner', email: 'sasteiner@doitt.nyc.gov', office_phone: '7184038786', cell_phone: '6465744359', role_id: 1, agency_id: 1)
-#
-# engagement_type = EngagementType.create(medium: 'CIO Check In')
-#
-# engagement = Engagement.create(engagement_type_id: 1, cio: true, date: DateTime.now(), notes: 'an awesome CIO meeting with nothing to report')
-#
-# attendance = StaffEngagement.create(staff_id: 1, engagement_id: 1)
-#
-# service = Service.create(title: 'arm assistance', description: 'Have your arm help you with whatever escalations you need!', sla: 5, sdl_id: 1)
-#
-# event = Event.create(title: 'test event', description: 'this is going to be a great test event.', location: '123 Fake St.', time: DateTime.now())
-#
-# execom = ExecutiveCommunication.create(subject: 'something important', content: 'this is the body of the really important email.', time: DateTime.now())
-#
-# issue = Issue.create(description: 'this is a really important issue', notes: 'after connecting with the agency, we need to help!', escalation: true, priority: 1, actionable: false, ksr: 'ksr12345', key_project: true, agency_id: 1, service_id: 1, engagement_id: 1, created_by_id: 1, start_time: DateTime.now(), last_modified_on: DateTime.now(), last_modified_by_id: 1)
+# created_by_id: Staff.find_by(email: User.find(@current_user).email)

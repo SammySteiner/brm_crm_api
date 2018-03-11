@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :engagements, only: [:index, :create, :update, :destroy, :show ]
-      resources :issues, only: [:index, :create, :update, :destroy, :show ]
+      resources :connections, only: [:index, :create, :update, :destroy, :show ]
       resources :agencies, only: [:index, :create, :update, :destroy, :show ]
       resources :staff, only: [:index, :create, :update, :destroy, :show ]
       resources :services, only: [:index, :create, :update, :destroy, :show ]

@@ -1,4 +1,5 @@
 class Api::V1::EngagementsController < ApplicationController
+  # before_action :authorize_user!
 
   def index
 

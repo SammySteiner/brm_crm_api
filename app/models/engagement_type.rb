@@ -1,3 +1,3 @@
 class EngagementType < ApplicationRecord
-  has_many :engagement
+  has_many :engagements
 end

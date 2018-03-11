@@ -50,6 +50,21 @@ ActiveRecord::Schema.define(version: 20180208150652) do
     t.index ["agency_id"], name: "index_commissioner_agencies_on_agency_id"
   end
 
+  create_table "connection_types", force: :cascade do |t|
+    t.string "via"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "connections", force: :cascade do |t|
+    t.datetime "date"
+    t.text "notes"
+    t.bigint "connection_type_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["connection_type_id"], name: "index_connections_on_connection_type_id"
+  end
+
   create_table "divisions", force: :cascade do |t|
     t.string "name"
     t.integer "deputy_commissioner_id"
@@ -58,19 +73,33 @@ ActiveRecord::Schema.define(version: 20180208150652) do
   end
 
   create_table "engagement_types", force: :cascade do |t|
-    t.string "medium"
+    t.string "via"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "engagements", force: :cascade do |t|
-    t.boolean "cio"
-    t.datetime "date"
+    t.string "title"
+    t.text "description"
     t.text "notes"
+    t.string "ksr"
+    t.string "inc"
+    t.string "prj"
+    t.integer "priority"
+    t.bigint "service_id"
+    t.bigint "connection_id"
     t.bigint "engagement_type_id"
+    t.integer "created_by_id"
+    t.datetime "start_time"
+    t.datetime "last_modified_on"
+    t.integer "last_modified_by_id"
+    t.datetime "resolved_on"
+    t.text "resolution_notes"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["connection_id"], name: "index_engagements_on_connection_id"
     t.index ["engagement_type_id"], name: "index_engagements_on_engagement_type_id"
+    t.index ["service_id"], name: "index_engagements_on_service_id"
   end
 
   create_table "events", force: :cascade do |t|
@@ -90,30 +119,6 @@ ActiveRecord::Schema.define(version: 20180208150652) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "issues", force: :cascade do |t|
-    t.text "description"
-    t.text "notes"
-    t.boolean "escalation"
-    t.integer "priority"
-    t.boolean "actionable"
-    t.string "ksr"
-    t.boolean "key_project"
-    t.bigint "agency_id"
-    t.bigint "service_id"
-    t.bigint "engagement_id"
-    t.integer "created_by_id"
-    t.datetime "start_time"
-    t.datetime "last_modified_on"
-    t.integer "last_modified_by_id"
-    t.datetime "resolved_on"
-    t.text "resolution_notes"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["agency_id"], name: "index_issues_on_agency_id"
-    t.index ["engagement_id"], name: "index_issues_on_engagement_id"
-    t.index ["service_id"], name: "index_issues_on_service_id"
-  end
-
   create_table "roles", force: :cascade do |t|
     t.string "title"
     t.text "description"
@@ -131,6 +136,15 @@ ActiveRecord::Schema.define(version: 20180208150652) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["division_id"], name: "index_services_on_division_id"
+  end
+
+  create_table "staff_connections", force: :cascade do |t|
+    t.bigint "staff_id"
+    t.bigint "connection_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["connection_id"], name: "index_staff_connections_on_connection_id"
+    t.index ["staff_id"], name: "index_staff_connections_on_staff_id"
   end
 
   create_table "staff_engagements", force: :cascade do |t|
@@ -163,7 +177,10 @@ ActiveRecord::Schema.define(version: 20180208150652) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "issues", "engagements"
+  add_foreign_key "engagements", "connections"
+  add_foreign_key "engagements", "engagement_types"
+  add_foreign_key "staff_connections", "connections"
+  add_foreign_key "staff_connections", "staffs"
   add_foreign_key "staff_engagements", "engagements"
   add_foreign_key "staff_engagements", "staffs"
 end
