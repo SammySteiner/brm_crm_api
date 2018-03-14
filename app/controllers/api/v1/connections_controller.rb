@@ -1,8 +1,8 @@
 class Api::V1::ConnectionsController < ApplicationController
-  before_action :authorize_user!
+  # before_action :authorize_user!
 
   def index
-    connections = Connection.all
+    connections = Connection.includes(:connection_type, :staff, :arm, :staff_connections, :agency, :engagements)
     render json: connections
   end
 
@@ -19,7 +19,9 @@ class Api::V1::ConnectionsController < ApplicationController
   end
 
   def show
-
+    c = Connection.find(params[:id])
+    connection_details = c.for_show
+    render json: connection_details
   end
 
 end

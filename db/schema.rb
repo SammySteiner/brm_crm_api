@@ -58,11 +58,14 @@ ActiveRecord::Schema.define(version: 20180208150652) do
 
   create_table "connections", force: :cascade do |t|
     t.datetime "date"
+    t.string "report"
     t.text "notes"
     t.integer "arm_id"
+    t.bigint "agency_id"
     t.bigint "connection_type_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["agency_id"], name: "index_connections_on_agency_id"
     t.index ["connection_type_id"], name: "index_connections_on_connection_type_id"
   end
 

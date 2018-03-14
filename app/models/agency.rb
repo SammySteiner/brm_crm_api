@@ -3,6 +3,7 @@ include ActiveModel::Serialization
 class Agency < ApplicationRecord
 
   has_many :staff
+  has_many :connections
   has_one :arm_agency
   has_one :arm, through: :arm_agency
   has_one :cio_agency

@@ -7,6 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 require 'csv'
+require 'faker'
 
 def roles_import
   csv_text = File.read(Rails.root.join('lib', 'seeds', 'roles.csv'))
@@ -178,46 +179,37 @@ engagement_types_import
 
 User.create(email: 'sasteiner@doitt.nyc.gov', password: '123')
 
-c = Connection.create(date: DateTime.now, notes: 'this is a test connection', connection_type: ConnectionType.find(1), arm_id: 1)
-StaffConnection.create(staff_id: 1, connection: c)
-StaffConnection.create(staff: Staff.find(75), connection: c)
-e = Engagement.new(
-  title: 'test engagement',
-  description: 'I would like to seed some engagements to simulate this process so I can start coding my views with dummy data.',
-  notes: 'This is a lot of typing, I should really get a Lorum Ipsem generator.',
-  ksr: '123455678',
-  inc: '09876754',
-  priority: 2,
-  service: Service.find(1),
-  connection: c,
-  engagement_type: EngagementType.find(1),
-  created_by_id: 1,
-  last_modified_by_id: 1,
-  start_time: DateTime.now
-)
-StaffEngagement.create(staff_id: 1, engagement: e)
-StaffEngagement.create(staff_id: 75, engagement: e)
-StaffEngagement.create(staff_id: 10, engagement: e)
-
-c = Connection.create(date: DateTime.now, notes: 'this is another test connection', connection_type: ConnectionType.find(2), arm_id: 1)
-StaffConnection.create(staff_id: 1, connection: c)
-StaffConnection.create(staff: Staff.find(80), connection: c)
-e = Engagement.new(
-  title: 'test engagement 2',
-  description: '2 I would like to seed some engagements to simulate this process so I can start coding my views with dummy data.',
-  notes: '2 This is a lot of typing, I should really get a Lorum Ipsem generator.',
-  ksr: '1234556780',
-  inc: '098767540',
-  priority: 3,
-  service: Service.find(2),
-  connection: c,
-  engagement_type: EngagementType.find(1),
-  created_by_id: 1,
-  last_modified_by_id: 1,
-  start_time: DateTime.now
-)
-StaffEngagement.create(staff_id: 1, engagement: e)
-StaffEngagement.create(staff_id: 80, engagement: e)
-StaffEngagement.create(staff_id: 11, engagement: e)
+100.times do
+  arm_id = rand(1..6)
+  agency = Staff.find(arm_id).assignments.sample
+  c = Connection.create(date: Faker::Date.backward(90), report: Faker::Lorem.paragraph(2), notes: Faker::HitchhikersGuideToTheGalaxy.quote, connection_type: ConnectionType.find(rand(1..4)), arm_id: arm_id, agency: agency)
+  StaffConnection.create(staff_id: c.arm_id, connection: c)
+  if agency.cio
+    StaffConnection.create(staff_id: agency.cio.id, connection: c)
+  end
+  rand(1..3).times do
+    service = Service.find(rand(1..50))
+    e = Engagement.new(
+      title: Faker::Book.title,
+      description: Faker::Hipster.sentence,
+      notes: Faker::Hipster.paragraph,
+      ksr: Faker::Number.number,
+      inc: Faker::Number.number,
+      priority: rand(1..3),
+      service: service,
+      connection: c,
+      engagement_type: EngagementType.find(rand(1..4)),
+      created_by_id: arm_id,
+      last_modified_by_id: arm_id,
+      start_time: Faker::Date.backward(10)
+    )
+    StaffEngagement.create(staff_id: arm_id, engagement: e)
+    StaffEngagement.create(staff_id: service.sdl.id, engagement: e)
+    if agency.cio
+      StaffEngagement.create(staff_id: agency.cio.id, engagement: e)
+    end
+  end
+  puts c.notes
+end
 
 # created_by_id: Staff.find_by(email: User.find(@current_user).email)
