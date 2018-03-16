@@ -36,7 +36,7 @@ class Connection < ApplicationRecord
           inc: e.inc,
           ksr: e.ksr,
           prj: e.prj,
-          title: e.description,
+          title: e.report,
           notes: e.notes,
           priority: e.priority,
           resolution_notes: e.resolution_notes,

@@ -84,7 +84,7 @@ ActiveRecord::Schema.define(version: 20180208150652) do
 
   create_table "engagements", force: :cascade do |t|
     t.string "title"
-    t.text "description"
+    t.text "report"
     t.text "notes"
     t.string "ksr"
     t.string "inc"

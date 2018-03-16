@@ -191,7 +191,7 @@ User.create(email: 'sasteiner@doitt.nyc.gov', password: '123')
     service = Service.find(rand(1..50))
     e = Engagement.new(
       title: Faker::Book.title,
-      description: Faker::Hipster.sentence,
+      report: Faker::Hipster.sentence,
       notes: Faker::Hipster.paragraph,
       ksr: Faker::Number.number,
       inc: Faker::Number.number,
@@ -201,7 +201,7 @@ User.create(email: 'sasteiner@doitt.nyc.gov', password: '123')
       engagement_type: EngagementType.find(rand(1..4)),
       created_by_id: arm_id,
       last_modified_by_id: arm_id,
-      start_time: Faker::Date.backward(10)
+      start_time: Faker::Time.backward(10, :day)
     )
     StaffEngagement.create(staff_id: arm_id, engagement: e)
     StaffEngagement.create(staff_id: service.sdl.id, engagement: e)

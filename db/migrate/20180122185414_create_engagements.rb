@@ -2,7 +2,7 @@ class CreateEngagements < ActiveRecord::Migration[5.1]
   def change
     create_table :engagements do |t|
       t.string :title
-      t.text :description
+      t.text :report
       t.text :notes
       t.string :ksr
       t.string :inc
