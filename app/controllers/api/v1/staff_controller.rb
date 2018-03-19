@@ -2,7 +2,9 @@ class Api::V1::StaffController < ApplicationController
   before_action :authorize_user!
 
   def index
-    @staff = Staff.includes(:agency, :role)
+    @staff = Staff.includes(:agency, :role).map do |s|
+      {id: s.id, fullname: s.fullname, last_name: s.last_name, agency: {name: s.agency.name, acronym: s.agency.acronym}, role: s.role.title, email: s.email, office_phone: s.office_phone}
+    end
     render json: @staff
   end
 

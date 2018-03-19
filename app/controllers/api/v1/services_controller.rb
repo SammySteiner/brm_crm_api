@@ -2,7 +2,9 @@ class Api::V1::ServicesController < ApplicationController
   before_action :authorize_user!
 
   def index
-    services = Service.includes(:sdl, :division, :service_owner)
+    services = Service.includes(:sdl, :division, :service_owner).map do |s|
+      {id: s.id, title: s.title, description: s.description, division: s.division.name, sdl: {fullname: s.sdl.fullname, last_name: s.sdl.last_name}, service_owner: {fullname: s.service_owner.fullname, last_name: s.service_owner.last_name}}
+    end
     render json: services
   end
 

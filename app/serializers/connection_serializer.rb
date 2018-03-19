@@ -4,7 +4,6 @@ class ConnectionSerializer < ActiveModel::Serializer
   belongs_to :arm
   belongs_to :connection_type
   belongs_to :agency
-  has_many :staff, through: :staff_connections
   has_many :engagements
 
 

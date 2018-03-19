@@ -1,5 +1,5 @@
 class ServiceSerializer < ActiveModel::Serializer
-  attributes :id, :title, :description
+  attributes :id, :title, :description, :sla
 
   belongs_to :sdl
   belongs_to :service_owner
