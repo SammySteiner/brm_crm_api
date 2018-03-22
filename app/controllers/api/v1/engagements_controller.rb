@@ -17,7 +17,12 @@ class Api::V1::EngagementsController < ApplicationController
   end
 
   def destroy
-
+    engagement = Engagement.find(params[:id])
+    engagement.staff_engagements.each do |se|
+      se.destroy
+    end
+    engagement.destroy
+    render json: engagement
   end
 
   def show
