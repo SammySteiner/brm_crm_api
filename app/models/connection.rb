@@ -7,6 +7,10 @@ class Connection < ApplicationRecord
   has_many :engagements
   has_many :staff_engagements, through: :engagements
 
+  def title
+    self.connection_type.via + ' with ' + self.agency.acronym + ' on ' + self.date.strftime('%a %m-%d-%Y')
+  end
+
   def agencies
     agencies = []
     self.engagements.each do |e|

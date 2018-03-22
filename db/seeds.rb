@@ -182,7 +182,7 @@ User.create(email: 'sasteiner@doitt.nyc.gov', password: '123')
 100.times do
   arm_id = rand(1..6)
   agency = Staff.find(arm_id).assignments.sample
-  c = Connection.create(date: Faker::Date.backward(90), report: Faker::Lorem.paragraph(2), notes: Faker::HitchhikersGuideToTheGalaxy.quote, connection_type: ConnectionType.find(rand(1..4)), arm_id: arm_id, agency: agency)
+  c = Connection.create(date: Faker::Time.backward(90, :day), report: Faker::Lorem.paragraph(2), notes: Faker::HitchhikersGuideToTheGalaxy.quote, connection_type: ConnectionType.find(rand(1..4)), arm_id: arm_id, agency: agency)
   StaffConnection.create(staff_id: c.arm_id, connection: c)
   if agency.cio
     StaffConnection.create(staff_id: agency.cio.id, connection: c)

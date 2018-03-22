@@ -25,4 +25,21 @@ class Api::V1::EngagementsController < ApplicationController
     render json: e
   end
 
+  def formInfo
+    types = EngagementType.select(:id, :via).map { |t| t.via }
+    staff = Staff.all.map { |s| s.fullname }
+    services = Service.all.select(:id, :title).map { |s| s.title }
+    connections = Connection.all.includes(:arm, :agency, :connection_type).map { |c|  {id: c.id, arm: c.arm.fullname, agency: c.agency.acronym, title: c.title, date: c.date}}
+    info = {types: types, staff: staff, services: services, connections: connections}
+    render json: info
+  end
+
+  private
+
+  def engagement_params
+    params.require(:engagement).permit(:id, :date, :report, :notes, :connection_type, :arm, :agency, :engagements => [], :attendees => [])
+  end
+
+
+
 end

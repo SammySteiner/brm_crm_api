@@ -28,6 +28,12 @@ class Api::V1::StaffController < ApplicationController
           agency = Agency.find_by(name: as)
           ArmAgency.create(arm_id: staff.id, agency_id: agency.id)
         end
+      # elsif staff_params['role'] === 'Service Provider'
+      #   staff_params['service'].each do |ser|
+      #     service = Service.find_by(title: ser)
+      #     service.sdl_id = staff.id
+      #     service.save
+      #   end
         render json: staff
       end
     else
@@ -47,7 +53,6 @@ class Api::V1::StaffController < ApplicationController
     agency = Agency.find_by(name: staff_params['agency'])
     role = Role.find_by(title: staff_params['role'])
     staff = Staff.find(staff_params['id'])
-    byebug
     if staff_params['agency'] === "INFORMATION TECHNOLOGY AND TELECOMMUNICATIONS, DEPARTMENT OF"
       staff.update(first_name: staff_params['first_name'], last_name: staff_params['last_name'], email: staff_params['email'], office_phone: staff_params['office_phone'], cell_phone: staff_params['cell_phone'], agency: agency, role: role)
       if staff_params['role'] === "SDL"

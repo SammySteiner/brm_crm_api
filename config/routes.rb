@@ -12,6 +12,8 @@ Rails.application.routes.draw do
       get 'agenciesFormInfo', to: 'agencies#formInfo'
       get 'staffFormInfo', to: 'staff#formInfo'
       get 'servicesFormInfo', to: 'services#formInfo'
+      get 'connectionsFormInfo', to: 'connections#formInfo'
+      get 'engagementsFormInfo', to: 'engagements#formInfo'
 
       post 'auth', to: 'auth#create'
 
