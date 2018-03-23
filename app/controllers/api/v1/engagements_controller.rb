@@ -9,11 +9,88 @@ class Api::V1::EngagementsController < ApplicationController
   end
 
   def create
-
+    type = EngagementType.find_by(via: engagement_params[:type])
+    connection = Connection.find(engagement_params[:connection])
+    service = Service.find_by(title: engagement_params[:service])
+    user = Staff.find_by(email: current_user.email)
+    if engagement_params[:resolved_on].present?
+      resolved_on = Time.parse(engagement_params[:resolved_on])
+    else
+      resolved_on = nil
+    end
+    engagement = Engagement.create(
+    title: engagement_params[:title],
+    report: engagement_params[:report],
+    notes: engagement_params[:notes],
+    ksr: engagement_params[:ksr],
+    inc: engagement_params[:inc],
+    prj: engagement_params[:prj],
+    priority: engagement_params[:priority],
+    start_time: Time.parse(engagement_params[:start_time]),
+    resolved_on: resolved_on,
+    resolution_notes: engagement_params[:resolution_notes],
+    service: service,
+    engagement_type: type,
+    connection: connection,
+    created_by: user,
+    last_modified_by: user,
+    )
+    engagement_params[:team].each do |t|
+      fullname = t.split(" ")
+      first_name = fullname[0]
+      last_name = fullname[1]
+      StaffEngagement.create(staff: Staff.find_by(first_name: first_name, last_name: last_name), engagement: engagement)
+    end
+    render json: engagement
   end
 
   def update
-
+    type = EngagementType.find_by(via: engagement_params[:type])
+    connection = Connection.find(engagement_params[:connection])
+    service = Service.find_by(title: engagement_params[:service])
+    user = Staff.find_by(email: current_user.email)
+    if engagement_params[:resolved_on].present?
+      resolved_on = Time.parse(engagement_params[:resolved_on])
+    else
+      resolved_on = nil
+    end
+    engagement = Engagement.find(engagement_params[:id])
+    engagement.update(
+    title: engagement_params[:title],
+    report: engagement_params[:report],
+    notes: engagement_params[:notes],
+    ksr: engagement_params[:ksr],
+    inc: engagement_params[:inc],
+    prj: engagement_params[:prj],
+    priority: engagement_params[:priority],
+    start_time: Time.parse(engagement_params[:start_time]),
+    resolved_on: resolved_on,
+    resolution_notes: engagement_params[:resolution_notes],
+    service: service,
+    engagement_type: type,
+    connection: connection,
+    last_modified_by: user,
+    )
+    staff = engagement.staff_engagements.map { |se| se.staff.fullname }
+    new_staff = []
+    engagement_params[:team].each do |t|
+      fullname = t.split(" ")
+      first_name = fullname[0]
+      last_name = fullname[1]
+      se = StaffEngagement.find_or_create_by(staff: Staff.find_by(first_name: first_name, last_name: last_name), engagement: engagement)
+      new_staff << se.staff.fullname
+    end
+    removed_staff = staff - new_staff
+    if removed_staff.present?
+      removed_staff.each do |rs|
+        fullname = rs.split(" ")
+        first_name = fullname[0]
+        last_name = fullname[1]
+        s = Staff.find_by(first_name: first_name, last_name: last_name)
+        engagement.staff_engagements.where(staff: s)[0].destroy
+      end
+    end
+    render json: engagement
   end
 
   def destroy
@@ -42,7 +119,7 @@ class Api::V1::EngagementsController < ApplicationController
   private
 
   def engagement_params
-    params.require(:engagement).permit(:id, :date, :report, :notes, :connection_type, :arm, :agency, :engagements => [], :attendees => [])
+    params.require(:engagement).permit(:id, :title, :report, :notes, :ksr, :inc, :prj, :priority, :service, :start_time, :resolved_on, :resolution_notes, :type, :connection, :team => [])
   end
 
 

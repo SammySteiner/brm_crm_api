@@ -1,5 +1,5 @@
 class ConnectionSerializer < ActiveModel::Serializer
-  attributes :id, :date, :report
+  attributes :id, :date, :report, :title
 
   belongs_to :arm
   belongs_to :connection_type
