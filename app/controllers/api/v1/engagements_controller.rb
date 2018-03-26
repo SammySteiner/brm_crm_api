@@ -3,7 +3,7 @@ class Api::V1::EngagementsController < ApplicationController
 
   def index
     engagements = Engagement.includes(:service, :engagement_type, :created_by, :last_modified_by, connection: [:arm, :agency]).map do |e|
-      {id: e.id, service: e.service.title, type: e.engagement_type.via, arm: {fullname: e.connection.arm.fullname, last_name: e.connection.arm.last_name}, date: e.start_time, title: e.title, agency: {acronym: e.connection.agency.acronym, name: e.connection.agency.name}, priority: e.priority}
+      {id: e.id, service: e.service.title, type: e.engagement_type.via, arm: {fullname: e.connection.arm.fullname, last_name: e.connection.arm.last_name}, date: e.start_time, title: e.title, agency: {acronym: e.connection.agency.acronym, name: e.connection.agency.name}, priority: e.priority, resolved_on: e.resolved_on}
     end
     render json: engagements
   end

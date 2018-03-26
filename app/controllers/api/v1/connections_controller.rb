@@ -2,8 +2,17 @@ class Api::V1::ConnectionsController < ApplicationController
   # before_action :authorize_user!
 
   def index
-    connections = Connection.includes(:connection_type, :arm, :agency, :engagements).map do |c|
-      {id: c.id, arm: {fullname: c.arm.fullname, last_name: c.arm.last_name}, date: c.date, report: c.report, agency: {acronym: c.agency.acronym, name: c.agency.name}, engagements: c.engagements.size, type: c.connection_type.via}
+    if request.headers[:where].present?
+      t = request.headers[:source].intern
+      f = request.headers[:field].intern
+      w = request.headers[:where]
+      connections = Connection.includes(:connection_type, :arm, :agency, :engagements).where(t => {f => w}).map do |c|
+        {id: c.id, arm: {fullname: c.arm.fullname, last_name: c.arm.last_name}, date: c.date, report: c.report, agency: {acronym: c.agency.acronym, name: c.agency.name}, engagements: c.engagements.size, type: c.connection_type.via}
+      end
+    else
+      connections = Connection.includes(:connection_type, :arm, :agency, :engagements).map do |c|
+        {id: c.id, arm: {fullname: c.arm.fullname, last_name: c.arm.last_name}, date: c.date, report: c.report, agency: {acronym: c.agency.acronym, name: c.agency.name}, engagements: c.engagements.size, type: c.connection_type.via}
+      end
     end
     render json: connections
   end
