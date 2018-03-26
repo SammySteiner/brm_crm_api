@@ -28,7 +28,6 @@ class Api::V1::EngagementsController < ApplicationController
     priority: engagement_params[:priority],
     start_time: Time.parse(engagement_params[:start_time]),
     resolved_on: resolved_on,
-    resolution_notes: engagement_params[:resolution_notes],
     service: service,
     engagement_type: type,
     connection: connection,
@@ -65,7 +64,6 @@ class Api::V1::EngagementsController < ApplicationController
     priority: engagement_params[:priority],
     start_time: Time.parse(engagement_params[:start_time]),
     resolved_on: resolved_on,
-    resolution_notes: engagement_params[:resolution_notes],
     service: service,
     engagement_type: type,
     connection: connection,
@@ -103,8 +101,12 @@ class Api::V1::EngagementsController < ApplicationController
   end
 
   def show
-    e = Engagement.joins(:connection, :engagement_type, :service).find(params[:id])
-    render json: e
+    if Engagement.exists?(params[:id])
+      e = Engagement.joins(:connection, :engagement_type, :service).find(params[:id])
+      render json: e
+    else
+      render json: {error: "Page no longer exits."}
+    end
   end
 
   def formInfo
@@ -119,7 +121,7 @@ class Api::V1::EngagementsController < ApplicationController
   private
 
   def engagement_params
-    params.require(:engagement).permit(:id, :title, :report, :notes, :ksr, :inc, :prj, :priority, :service, :start_time, :resolved_on, :resolution_notes, :type, :connection, :team => [])
+    params.require(:engagement).permit(:id, :title, :report, :notes, :ksr, :inc, :prj, :priority, :service, :start_time, :resolved_on, :type, :connection, :team => [])
   end
 
 

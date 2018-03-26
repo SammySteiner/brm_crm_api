@@ -1,5 +1,5 @@
 class EngagementSerializer < ActiveModel::Serializer
-  attributes :id, :title, :report, :notes, :priority, :start_time, :last_modified_on, :resolved_on, :inc, :ksr, :prj, :resolution_notes
+  attributes :id, :title, :report, :notes, :priority, :start_time, :last_modified_on, :resolved_on, :inc, :ksr, :prj
 
   belongs_to :service
   belongs_to :engagement_type

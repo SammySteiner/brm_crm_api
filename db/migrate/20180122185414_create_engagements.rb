@@ -16,7 +16,6 @@ class CreateEngagements < ActiveRecord::Migration[5.1]
       t.datetime :last_modified_on
       t.integer :last_modified_by_id, default: nil
       t.datetime :resolved_on
-      t.text :resolution_notes
 
       t.timestamps
     end
