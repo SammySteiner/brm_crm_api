@@ -11,80 +11,63 @@ class Api::V1::StaffController < ApplicationController
   def create
     agency = Agency.find_by(name: staff_params['agency'])
     role = Role.find_by(title: staff_params['role'])
-    if staff_params['agency'] === "INFORMATION TECHNOLOGY AND TELECOMMUNICATIONS, DEPARTMENT OF"
-      staff = Staff.find_or_create_by(first_name: staff_params['first_name'], last_name: staff_params['last_name'], email: staff_params['email'], office_phone: staff_params['office_phone'], cell_phone: staff_params['cell_phone'], agency: agency, role: role)
-      if staff_params['role'] === 'CIO'
-        CioAgency.create(cio_id: staff.id, agency: agency)
-      elsif staff_params['role'] === 'Commissioner'
-        CommissionerAgency.create(commissioner_id: staff.id, agency: agency)
-      elsif staff_params['role'] === 'SDL'
-        staff_params['service'].each do |ser|
-          service = Service.find_by(title: ser)
-          service.sdl_id = staff.id
-          service.save
-        end
-      elsif staff_params['role'] === 'ARM'
-        staff_params['assignments'].each do |as|
-          agency = Agency.find_by(name: as)
-          ArmAgency.create(arm_id: staff.id, agency_id: agency.id)
-        end
-      # elsif staff_params['role'] === 'Service Provider'
-      #   staff_params['service'].each do |ser|
-      #     service = Service.find_by(title: ser)
-      #     service.sdl_id = staff.id
-      #     service.save
-      #   end
-        render json: staff
+    staff = Staff.find_or_create_by(first_name: staff_params['first_name'], last_name: staff_params['last_name'], email: staff_params['email'], office_phone: staff_params['office_phone'], cell_phone: staff_params['cell_phone'], agency: agency, role: role)
+    if staff_params['role'] === 'CIO'
+      CioAgency.create(cio_id: staff.id, agency: agency)
+    elsif staff_params['role'] === 'Commissioner'
+      CommissionerAgency.create(commissioner_id: staff.id, agency: agency)
+    elsif staff_params['role'] === 'SDL'
+      staff_params['service'].each do |ser|
+        service = Service.find_by(title: ser)
+        service.sdl_id = staff.id
+        service.save
       end
-    else
-      staff = Staff.find_or_create_by(first_name: staff_params['first_name'], last_name: staff_params['last_name'], email: staff_params['email'], office_phone: staff_params['office_phone'], cell_phone: staff_params['cell_phone'], agency: agency, role: role)
-      if staff_params['role'] === 'CIO'
-        CioAgency.create(cio_id: staff.id, agency: agency)
-      elsif staff_params['role'] === 'Commissioner'
-        CommissionerAgency.create(commissioner_id: staff.id, agency: agency)
-      elsif staff_params['role'] === 'other'
-        OtherAgency.create(staff_id: staff_id, agency: agency)
+    elsif staff_params['role'] === 'ARM'
+      staff_params['assignments'].each do |as|
+        agency = Agency.find_by(name: as)
+        ArmAgency.create(arm_id: staff.id, agency_id: agency.id)
       end
-      render json: staff
+    # service provider hans't been implemented in the db yet.
+    # elsif staff_params['role'] === 'Service Provider'
+    #   staff_params['service'].each do |ser|
+    #     service = Service.find_by(title: ser)
+    #     service.sdl_id = staff.id
+    #     service.save
+    #   end
+    elsif staff_params['role'] === 'other'
+      OtherAgency.create(staff_id: staff_id, agency: agency)
     end
+    render json: staff
   end
 
   def update
     agency = Agency.find_by(name: staff_params['agency'])
     role = Role.find_by(title: staff_params['role'])
     staff = Staff.find(staff_params['id'])
-    if staff_params['agency'] === "INFORMATION TECHNOLOGY AND TELECOMMUNICATIONS, DEPARTMENT OF"
+    staff.update(first_name: staff_params['first_name'], last_name: staff_params['last_name'], email: staff_params['email'], office_phone: staff_params['office_phone'], cell_phone: staff_params['cell_phone'], agency: agency, role: role)
+    if staff_params['role'] === "SDL"
+      staff_params['services'].each do |service|
+        s = Service.find_by(title: service)
+        s.update(sdl_id = staff.id)
+        s.save
+      end
+    elsif staff_params['role'] === "Service Owner"
+      staff_params['services'].each do |service|
+        s = Service.find_by(title: service)
+        s.update(service_owner_id = staff.id)
+        s.save
+      end
+    elsif staff_params['role'] === "ARM"
+      staff_params['assignments'].each do |assignment|
+        a = Agency.find_by(name: assignment)
+        ArmAgency.create(arm_id: staff.id, agency: a)
+      end
+    elsif staff_params['role'] === "Commissioner"
+      CommissionerAgency.create(commissioner_id: staff.id, agency: agency)
+    elsif staff_params['role'] === "CIO"
+      CioAgency.create(cio_id: staff.id, agency: agency)
+    elsif staff_params['role'] === "General"
       staff.update(first_name: staff_params['first_name'], last_name: staff_params['last_name'], email: staff_params['email'], office_phone: staff_params['office_phone'], cell_phone: staff_params['cell_phone'], agency: agency, role: role)
-      if staff_params['role'] === "SDL"
-        staff_params['services'].each do |service|
-          s = Service.find_by(title: service)
-          s.update(sdl_id = staff.id)
-          s.save
-        end
-      elsif staff_params['role'] === "Service Owner"
-        staff_params['services'].each do |service|
-          s = Service.find_by(title: service)
-          s.update(service_owner_id = staff.id)
-          s.save
-        end
-      elsif staff_params['role'] === "ARM"
-        staff_params['assignments'].each do |assignment|
-          a = Agency.find_by(name: assignment)
-          ArmAgency.create(arm_id: staff.id, agency: a)
-        end
-      elsif staff_params['role'] === "Commissioner"
-        CommissionerAgency.create(commissioner_id: staff.id, agency: agency)
-      elsif staff_params['role'] === "CIO"
-        CioAgency.create(cio_id: staff.id, agency: agency)
-      end
-    else
-      if staff_params['role'] === "General"
-        staff.update(first_name: staff_params['first_name'], last_name: staff_params['last_name'], email: staff_params['email'], office_phone: staff_params['office_phone'], cell_phone: staff_params['cell_phone'], agency: agency, role: role)
-      elsif staff_params['role'] === "Commissioner"
-        CommissionerAgency.create(commissioner_id: staff.id, agency: agency)
-      elsif staff_params['role'] === "CIO"
-        CioAgency.create(cio_id: staff.id, agency: agency)
-      end
     end
     staff.save
     render json: staff

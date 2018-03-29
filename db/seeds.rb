@@ -190,14 +190,12 @@ User.create(email: 'sasteiner@doitt.nyc.gov', password: '123')
   rand(1..3).times do
     service = Service.find(rand(1..50))
     e = Engagement.new(
-      title: Faker::Book.title,
       report: Faker::Hipster.sentence,
       notes: Faker::Hipster.paragraph,
       ksr: Faker::Number.number,
       inc: Faker::Number.number,
       priority: rand(1..3),
       service: service,
-      connection: c,
       engagement_type: EngagementType.find(rand(1..4)),
       created_by_id: arm_id,
       last_modified_by_id: arm_id,
@@ -207,6 +205,11 @@ User.create(email: 'sasteiner@doitt.nyc.gov', password: '123')
     StaffEngagement.create(staff_id: service.sdl.id, engagement: e)
     if agency.cio
       StaffEngagement.create(staff_id: agency.cio.id, engagement: e)
+    end
+    ConnectionEngagement.create(connection: c, engagement: e)
+    rand(0..2).times do
+      nc = Connection.create(date: Faker::Time.backward(30, :day), report: Faker::Lorem.paragraph(2), notes: Faker::SiliconValley.quote, connection_type: ConnectionType.find(rand(1..4)), arm_id: arm_id, agency: agency)
+      ConnectionEngagement.create(connection: nc, engagement: e)
     end
   end
   puts c.notes

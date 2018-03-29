@@ -2,8 +2,17 @@ class Api::V1::EngagementsController < ApplicationController
   # before_action :authorize_user!
 
   def index
-    engagements = Engagement.includes(:service, :engagement_type, :created_by, :last_modified_by, connection: [:arm, :agency]).map do |e|
-      {id: e.id, service: e.service.title, type: e.engagement_type.via, arm: {fullname: e.connection.arm.fullname, last_name: e.connection.arm.last_name}, date: e.start_time, title: e.title, agency: {acronym: e.connection.agency.acronym, name: e.connection.agency.name}, priority: e.priority, resolved_on: e.resolved_on}
+    if request.headers[:table].present?
+      t = request.headers[:table].intern
+      a = request.headers[:attribute].intern
+      v = request.headers[:value]
+      engagements = Engagement.includes(:service, :engagement_type, :created_by, :last_modified_by, connections: [:arm, :agency]).where(:connections => {t => {a => v}}).map do |e|
+        {id: e.id, service: e.service.title, type: e.engagement_type.via, arm: e.arm, date: e.start_time, title: e.title, agency: e.agency, priority: e.priority, resolved_on: e.resolved_on, report: e.report}
+      end
+    else
+      engagements = Engagement.includes(:service, :engagement_type, :created_by, :last_modified_by, connections: [:arm, :agency]).map do |e|
+        {id: e.id, service: e.service.title, type: e.engagement_type.via, arm: e.arm, date: e.start_time, title: e.title, agency: e.agency, priority: e.priority, resolved_on: e.resolved_on, report: e.report}
+      end
     end
     render json: engagements
   end
@@ -19,7 +28,6 @@ class Api::V1::EngagementsController < ApplicationController
       resolved_on = nil
     end
     engagement = Engagement.create(
-    title: engagement_params[:title],
     report: engagement_params[:report],
     notes: engagement_params[:notes],
     ksr: engagement_params[:ksr],
@@ -55,7 +63,6 @@ class Api::V1::EngagementsController < ApplicationController
     end
     engagement = Engagement.find(engagement_params[:id])
     engagement.update(
-    title: engagement_params[:title],
     report: engagement_params[:report],
     notes: engagement_params[:notes],
     ksr: engagement_params[:ksr],
@@ -102,7 +109,7 @@ class Api::V1::EngagementsController < ApplicationController
 
   def show
     if Engagement.exists?(params[:id])
-      e = Engagement.joins(:connection, :engagement_type, :service).find(params[:id])
+      e = Engagement.joins(:connections, :engagement_type, :service).find (params[:id])
       render json: e
     else
       render json: {error: "Page no longer exits."}
@@ -121,7 +128,7 @@ class Api::V1::EngagementsController < ApplicationController
   private
 
   def engagement_params
-    params.require(:engagement).permit(:id, :title, :report, :notes, :ksr, :inc, :prj, :priority, :service, :start_time, :resolved_on, :type, :connection, :team => [])
+    params.require(:engagement).permit(:id, :report, :notes, :ksr, :inc, :prj, :priority, :service, :start_time, :resolved_on, :type, :connection, :team => [])
   end
 
 

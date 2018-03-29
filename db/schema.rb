@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180208150652) do
+ActiveRecord::Schema.define(version: 20180329122155) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -50,6 +50,15 @@ ActiveRecord::Schema.define(version: 20180208150652) do
     t.index ["agency_id"], name: "index_commissioner_agencies_on_agency_id"
   end
 
+  create_table "connection_engagements", force: :cascade do |t|
+    t.bigint "connection_id"
+    t.bigint "engagement_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["connection_id"], name: "index_connection_engagements_on_connection_id"
+    t.index ["engagement_id"], name: "index_connection_engagements_on_engagement_id"
+  end
+
   create_table "connection_types", force: :cascade do |t|
     t.string "via"
     t.datetime "created_at", null: false
@@ -83,7 +92,6 @@ ActiveRecord::Schema.define(version: 20180208150652) do
   end
 
   create_table "engagements", force: :cascade do |t|
-    t.string "title"
     t.text "report"
     t.text "notes"
     t.string "ksr"
@@ -91,17 +99,14 @@ ActiveRecord::Schema.define(version: 20180208150652) do
     t.string "prj"
     t.integer "priority"
     t.bigint "service_id"
-    t.bigint "connection_id"
     t.bigint "engagement_type_id"
     t.integer "created_by_id"
     t.datetime "start_time"
     t.datetime "last_modified_on"
     t.integer "last_modified_by_id"
     t.datetime "resolved_on"
-    t.text "resolution_notes"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["connection_id"], name: "index_engagements_on_connection_id"
     t.index ["engagement_type_id"], name: "index_engagements_on_engagement_type_id"
     t.index ["service_id"], name: "index_engagements_on_service_id"
   end
@@ -181,7 +186,6 @@ ActiveRecord::Schema.define(version: 20180208150652) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "engagements", "connections"
   add_foreign_key "engagements", "engagement_types"
   add_foreign_key "staff_connections", "connections"
   add_foreign_key "staff_connections", "staffs"

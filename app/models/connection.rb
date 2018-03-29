@@ -4,7 +4,8 @@ class Connection < ApplicationRecord
   belongs_to :arm, :class_name => 'Staff'
   has_many :staff_connections
   has_many :staff, through: :staff_connections
-  has_many :engagements
+  has_many :connection_engagements
+  has_many :engagements, through: :connection_engagements
   has_many :staff_engagements, through: :engagements
 
   def title

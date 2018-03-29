@@ -1,7 +1,6 @@
 class CreateEngagements < ActiveRecord::Migration[5.1]
   def change
     create_table :engagements do |t|
-      t.string :title
       t.text :report
       t.text :notes
       t.string :ksr
@@ -9,7 +8,6 @@ class CreateEngagements < ActiveRecord::Migration[5.1]
       t.string :prj
       t.integer :priority
       t.references :service
-      t.references :connection, foreign_key: true
       t.references :engagement_type, foreign_key: true
       t.integer :created_by_id
       t.datetime :start_time

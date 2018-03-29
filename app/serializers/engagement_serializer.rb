@@ -3,7 +3,7 @@ class EngagementSerializer < ActiveModel::Serializer
 
   belongs_to :service
   belongs_to :engagement_type
-  belongs_to :connection
+  has_many :connections
   belongs_to :created_by
   belongs_to :last_modified_by
   has_many :staff_engagements

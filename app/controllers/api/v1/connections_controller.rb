@@ -2,11 +2,11 @@ class Api::V1::ConnectionsController < ApplicationController
   # before_action :authorize_user!
 
   def index
-    if request.headers[:where].present?
-      t = request.headers[:source].intern
-      f = request.headers[:field].intern
-      w = request.headers[:where]
-      connections = Connection.includes(:connection_type, :arm, :agency, :engagements).where(t => {f => w}).map do |c|
+    if request.headers[:table].present?
+      t = request.headers[:table].intern
+      a = request.headers[:attribute].intern
+      v = request.headers[:value]
+      connections = Connection.includes(:connection_type, :arm, :agency, :engagements).where(t => {a => v}).map do |c|
         {id: c.id, arm: {fullname: c.arm.fullname, last_name: c.arm.last_name}, date: c.date, report: c.report, agency: {acronym: c.agency.acronym, name: c.agency.name}, engagements: c.engagements.size, type: c.connection_type.via}
       end
     else
@@ -93,7 +93,8 @@ class Api::V1::ConnectionsController < ApplicationController
     arms = Staff.where(role: Role.find_by(title: "ARM")).map { |arm|  arm.fullname }
     agencies = Agency.select(:id, :name).map { |a|  a.name}
     staff = Staff.all.map { |s| s.fullname }
-    info = {types: types, arms: arms, agencies: agencies, staff: staff}
+    unresolved_engaements = Engagement.includes(:service, :engagement_type, :connections => [:agency]).where(resolved_on: nil).map { |e| e.title }
+    info = {types: types, arms: arms, agencies: agencies, staff: staff, unresolved_engaements: unresolved_engaements}
     render json: info
   end
 
