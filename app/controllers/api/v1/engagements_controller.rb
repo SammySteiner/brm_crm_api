@@ -100,6 +100,9 @@ class Api::V1::EngagementsController < ApplicationController
 
   def destroy
     engagement = Engagement.find(params[:id])
+    engagement.connection_engagements.each do |ce|
+      ce.destroy
+    end
     engagement.staff_engagements.each do |se|
       se.destroy
     end

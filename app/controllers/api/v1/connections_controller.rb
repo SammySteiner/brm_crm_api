@@ -73,10 +73,15 @@ class Api::V1::ConnectionsController < ApplicationController
       sc.destroy
     end
     connection.engagements.each do |e|
-      e.staff_engagements.each do |se|
-        se.destroy
+      if e.connections.size === 1
+        e.staff_engagements.each do |se|
+          se.destroy
+        end
+        e.destroy
       end
-      e.destroy
+    end
+    connection.connection_engagements.each do |ce|
+      ce.destroy
     end
     connection.destroy
     render json: connection
