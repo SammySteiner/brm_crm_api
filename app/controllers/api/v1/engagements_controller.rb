@@ -19,7 +19,6 @@ class Api::V1::EngagementsController < ApplicationController
 
   def create
     type = EngagementType.find_by(via: engagement_params[:type])
-    connection = Connection.find(engagement_params[:connection])
     service = Service.find_by(title: engagement_params[:service])
     user = Staff.find_by(email: current_user.email)
     if engagement_params[:resolved_on].present?
@@ -38,22 +37,20 @@ class Api::V1::EngagementsController < ApplicationController
     resolved_on: resolved_on,
     service: service,
     engagement_type: type,
-    connection: connection,
     created_by: user,
     last_modified_by: user,
     )
+    engagement_params[:connections].each do |c|
+      ConnectionEngagement.create(connection: Connection.find(c), engagement: engagement)
+    end
     engagement_params[:team].each do |t|
-      fullname = t.split(" ")
-      first_name = fullname[0]
-      last_name = fullname[1]
-      StaffEngagement.create(staff: Staff.find_by(first_name: first_name, last_name: last_name), engagement: engagement)
+      StaffEngagement.create(staff: Staff.find(t), engagement: engagement)
     end
     render json: engagement
   end
 
   def update
     type = EngagementType.find_by(via: engagement_params[:type])
-    connection = Connection.find(engagement_params[:connection])
     service = Service.find_by(title: engagement_params[:service])
     user = Staff.find_by(email: current_user.email)
     if engagement_params[:resolved_on].present?
@@ -73,28 +70,20 @@ class Api::V1::EngagementsController < ApplicationController
     resolved_on: resolved_on,
     service: service,
     engagement_type: type,
-    connection: connection,
     last_modified_by: user,
     )
-    staff = engagement.staff_engagements.map { |se| se.staff.fullname }
-    new_staff = []
     engagement_params[:team].each do |t|
-      fullname = t.split(" ")
-      first_name = fullname[0]
-      last_name = fullname[1]
-      se = StaffEngagement.find_or_create_by(staff: Staff.find_by(first_name: first_name, last_name: last_name), engagement: engagement)
-      new_staff << se.staff.fullname
+      se = StaffEngagement.find_or_create_by(staff: Staff.find(t), engagement: engagement)
     end
-    removed_staff = staff - new_staff
-    if removed_staff.present?
-      removed_staff.each do |rs|
-        fullname = rs.split(" ")
-        first_name = fullname[0]
-        last_name = fullname[1]
-        s = Staff.find_by(first_name: first_name, last_name: last_name)
-        engagement.staff_engagements.where(staff: s)[0].destroy
-      end
+    removed_staff = engagement.staff.map { |s| s.id } - engagement_params[:team]
+    removed_staff.each do |s|
+      StaffEngagement.find_by(staff: Staff.find(s), engagement: engagement).destroy
     end
+    engagement_params[:connections].each do |c|
+      ConnectionEngagement.find_or_create_by(connection: Connection.find(c), engagement: engagement)
+    end
+    connections_to_remove = engagement.connections.map { |c| c.id } - engagement_params[:connections]
+    connections_to_remove.each { |c| ConnectionEngagement.find_by(connection: Connection.find(c), engagement: engagement).destroy }
     render json: engagement
   end
 
@@ -121,17 +110,17 @@ class Api::V1::EngagementsController < ApplicationController
 
   def formInfo
     types = EngagementType.select(:id, :via).map { |t| t.via }
-    staff = Staff.all.map { |s| s.fullname }
+    staff = Staff.all.map { |s| {id: s.id, fullname: s.fullname} }
     services = Service.all.select(:id, :title).map { |s| s.title }
     connections = Connection.all.includes(:arm, :agency, :connection_type).map { |c|  {id: c.id, arm: c.arm.fullname, agency: c.agency.acronym, title: c.title, date: c.date}}
-    info = {types: types, staff: staff, services: services, connections: connections}
+    info = {types: types, staff: staff, services: services, connections_list: connections}
     render json: info
   end
 
   private
 
   def engagement_params
-    params.require(:engagement).permit(:id, :report, :notes, :ksr, :inc, :prj, :priority, :service, :start_time, :resolved_on, :type, :connection, :team => [])
+    params.require(:engagement).permit(:id, :report, :notes, :ksr, :inc, :prj, :priority, :service, :start_time, :resolved_on, :type, :connections => [], :team => [])
   end
 
 

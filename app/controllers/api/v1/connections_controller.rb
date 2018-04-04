@@ -27,10 +27,10 @@ class Api::V1::ConnectionsController < ApplicationController
     date = Time.parse(connection_params[:date])
     connection = Connection.create(date: date, report: connection_params[:report], notes: connection_params[:notes], connection_type: type, arm: arm, agency: agency)
     connection_params[:attendees].each do |a|
-      fullname = a.split(" ")
-      first_name = fullname[0]
-      last_name = fullname[1]
-      StaffConnection.create(staff: Staff.find_by(first_name: first_name, last_name: last_name), connection: connection)
+      StaffConnection.create(staff: Staff.find(a), connection: connection)
+    end
+    connection_params[:engagements].each do |e|
+      ConnectionEngagement.create(connection: connection, engagement: Engagement.find(e))
     end
     render json: connection.for_show
   end
@@ -45,25 +45,18 @@ class Api::V1::ConnectionsController < ApplicationController
     date = Time.parse(connection_params[:date])
     connection = Connection.find(connection_params[:id])
     connection.update(date: date, report: connection_params[:report], notes: connection_params[:notes], connection_type: type, arm: arm, agency: agency)
-    staff = connection.staff_connections.map { |sc| sc.staff.fullname }
-    new_staff = []
     connection_params[:attendees].each do |a|
-      fullname = a.split(" ")
-      first_name = fullname[0]
-      last_name = fullname[1]
-      sc = StaffConnection.find_or_create_by(staff: Staff.find_by(first_name: first_name, last_name: last_name), connection: connection)
-      new_staff << sc.staff.fullname
+      StaffConnection.find_or_create_by(staff: Staff.find(a), connection: connection)
     end
-    removed_staff = staff - new_staff
-    if removed_staff.present?
-      removed_staff.each do |rs|
-        fullname = rs.split(" ")
-        first_name = fullname[0]
-        last_name = fullname[1]
-        s = Staff.find_by(first_name: first_name, last_name: last_name)
-        connection.staff_connections.where(staff: s)[0].destroy
-      end
+    removed_staff = connection.staff.map { |s| s.id } - connection_params[:attendees]
+    removed_staff.each do |rs|
+      StaffConnection.find_by(staff: Staff.find(rs), connection: connection).destroy
     end
+    connection_params[:engagements].each do |e|
+      ConnectionEngagement.find_or_create_by(connection: connection, engagement: Engagement.find(e))
+    end
+    removed_engagements = connection.engagements.map { |e| e.id } - connection_params[:engagements]
+    removed_engagements.each { |e| ConnectionEngagement.find_by(connection: connection, engagement: Engagement.find(e)).destroy }
     render json: connection.for_show
   end
 
@@ -97,9 +90,9 @@ class Api::V1::ConnectionsController < ApplicationController
     types = ConnectionType.select(:id, :via).map { |t| t.via }
     arms = Staff.where(role: Role.find_by(title: "ARM")).map { |arm|  arm.fullname }
     agencies = Agency.select(:id, :name).map { |a|  a.name}
-    staff = Staff.all.map { |s| s.fullname }
-    unresolved_engaements = Engagement.includes(:service, :engagement_type, :connections => [:agency]).where(resolved_on: nil).map { |e| e.title }
-    info = {types: types, arms: arms, agencies: agencies, staff: staff, unresolved_engaements: unresolved_engaements}
+    staff = Staff.all.map { |s| {id: s.id, fullname: s.fullname} }
+    unresolved_engagements = Engagement.includes(:service, :engagement_type, :connections => [:agency]).where(resolved_on: nil).map { |e| {title: e.title, id: e.id} }
+    info = {types: types, arms: arms, agencies: agencies, staff: staff, unresolved_engagements: unresolved_engagements}
     render json: info
   end
 

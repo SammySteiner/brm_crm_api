@@ -210,6 +210,10 @@ User.create(email: 'sasteiner@doitt.nyc.gov', password: '123')
     rand(0..2).times do
       nc = Connection.create(date: Faker::Time.backward(30, :day), report: Faker::Lorem.paragraph(2), notes: Faker::SiliconValley.quote, connection_type: ConnectionType.find(rand(1..4)), arm_id: arm_id, agency: agency)
       ConnectionEngagement.create(connection: nc, engagement: e)
+      StaffConnection.create(staff_id: nc.arm_id, connection: nc)
+      if agency.cio
+        StaffConnection.create(staff_id: agency.cio.id, connection: nc)
+      end
     end
   end
   puts c.notes
