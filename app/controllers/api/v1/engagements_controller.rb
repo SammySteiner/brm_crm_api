@@ -7,11 +7,11 @@ class Api::V1::EngagementsController < ApplicationController
       a = request.headers[:attribute].intern
       v = request.headers[:value]
       engagements = Engagement.includes(:service, :engagement_type, :created_by, :last_modified_by, connections: [:arm, :agency]).where(:connections => {t => {a => v}}).map do |e|
-        {id: e.id, service: e.service.title, type: e.engagement_type.via, arm: e.arm, date: e.start_time, title: e.title, agency: e.agency, priority: e.priority, resolved_on: e.resolved_on, report: e.report}
+        {id: e.id, service: e.service.title, type: e.engagement_type.via, arm: e.arm, date: e.start_time, title: e.title, agency: e.agency, priority: e.priority, resolved_on: e.resolved_on, report: e.report, connections: e.connections.size}
       end
     else
       engagements = Engagement.includes(:service, :engagement_type, :created_by, :last_modified_by, connections: [:arm, :agency]).map do |e|
-        {id: e.id, service: e.service.title, type: e.engagement_type.via, arm: e.arm, date: e.start_time, title: e.title, agency: e.agency, priority: e.priority, resolved_on: e.resolved_on, report: e.report}
+        {id: e.id, service: e.service.title, type: e.engagement_type.via, arm: e.arm, date: e.start_time, title: e.title, agency: e.agency, priority: e.priority, resolved_on: e.resolved_on, report: e.report, connections: e.connections.size}
       end
     end
     render json: engagements
