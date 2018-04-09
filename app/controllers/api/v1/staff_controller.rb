@@ -58,10 +58,14 @@ class Api::V1::StaffController < ApplicationController
         s.save
       end
     elsif staff_params['role'] === "ARM"
-      staff_params['assignments'].each do |assignment|
+      @old_assignments = staff.assignments.pluck(:name)
+      new_assignments = staff_params[:assignments] - old_assignments
+      new_assignments.each do |assignment|
         a = Agency.find_by(name: assignment)
         ArmAgency.create(arm_id: staff.id, agency: a)
       end
+      removed_assignments = @old_assignments - staff_params[:assignments]
+      removed_assignments.each { |a| ArmAgency.find_by(arm: staff, agency: Agency.find_by(name: a)).destroy }
     elsif staff_params['role'] === "Commissioner"
       CommissionerAgency.create(commissioner_id: staff.id, agency: agency)
     elsif staff_params['role'] === "CIO"

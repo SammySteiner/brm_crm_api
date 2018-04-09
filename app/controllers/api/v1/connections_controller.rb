@@ -6,7 +6,7 @@ class Api::V1::ConnectionsController < ApplicationController
       t = request.headers[:table].intern
       a = request.headers[:attribute].intern
       v = request.headers[:value]
-      connections = Connection.includes(:connection_type, :arm, :agency, :engagements).where(t => {a => v}).map do |c|
+      connections = Connection.includes(:connection_type, :arm, :agency, :engagements, :staff_connections).where(t => {a => v}).map do |c|
         {id: c.id, arm: {fullname: c.arm.fullname, last_name: c.arm.last_name}, date: c.date, report: c.report, agency: {acronym: c.agency.acronym, name: c.agency.name}, engagements: c.engagements.size, type: c.connection_type.via}
       end
     else
@@ -89,7 +89,7 @@ class Api::V1::ConnectionsController < ApplicationController
   def formInfo
     types = ConnectionType.select(:id, :via).map { |t| t.via }
     arms = Staff.where(role: Role.find_by(title: "ARM")).map { |arm|  arm.fullname }
-    agencies = Agency.select(:id, :name).map { |a|  a.name}
+    agencies = Agency.select(:id, :name, :acronym).map { |a|  {name: a.name, acronym: a.acronym}}
     staff = Staff.all.map { |s| {id: s.id, fullname: s.fullname} }
     unresolved_engagements = Engagement.includes(:service, :engagement_type, :connections => [:agency]).where(resolved_on: nil).map { |e| {title: e.title, id: e.id} }
     info = {types: types, arms: arms, agencies: agencies, staff: staff, unresolved_engagements: unresolved_engagements}

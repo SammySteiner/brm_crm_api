@@ -4,6 +4,8 @@ class Agency < ApplicationRecord
 
   has_many :staff
   has_many :connections
+  has_many :agency_services
+  has_many :services, through: :agency_services
   has_one :arm_agency
   has_one :arm, through: :arm_agency
   has_one :cio_agency

@@ -1,0 +1,3002 @@
+﻿Agency,Service
+311 Customer Service Center,APPLICATION AUTHENTICATION AND AUTHORIZATION
+311 Customer Service Center,BUSINESS ANALYSIS
+311 Customer Service Center,BUSINESS APPLICATION DEVELOPMENT 
+311 Customer Service Center,BUSINESS-AS-USUAL (ANALYTICS)
+311 Customer Service Center,HUMAN CENTERED DESIGN
+311 Customer Service Center,MAPPING/LOCATION SERVICES
+311 Customer Service Center,MOBILE DEVELOPMENT 
+311 Customer Service Center,PROJECT MANAGEMENT 
+311 Customer Service Center,PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+311 Customer Service Center,SOLUTION DEVELOPMENT (ANALYTICS)
+311 Customer Service Center,SOLUTION DEVELOPMENT (CRM)
+311 Customer Service Center,WEBSITE DESIGN BUILD AND MAINTENANCE  
+311 Customer Service Center,NYC.GOV
+311 Customer Service Center,WEB SINGLE SIGN-ON
+311 Customer Service Center,IDENTITY MANAGEMENT 
+311 Customer Service Center,NYC.ID/IDENTITY MANAGEMENT 
+311 Customer Service Center,PASSWORD SELF-SERVICE
+311 Customer Service Center,SITE-TO-SITE VPN
+311 Customer Service Center,SOFTWARE SECURITY ASSURANCE
+311 Customer Service Center,SSL REMOTE ACCESS
+311 Customer Service Center,CDWG - IT GOODS AND RELATED SERVICES 
+311 Customer Service Center,CISCO MAINTENANCE CONTRACT
+311 Customer Service Center,CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+311 Customer Service Center,SYSTEMS INTEGRATION SERVICES (SI)
+311 Customer Service Center,DATA EXCHANGE
+311 Customer Service Center,APPLICATION SUPPORT
+311 Customer Service Center,SERVICE DESK
+311 Customer Service Center,DESKTOP SUPPORT
+311 Customer Service Center,PRIMARY DATA CENTER
+311 Customer Service Center,EMAIL
+311 Customer Service Center,PROVISIONING
+311 Customer Service Center,MAINFRAME
+311 Customer Service Center,LYNC 2013
+311 Customer Service Center,SHAREPOINT
+311 Customer Service Center,SITEB SERVICES
+311 Customer Service Center,SITE B (STERLING FOREST) MAINFRAME
+311 Customer Service Center,WORKSHOPS
+311 Customer Service Center,CABLE INFRASTRUCTURE
+311 Customer Service Center,CITYNET
+311 Customer Service Center,NETWORK LAN SUPPORT
+311 Customer Service Center,ADVISORY SERVICES 
+311 Customer Service Center,CLOUD REVIEW
+311 Customer Service Center,USER EXPERIENCE DESIGN
+311 Customer Service Center,ADOBE ETLA
+311 Customer Service Center,MICROSOFT ELA
+311 Customer Service Center,MOBILE DEVICES AND SERVICES
+311 Customer Service Center,FUNCTIONAL TESTING
+"Administrative Trials And Hearings, Office of",BUSINESS ANALYSIS
+"Administrative Trials And Hearings, Office of",BUSINESS APPLICATION DEVELOPMENT 
+"Administrative Trials And Hearings, Office of",BUSINESS-AS-USUAL (ANALYTICS)
+"Administrative Trials And Hearings, Office of",PROJECT MANAGEMENT 
+"Administrative Trials And Hearings, Office of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Administrative Trials And Hearings, Office of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Administrative Trials And Hearings, Office of",NYC.GOV
+"Administrative Trials And Hearings, Office of",IDENTITY MANAGEMENT 
+"Administrative Trials And Hearings, Office of",PASSWORD SELF-SERVICE
+"Administrative Trials And Hearings, Office of",SITE-TO-SITE VPN
+"Administrative Trials And Hearings, Office of",SOFTWARE SECURITY ASSURANCE
+"Administrative Trials And Hearings, Office of",SSL REMOTE ACCESS
+"Administrative Trials And Hearings, Office of",CISCO MAINTENANCE CONTRACT
+"Administrative Trials And Hearings, Office of",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Administrative Trials And Hearings, Office of",SERVICE DESK
+"Administrative Trials And Hearings, Office of",PRIMARY DATA CENTER
+"Administrative Trials And Hearings, Office of",EMAIL
+"Administrative Trials And Hearings, Office of",PROVISIONING
+"Administrative Trials And Hearings, Office of",MAINFRAME
+"Administrative Trials And Hearings, Office of",LYNC 2013
+"Administrative Trials And Hearings, Office of",SECURE FILE TRANSFER 
+"Administrative Trials And Hearings, Office of",SITE B (STERLING FOREST) MAINFRAME
+"Administrative Trials And Hearings, Office of",CABLE INFRASTRUCTURE
+"Administrative Trials And Hearings, Office of",CITYNET
+"Administrative Trials And Hearings, Office of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Administrative Trials And Hearings, Office of",NEW YORK WIRELESS NETWORK (NYCWIN)
+"Administrative Trials And Hearings, Office of",SECURE WIRELESS (LAN) SERVICES
+"Administrative Trials And Hearings, Office of",ADVISORY SERVICES 
+"Administrative Trials And Hearings, Office of",ADOBE ETLA
+"Administrative Trials And Hearings, Office of",VMWARE ELA
+"Administrative Trials And Hearings, Office of",MICROSOFT ELA
+"Administrative Trials And Hearings, Office of",CONTACT CENTER SOLUTIONS
+"Administrative Trials And Hearings, Office of",MOBILE DEVICES AND SERVICES
+"Administrative Trials And Hearings, Office of",TELECOMM CONTRACT
+"Administrative Trials And Hearings, Office of",TWO-WAY RADIO COMMUNICATION
+"Administrative Trials And Hearings, Office of",VoIP
+"Administrative Trials And Hearings, Office of",FUNCTIONAL TESTING
+"Administrative Trials And Hearings, Office of",PERFORMANCE TEST
+"Aging, Department for the",BUSINESS APPLICATION DEVELOPMENT 
+"Aging, Department for the",BUSINESS-AS-USUAL (ANALYTICS)
+"Aging, Department for the",MAPPING/LOCATION SERVICES
+"Aging, Department for the",SOLUTION DEVELOPMENT (ANALYTICS)
+"Aging, Department for the",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Aging, Department for the",NYC.GOV
+"Aging, Department for the",IDENTITY MANAGEMENT 
+"Aging, Department for the",PASSWORD SELF-SERVICE
+"Aging, Department for the",SITE-TO-SITE VPN
+"Aging, Department for the",SOFTWARE SECURITY ASSURANCE
+"Aging, Department for the",SSL REMOTE ACCESS
+"Aging, Department for the",CISCO MAINTENANCE CONTRACT
+"Aging, Department for the",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Aging, Department for the",PRIMARY DATA CENTER
+"Aging, Department for the",EMAIL
+"Aging, Department for the",PROVISIONING
+"Aging, Department for the",SECURE FILE TRANSFER 
+"Aging, Department for the",CABLE INFRASTRUCTURE
+"Aging, Department for the",CITYNET
+"Aging, Department for the",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Aging, Department for the",ADVISORY SERVICES 
+"Aging, Department for the",ADOBE ETLA
+"Aging, Department for the",VMWARE ELA
+"Aging, Department for the",MICROSOFT ELA
+"Aging, Department for the",MOBILE DEVICES AND SERVICES
+"Aging, Department for the",TELECOMM CONTRACT
+"Aging, Department for the",VoIP
+"Aging, Department for the",PERFORMANCE TEST
+"Buildings, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Buildings, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Buildings, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Buildings, Department of",MAPPING/LOCATION SERVICES
+"Buildings, Department of",MOBILE DEVELOPMENT 
+"Buildings, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Buildings, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Buildings, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Buildings, Department of",NYC.GOV
+"Buildings, Department of",AUTOMATIC USER DE-PROVISIONING
+"Buildings, Department of",IDENTITY MANAGEMENT 
+"Buildings, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Buildings, Department of",PASSWORD SELF-SERVICE
+"Buildings, Department of",SITE-TO-SITE VPN
+"Buildings, Department of",SOFTWARE SECURITY ASSURANCE
+"Buildings, Department of",SSL REMOTE ACCESS
+"Buildings, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Buildings, Department of",CISCO MAINTENANCE CONTRACT
+"Buildings, Department of",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Buildings, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Buildings, Department of",QUALITY CONTROL SERVICES (QC)
+"Buildings, Department of",SYSTEMS INTEGRATION SERVICES (SI)
+"Buildings, Department of",DATA EXCHANGE
+"Buildings, Department of",APPLICATION SUPPORT
+"Buildings, Department of",SERVICE DESK
+"Buildings, Department of",PRIMARY DATA CENTER
+"Buildings, Department of",EMAIL
+"Buildings, Department of",PROVISIONING
+"Buildings, Department of",SELF-PROVISIONING
+"Buildings, Department of",MAINFRAME
+"Buildings, Department of",SECURE FILE TRANSFER 
+"Buildings, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Buildings, Department of",WORKSHOPS
+"Buildings, Department of",CABLE INFRASTRUCTURE
+"Buildings, Department of",CITYNET
+"Buildings, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Buildings, Department of",ADVISORY SERVICES 
+"Buildings, Department of",VMWARE ELA
+"Buildings, Department of",MICROSOFT ELA
+"Buildings, Department of",CONTACT CENTER SOLUTIONS
+"Buildings, Department of",MOBILE DEVICES AND SERVICES
+"Buildings, Department of",TELECOMM CONTRACT
+"Buildings, Department of",VoIP
+"Buildings, Department of",PERFORMANCE TEST
+"Buildings, Department of",QUALITY ASSURANCE SUPPORT 
+Business Integrity Commission,APPLICATION AUTHENTICATION AND AUTHORIZATION
+Business Integrity Commission,BUSINESS APPLICATION DEVELOPMENT 
+Business Integrity Commission,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Business Integrity Commission,NYC.GOV
+Business Integrity Commission,WEB SINGLE SIGN-ON
+Business Integrity Commission,NYC.ID/IDENTITY MANAGEMENT 
+Business Integrity Commission,PASSWORD SELF-SERVICE
+Business Integrity Commission,SITE-TO-SITE VPN
+Business Integrity Commission,SOFTWARE SECURITY ASSURANCE
+Business Integrity Commission,SSL REMOTE ACCESS
+Business Integrity Commission,CDWG - IT GOODS AND RELATED SERVICES 
+Business Integrity Commission,CISCO MAINTENANCE CONTRACT
+Business Integrity Commission,INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+Business Integrity Commission,SYSTEMS INTEGRATION SERVICES (SI)
+Business Integrity Commission,PRIMARY DATA CENTER
+Business Integrity Commission,EMAIL
+Business Integrity Commission,MAINFRAME
+Business Integrity Commission,SECURE FILE TRANSFER 
+Business Integrity Commission,"SITE B COLOCATION (NETWORK CONNECTIVITY, AND EMERGENCY SUPPORT DURING BUSINESS HOURS)"
+Business Integrity Commission,SITE B (STERLING FOREST) MAINFRAME
+Business Integrity Commission,CABLE INFRASTRUCTURE
+Business Integrity Commission,CITYNET
+Business Integrity Commission,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Business Integrity Commission,CLOUD REVIEW
+Business Integrity Commission,ADOBE ETLA
+Business Integrity Commission,VMWARE ELA
+Business Integrity Commission,MOBILE DEVICES AND SERVICES
+Business Integrity Commission,VoIP
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",BUSINESS APPLICATION DEVELOPMENT 
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",NYC.GOV
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",WEB SINGLE SIGN-ON
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",SITE-TO-SITE VPN
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",SOFTWARE SECURITY ASSURANCE
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",SSL REMOTE ACCESS
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",SERVICE DESK
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",EMAIL
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",PROVISIONING
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",SELF-PROVISIONING
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",LYNC 2013
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",SECURE FILE TRANSFER 
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",SHAREPOINT
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",WORKSHOPS
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",CABLE INFRASTRUCTURE
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",CITYNET
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",ADVISORY SERVICES 
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",ADOBE ETLA
+"Chief Medical Examiner, Office of the 
+(Institute of Forensic Sciences)",MOBILE DEVICES AND SERVICES
+"Children's Services, Administration for",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Children's Services, Administration for",BUSINESS APPLICATION DEVELOPMENT 
+"Children's Services, Administration for",BUSINESS-AS-USUAL (ANALYTICS)
+"Children's Services, Administration for",MAPPING/LOCATION SERVICES
+"Children's Services, Administration for",PROJECT MANAGEMENT 
+"Children's Services, Administration for",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Children's Services, Administration for",SOLUTION DEVELOPMENT (ANALYTICS)
+"Children's Services, Administration for",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Children's Services, Administration for",NYC.GOV
+"Children's Services, Administration for",WEB SINGLE SIGN-ON
+"Children's Services, Administration for",AUTOMATIC USER DE-PROVISIONING
+"Children's Services, Administration for",IDENTITY MANAGEMENT 
+"Children's Services, Administration for",NYC.ID/IDENTITY MANAGEMENT 
+"Children's Services, Administration for",PASSWORD SELF-SERVICE
+"Children's Services, Administration for",SITE-TO-SITE VPN
+"Children's Services, Administration for",SOFTWARE SECURITY ASSURANCE
+"Children's Services, Administration for",SSL REMOTE ACCESS
+"Children's Services, Administration for",CDWG - IT GOODS AND RELATED SERVICES 
+"Children's Services, Administration for",CISCO MAINTENANCE CONTRACT
+"Children's Services, Administration for",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Children's Services, Administration for",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Children's Services, Administration for",QUALITY CONTROL SERVICES (QC)
+"Children's Services, Administration for",SYSTEMS INTEGRATION SERVICES (SI)
+"Children's Services, Administration for",DATA EXCHANGE
+"Children's Services, Administration for",APPLICATION SUPPORT
+"Children's Services, Administration for",EMAIL
+"Children's Services, Administration for",PROVISIONING
+"Children's Services, Administration for",SELF-PROVISIONING
+"Children's Services, Administration for",MAINFRAME
+"Children's Services, Administration for",LYNC 2013
+"Children's Services, Administration for",SECURE FILE TRANSFER 
+"Children's Services, Administration for",SHAREPOINT
+"Children's Services, Administration for",SITE B (STERLING FOREST) MAINFRAME
+"Children's Services, Administration for",WORKSHOPS
+"Children's Services, Administration for",CABLE INFRASTRUCTURE
+"Children's Services, Administration for",CITYNET
+"Children's Services, Administration for",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Children's Services, Administration for",ADVISORY SERVICES 
+"Children's Services, Administration for",CLOUD REVIEW
+"Children's Services, Administration for",ADOBE ETLA
+"Children's Services, Administration for",VMWARE ELA
+"Children's Services, Administration for",MICROSOFT ELA
+"Children's Services, Administration for",MOBILE DEVICES AND SERVICES
+"Children's Services, Administration for",TELECOMM CONTRACT
+"Children's Services, Administration for",VIDEO CONFERENCING SOLUTIONS
+"Children's Services, Administration for",VoIP
+"Children's Services, Administration for",FUNCTIONAL TESTING
+"Children's Services, Administration for",PERFORMANCE TEST
+"City Planning, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"City Planning, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"City Planning, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"City Planning, Department of",HUMAN CENTERED DESIGN
+"City Planning, Department of",MAPPING/LOCATION SERVICES
+"City Planning, Department of",PROJECT MANAGEMENT 
+"City Planning, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"City Planning, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"City Planning, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"City Planning, Department of",NYC.GOV
+"City Planning, Department of",WEB SINGLE SIGN-ON
+"City Planning, Department of",IDENTITY MANAGEMENT 
+"City Planning, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"City Planning, Department of",PASSWORD SELF-SERVICE
+"City Planning, Department of",SITE-TO-SITE VPN
+"City Planning, Department of",SOFTWARE SECURITY ASSURANCE
+"City Planning, Department of",SSL REMOTE ACCESS
+"City Planning, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"City Planning, Department of",CISCO MAINTENANCE CONTRACT
+"City Planning, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"City Planning, Department of",APPLICATION SUPPORT
+"City Planning, Department of",PRIMARY DATA CENTER
+"City Planning, Department of",EMAIL
+"City Planning, Department of",PROVISIONING
+"City Planning, Department of",SELF-PROVISIONING
+"City Planning, Department of",MAINFRAME
+"City Planning, Department of",LYNC 2013
+"City Planning, Department of",SECURE FILE TRANSFER 
+"City Planning, Department of",SHAREPOINT
+"City Planning, Department of",SITE B (STERLING FOREST) MAINFRAME
+"City Planning, Department of",WORKSHOPS
+"City Planning, Department of",CABLE INFRASTRUCTURE
+"City Planning, Department of",CITYNET
+"City Planning, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"City Planning, Department of",ADVISORY SERVICES 
+"City Planning, Department of",ADOBE ETLA
+"City Planning, Department of",VMWARE ELA
+"City Planning, Department of",MICROSOFT ELA
+"City Planning, Department of",MOBILE DEVICES AND SERVICES
+"City Planning, Department of",VoIP
+"City Planning, Department of",FUNCTIONAL TESTING
+"City Planning, Department of",PERFORMANCE TEST
+"City Planning, Department of",QUALITY ASSURANCE SUPPORT 
+"Citywide Administrative Services, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Citywide Administrative Services, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Citywide Administrative Services, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Citywide Administrative Services, Department of",PROJECT MANAGEMENT 
+"Citywide Administrative Services, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Citywide Administrative Services, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Citywide Administrative Services, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Citywide Administrative Services, Department of",NYC.GOV
+"Citywide Administrative Services, Department of",WEB SINGLE SIGN-ON
+"Citywide Administrative Services, Department of",IDENTITY MANAGEMENT 
+"Citywide Administrative Services, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Citywide Administrative Services, Department of",PASSWORD SELF-SERVICE
+"Citywide Administrative Services, Department of",SITE-TO-SITE VPN
+"Citywide Administrative Services, Department of",SOFTWARE SECURITY ASSURANCE
+"Citywide Administrative Services, Department of",SSL REMOTE ACCESS
+"Citywide Administrative Services, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Citywide Administrative Services, Department of",CISCO MAINTENANCE CONTRACT
+"Citywide Administrative Services, Department of",GEOGRAPHIC INFORMATION TECHNOLOGIES AND SERVICES (GIS)
+"Citywide Administrative Services, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Citywide Administrative Services, Department of",SYSTEMS INTEGRATION SERVICES (SI)
+"Citywide Administrative Services, Department of",APPLICATION SUPPORT
+"Citywide Administrative Services, Department of",SERVICE DESK
+"Citywide Administrative Services, Department of",EMAIL
+"Citywide Administrative Services, Department of",PROVISIONING
+"Citywide Administrative Services, Department of",SELF-PROVISIONING
+"Citywide Administrative Services, Department of",MAINFRAME
+"Citywide Administrative Services, Department of",LYNC 2013
+"Citywide Administrative Services, Department of",SECURE FILE TRANSFER 
+"Citywide Administrative Services, Department of",SHAREPOINT
+"Citywide Administrative Services, Department of",SITEB SERVICES
+"Citywide Administrative Services, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Citywide Administrative Services, Department of",WORKSHOPS
+"Citywide Administrative Services, Department of",CABLE INFRASTRUCTURE
+"Citywide Administrative Services, Department of",CITYNET
+"Citywide Administrative Services, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Citywide Administrative Services, Department of",ADVISORY SERVICES 
+"Citywide Administrative Services, Department of",CLOUD REVIEW
+"Citywide Administrative Services, Department of",USER EXPERIENCE DESIGN
+"Citywide Administrative Services, Department of",ADOBE ETLA
+"Citywide Administrative Services, Department of",VMWARE ELA
+"Citywide Administrative Services, Department of",MICROSOFT ELA
+"Citywide Administrative Services, Department of",MOBILE DEVICES AND SERVICES
+"Citywide Administrative Services, Department of",VoIP
+"Citywide Administrative Services, Department of",PERFORMANCE TEST
+"Consumer Affairs, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Consumer Affairs, Department of",BUSINESS ANALYSIS
+"Consumer Affairs, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Consumer Affairs, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Consumer Affairs, Department of",MAPPING/LOCATION SERVICES
+"Consumer Affairs, Department of",PROJECT MANAGEMENT 
+"Consumer Affairs, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Consumer Affairs, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Consumer Affairs, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Consumer Affairs, Department of",NYC.GOV
+"Consumer Affairs, Department of",WEB SINGLE SIGN-ON
+"Consumer Affairs, Department of",IDENTITY MANAGEMENT 
+"Consumer Affairs, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Consumer Affairs, Department of",PASSWORD SELF-SERVICE
+"Consumer Affairs, Department of",SITE-TO-SITE VPN
+"Consumer Affairs, Department of",SOFTWARE SECURITY ASSURANCE
+"Consumer Affairs, Department of",SSL REMOTE ACCESS
+"Consumer Affairs, Department of",CISCO MAINTENANCE CONTRACT
+"Consumer Affairs, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Consumer Affairs, Department of",SYSTEMS INTEGRATION SERVICES (SI)
+"Consumer Affairs, Department of",DATA EXCHANGE
+"Consumer Affairs, Department of",APPLICATION SUPPORT
+"Consumer Affairs, Department of",PRIMARY DATA CENTER
+"Consumer Affairs, Department of",EMAIL
+"Consumer Affairs, Department of",PROVISIONING
+"Consumer Affairs, Department of",SELF-PROVISIONING
+"Consumer Affairs, Department of",MAINFRAME
+"Consumer Affairs, Department of",LYNC 2013
+"Consumer Affairs, Department of",SECURE FILE TRANSFER 
+"Consumer Affairs, Department of",SHAREPOINT
+"Consumer Affairs, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Consumer Affairs, Department of",CABLE INFRASTRUCTURE
+"Consumer Affairs, Department of",CITYNET
+"Consumer Affairs, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Consumer Affairs, Department of",CLOUD REVIEW
+"Consumer Affairs, Department of",ADOBE ETLA
+"Consumer Affairs, Department of",VMWARE ELA
+"Consumer Affairs, Department of",MICROSOFT ELA
+"Consumer Affairs, Department of",CONTACT CENTER SOLUTIONS
+"Consumer Affairs, Department of",MOBILE DEVICES AND SERVICES
+"Consumer Affairs, Department of",VIDEO CONFERENCING SOLUTIONS
+"Consumer Affairs, Department of",VoIP
+"Consumer Affairs, Department of",FUNCTIONAL TESTING
+"Consumer Affairs, Department of",PERFORMANCE TEST
+"Consumer Affairs, Department of",QUALITY ASSURANCE SUPPORT 
+"Correction, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Correction, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Correction, Department of",PROJECT MANAGEMENT 
+"Correction, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Correction, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Correction, Department of",NYC.GOV
+"Correction, Department of",IDENTITY MANAGEMENT 
+"Correction, Department of",PASSWORD SELF-SERVICE
+"Correction, Department of",SITE-TO-SITE VPN
+"Correction, Department of",SOFTWARE SECURITY ASSURANCE
+"Correction, Department of",SSL REMOTE ACCESS
+"Correction, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Correction, Department of",CISCO MAINTENANCE CONTRACT
+"Correction, Department of",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Correction, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Correction, Department of",QUALITY CONTROL SERVICES (QC)
+"Correction, Department of",SYSTEMS INTEGRATION SERVICES (SI)
+"Correction, Department of",DATA EXCHANGE
+"Correction, Department of",EMAIL
+"Correction, Department of",PROVISIONING
+"Correction, Department of",LYNC 2013
+"Correction, Department of",SECURE FILE TRANSFER 
+"Correction, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Correction, Department of",CABLE INFRASTRUCTURE
+"Correction, Department of",CITYNET
+"Correction, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Correction, Department of",ADVISORY SERVICES 
+"Correction, Department of",CLOUD REVIEW
+"Correction, Department of",ADOBE ETLA
+"Correction, Department of",VMWARE ELA
+"Correction, Department of",MICROSOFT ELA
+"Correction, Department of",MOBILE DEVICES AND SERVICES
+"Correction, Department of",TELECOMM CONTRACT
+"Correction, Department of",FUNCTIONAL TESTING
+"Correction, Department of",PERFORMANCE TEST
+"Cultural Affairs, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Cultural Affairs, Department of",BUSINESS ANALYSIS
+"Cultural Affairs, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Cultural Affairs, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Cultural Affairs, Department of",HUMAN CENTERED DESIGN
+"Cultural Affairs, Department of",PROJECT MANAGEMENT 
+"Cultural Affairs, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Cultural Affairs, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Cultural Affairs, Department of",SOLUTION DEVELOPMENT (CRM)
+"Cultural Affairs, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Cultural Affairs, Department of",NYC.GOV
+"Cultural Affairs, Department of",WEB SINGLE SIGN-ON
+"Cultural Affairs, Department of",IDENTITY MANAGEMENT 
+"Cultural Affairs, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Cultural Affairs, Department of",PASSWORD SELF-SERVICE
+"Cultural Affairs, Department of",SITE-TO-SITE VPN
+"Cultural Affairs, Department of",SOFTWARE SECURITY ASSURANCE
+"Cultural Affairs, Department of",SSL REMOTE ACCESS
+"Cultural Affairs, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Cultural Affairs, Department of",CISCO MAINTENANCE CONTRACT
+"Cultural Affairs, Department of",APPLICATION SUPPORT
+"Cultural Affairs, Department of",PRIMARY DATA CENTER
+"Cultural Affairs, Department of",EMAIL
+"Cultural Affairs, Department of",PROVISIONING
+"Cultural Affairs, Department of",SELF-PROVISIONING
+"Cultural Affairs, Department of",SHAREPOINT
+"Cultural Affairs, Department of",CABLE INFRASTRUCTURE
+"Cultural Affairs, Department of",CITYNET
+"Cultural Affairs, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Cultural Affairs, Department of",ADVISORY SERVICES 
+"Cultural Affairs, Department of",USER EXPERIENCE DESIGN
+"Cultural Affairs, Department of",ADOBE ETLA
+"Cultural Affairs, Department of",MICROSOFT ELA
+"Cultural Affairs, Department of",MOBILE DEVICES AND SERVICES
+"Cultural Affairs, Department of",TELECOMM CONTRACT
+"Cultural Affairs, Department of",FUNCTIONAL TESTING
+"Cultural Affairs, Department of",PERFORMANCE TEST
+"Design And Construction, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Design And Construction, Department of",BUSINESS ANALYSIS
+"Design And Construction, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Design And Construction, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Design And Construction, Department of",MAPPING/LOCATION SERVICES
+"Design And Construction, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Design And Construction, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Design And Construction, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Design And Construction, Department of",NYC.GOV
+"Design And Construction, Department of",IDENTITY MANAGEMENT 
+"Design And Construction, Department of",PASSWORD SELF-SERVICE
+"Design And Construction, Department of",SITE-TO-SITE VPN
+"Design And Construction, Department of",SOFTWARE SECURITY ASSURANCE
+"Design And Construction, Department of",SSL REMOTE ACCESS
+"Design And Construction, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Design And Construction, Department of",CISCO MAINTENANCE CONTRACT
+"Design And Construction, Department of",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Design And Construction, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Design And Construction, Department of",SYSTEMS INTEGRATION SERVICES (SI)
+"Design And Construction, Department of",PRIMARY DATA CENTER
+"Design And Construction, Department of",EMAIL
+"Design And Construction, Department of",PROVISIONING
+"Design And Construction, Department of",SELF-PROVISIONING
+"Design And Construction, Department of",MAINFRAME
+"Design And Construction, Department of",LYNC 2013
+"Design And Construction, Department of",SECURE FILE TRANSFER 
+"Design And Construction, Department of",SHAREPOINT
+"Design And Construction, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Design And Construction, Department of",WORKSHOPS
+"Design And Construction, Department of",CITYNET
+"Design And Construction, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Design And Construction, Department of",SECURE WIRELESS (LAN) SERVICES
+"Design And Construction, Department of",ADVISORY SERVICES 
+"Design And Construction, Department of",CLOUD REVIEW
+"Design And Construction, Department of",ADOBE ETLA
+"Design And Construction, Department of",VMWARE ELA
+"Design And Construction, Department of",MICROSOFT ELA
+"Design And Construction, Department of",MOBILE DEVICES AND SERVICES
+"Design And Construction, Department of",VoIP
+"Design And Construction, Department of",PERFORMANCE TEST
+"Education, Department of",BUSINESS ANALYSIS
+"Education, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Education, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Education, Department of",HUMAN CENTERED DESIGN
+"Education, Department of",MAPPING/LOCATION SERVICES
+"Education, Department of",PROJECT MANAGEMENT 
+"Education, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Education, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Education, Department of",WEB SINGLE SIGN-ON
+"Education, Department of",IDENTITY MANAGEMENT 
+"Education, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Education, Department of",PASSWORD SELF-SERVICE
+"Education, Department of",SITE-TO-SITE VPN
+"Education, Department of",SOFTWARE SECURITY ASSURANCE
+"Education, Department of",SSL REMOTE ACCESS
+"Education, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Education, Department of",CISCO MAINTENANCE CONTRACT
+"Education, Department of",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Education, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Education, Department of",IT SECURITY ( SECURITY CLASS II)
+"Education, Department of",QUALITY CONTROL SERVICES (QC)
+"Education, Department of",SYSTEMS INTEGRATION SERVICES (SI)
+"Education, Department of",APPLICATION SUPPORT
+"Education, Department of",PROVISIONING
+"Education, Department of",MAINFRAME
+"Education, Department of",SECURE FILE TRANSFER 
+"Education, Department of","SITE B COLOCATION (NETWORK CONNECTIVITY, AND EMERGENCY SUPPORT DURING BUSINESS HOURS)"
+"Education, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Education, Department of",WORKSHOPS
+"Education, Department of",CABLE INFRASTRUCTURE
+"Education, Department of",CITYNET
+"Education, Department of",ADVISORY SERVICES 
+"Education, Department of",CLOUD REVIEW
+"Education, Department of",USER EXPERIENCE DESIGN
+"Education, Department of",VMWARE ELA
+"Education, Department of",TELECOMM CONTRACT
+"Education, Department of",FUNCTIONAL TESTING
+"Education, Department of",PERFORMANCE TEST
+"Education, Department of",QUALITY ASSURANCE SUPPORT 
+"Emergency Management, NYC Office of",BUSINESS ANALYSIS
+"Emergency Management, NYC Office of",BUSINESS APPLICATION DEVELOPMENT 
+"Emergency Management, NYC Office of",BUSINESS-AS-USUAL (ANALYTICS)
+"Emergency Management, NYC Office of",HUMAN CENTERED DESIGN
+"Emergency Management, NYC Office of",MAPPING/LOCATION SERVICES
+"Emergency Management, NYC Office of",MOBILE DEVELOPMENT 
+"Emergency Management, NYC Office of",PROJECT MANAGEMENT 
+"Emergency Management, NYC Office of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Emergency Management, NYC Office of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Emergency Management, NYC Office of",NYC.GOV
+"Emergency Management, NYC Office of",SITE-TO-SITE VPN
+"Emergency Management, NYC Office of",SOFTWARE SECURITY ASSURANCE
+"Emergency Management, NYC Office of",SSL REMOTE ACCESS
+"Emergency Management, NYC Office of",CDWG - IT GOODS AND RELATED SERVICES 
+"Emergency Management, NYC Office of",CISCO MAINTENANCE CONTRACT
+"Emergency Management, NYC Office of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Emergency Management, NYC Office of",SYSTEMS INTEGRATION SERVICES (SI)
+"Emergency Management, NYC Office of",APPLICATION SUPPORT
+"Emergency Management, NYC Office of",PROVISIONING
+"Emergency Management, NYC Office of",SHAREPOINT
+"Emergency Management, NYC Office of",SITEB SERVICES
+"Emergency Management, NYC Office of","SITE B COLOCATION (NETWORK CONNECTIVITY, AND EMERGENCY SUPPORT DURING BUSINESS HOURS)"
+"Emergency Management, NYC Office of",WORKSHOPS
+"Emergency Management, NYC Office of",CABLE INFRASTRUCTURE
+"Emergency Management, NYC Office of",CITYNET
+"Emergency Management, NYC Office of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Emergency Management, NYC Office of",ADVISORY SERVICES 
+"Emergency Management, NYC Office of",CLOUD REVIEW
+"Emergency Management, NYC Office of",USER EXPERIENCE DESIGN
+"Emergency Management, NYC Office of",ADOBE ETLA
+"Emergency Management, NYC Office of",MICROSOFT ELA
+"Emergency Management, NYC Office of",MOBILE DEVICES AND SERVICES
+"Emergency Management, NYC Office of",VIDEO CONFERENCING SOLUTIONS
+"Emergency Management, NYC Office of",FUNCTIONAL TESTING
+"Emergency Management, NYC Office of",PERFORMANCE TEST
+"Environmental Protection, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Environmental Protection, Department of",BUSINESS ANALYSIS
+"Environmental Protection, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Environmental Protection, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Environmental Protection, Department of",MAPPING/LOCATION SERVICES
+"Environmental Protection, Department of",PROJECT MANAGEMENT 
+"Environmental Protection, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Environmental Protection, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Environmental Protection, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Environmental Protection, Department of",NYC.GOV
+"Environmental Protection, Department of",WEB SINGLE SIGN-ON
+"Environmental Protection, Department of",IDENTITY MANAGEMENT 
+"Environmental Protection, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Environmental Protection, Department of",PASSWORD SELF-SERVICE
+"Environmental Protection, Department of",SITE-TO-SITE VPN
+"Environmental Protection, Department of",SOFTWARE SECURITY ASSURANCE
+"Environmental Protection, Department of",SSL REMOTE ACCESS
+"Environmental Protection, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Environmental Protection, Department of",CISCO MAINTENANCE CONTRACT
+"Environmental Protection, Department of",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Environmental Protection, Department of",GEOGRAPHIC INFORMATION TECHNOLOGIES AND SERVICES (GIS)
+"Environmental Protection, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Environmental Protection, Department of",APPLICATION SUPPORT
+"Environmental Protection, Department of",PROVISIONING
+"Environmental Protection, Department of",MAINFRAME
+"Environmental Protection, Department of",SECURE FILE TRANSFER 
+"Environmental Protection, Department of","SITE B COLOCATION (NETWORK CONNECTIVITY, AND EMERGENCY SUPPORT DURING BUSINESS HOURS)"
+"Environmental Protection, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Environmental Protection, Department of",WORKSHOPS
+"Environmental Protection, Department of",CABLE INFRASTRUCTURE
+"Environmental Protection, Department of",CITYNET
+"Environmental Protection, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Environmental Protection, Department of",ADVISORY SERVICES 
+"Environmental Protection, Department of",ADOBE ETLA
+"Environmental Protection, Department of",VMWARE ELA
+"Environmental Protection, Department of",MICROSOFT ELA
+"Environmental Protection, Department of",MOBILE DEVICES AND SERVICES
+"Environmental Protection, Department of",TELECOMM CONTRACT
+"Environmental Protection, Department of",VIDEO CONFERENCING SOLUTIONS
+"Environmental Protection, Department of",FUNCTIONAL TESTING
+"Environmental Protection, Department of",PERFORMANCE TEST
+"Environmental Protection, Department of",QUALITY ASSURANCE SUPPORT 
+"Finance, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Finance, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Finance, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Finance, Department of",MAPPING/LOCATION SERVICES
+"Finance, Department of",PROJECT MANAGEMENT 
+"Finance, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Finance, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Finance, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Finance, Department of",NYC.GOV
+"Finance, Department of",WEB SINGLE SIGN-ON
+"Finance, Department of",AUTOMATIC USER DE-PROVISIONING
+"Finance, Department of",IDENTITY MANAGEMENT 
+"Finance, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Finance, Department of",PASSWORD SELF-SERVICE
+"Finance, Department of",SITE-TO-SITE VPN
+"Finance, Department of",SOFTWARE SECURITY ASSURANCE
+"Finance, Department of",SSL REMOTE ACCESS
+"Finance, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Finance, Department of",CISCO MAINTENANCE CONTRACT
+"Finance, Department of",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Finance, Department of",QUALITY CONTROL SERVICES (QC)
+"Finance, Department of",SYSTEMS INTEGRATION SERVICES (SI)
+"Finance, Department of",DATA EXCHANGE
+"Finance, Department of",APPLICATION SUPPORT
+"Finance, Department of",SERVICE DESK
+"Finance, Department of",PRIMARY DATA CENTER
+"Finance, Department of",EMAIL
+"Finance, Department of",PROVISIONING
+"Finance, Department of",SELF-PROVISIONING
+"Finance, Department of",MAINFRAME
+"Finance, Department of",LYNC 2013
+"Finance, Department of",SECURE FILE TRANSFER 
+"Finance, Department of",SHAREPOINT
+"Finance, Department of",SITEB SERVICES
+"Finance, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Finance, Department of",WORKSHOPS
+"Finance, Department of",CABLE INFRASTRUCTURE
+"Finance, Department of",CITYNET
+"Finance, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Finance, Department of",SECURE WIRELESS (LAN) SERVICES
+"Finance, Department of",ADVISORY SERVICES 
+"Finance, Department of",CLOUD REVIEW
+"Finance, Department of",ADOBE ETLA
+"Finance, Department of",VMWARE ELA
+"Finance, Department of",MICROSOFT ELA
+"Finance, Department of",CONTACT CENTER SOLUTIONS
+"Finance, Department of",MOBILE DEVICES AND SERVICES
+"Finance, Department of",TELECOMM CONTRACT
+"Finance, Department of",VoIP
+"Finance, Department of",FUNCTIONAL TESTING
+"Finance, Department of",PERFORMANCE TEST
+"Finance, Department of",QUALITY ASSURANCE SUPPORT 
+Fire Department of NY,APPLICATION AUTHENTICATION AND AUTHORIZATION
+Fire Department of NY,BUSINESS ANALYSIS
+Fire Department of NY,BUSINESS APPLICATION DEVELOPMENT 
+Fire Department of NY,BUSINESS-AS-USUAL (ANALYTICS)
+Fire Department of NY,MAPPING/LOCATION SERVICES
+Fire Department of NY,MOBILE DEVELOPMENT 
+Fire Department of NY,PROJECT MANAGEMENT 
+Fire Department of NY,PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+Fire Department of NY,SOLUTION DEVELOPMENT (ANALYTICS)
+Fire Department of NY,WEB SINGLE SIGN-ON
+Fire Department of NY,IDENTITY MANAGEMENT 
+Fire Department of NY,NYC.ID/IDENTITY MANAGEMENT 
+Fire Department of NY,PASSWORD SELF-SERVICE
+Fire Department of NY,SITE-TO-SITE VPN
+Fire Department of NY,SOFTWARE SECURITY ASSURANCE
+Fire Department of NY,SSL REMOTE ACCESS
+Fire Department of NY,CDWG - IT GOODS AND RELATED SERVICES 
+Fire Department of NY,CISCO MAINTENANCE CONTRACT
+Fire Department of NY,CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+Fire Department of NY,INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+Fire Department of NY,IT SECURITY ( SECURITY CLASS II)
+Fire Department of NY,QUALITY CONTROL SERVICES (QC)
+Fire Department of NY,SYSTEMS INTEGRATION SERVICES (SI)
+Fire Department of NY,DATA EXCHANGE
+Fire Department of NY,EMAIL
+Fire Department of NY,PROVISIONING
+Fire Department of NY,SELF-PROVISIONING
+Fire Department of NY,MAINFRAME
+Fire Department of NY,LYNC 2013
+Fire Department of NY,SECURE FILE TRANSFER 
+Fire Department of NY,SHAREPOINT
+Fire Department of NY,"SITE B COLOCATION (NETWORK CONNECTIVITY, AND EMERGENCY SUPPORT DURING BUSINESS HOURS)"
+Fire Department of NY,SITE B (STERLING FOREST) MAINFRAME
+Fire Department of NY,WORKSHOPS
+Fire Department of NY,CITYNET
+Fire Department of NY,CLOUD REVIEW
+Fire Department of NY,ADOBE ETLA
+Fire Department of NY,VMWARE ELA
+Fire Department of NY,MICROSOFT ELA
+Fire Department of NY,MOBILE DEVICES AND SERVICES
+Fire Department of NY,TELECOMM CONTRACT
+Fire Department of NY,PERFORMANCE TEST
+Fire Department of NY,QUALITY ASSURANCE SUPPORT 
+"Health & Mental Hygiene, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Health & Mental Hygiene, Department of",BUSINESS ANALYSIS
+"Health & Mental Hygiene, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Health & Mental Hygiene, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Health & Mental Hygiene, Department of",MAPPING/LOCATION SERVICES
+"Health & Mental Hygiene, Department of",MOBILE DEVELOPMENT 
+"Health & Mental Hygiene, Department of",PROJECT MANAGEMENT 
+"Health & Mental Hygiene, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Health & Mental Hygiene, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Health & Mental Hygiene, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Health & Mental Hygiene, Department of",NYC.GOV
+"Health & Mental Hygiene, Department of",WEB SINGLE SIGN-ON
+"Health & Mental Hygiene, Department of",IDENTITY MANAGEMENT 
+"Health & Mental Hygiene, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Health & Mental Hygiene, Department of",PASSWORD SELF-SERVICE
+"Health & Mental Hygiene, Department of",SITE-TO-SITE VPN
+"Health & Mental Hygiene, Department of",SOFTWARE SECURITY ASSURANCE
+"Health & Mental Hygiene, Department of",SSL REMOTE ACCESS
+"Health & Mental Hygiene, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Health & Mental Hygiene, Department of",CISCO MAINTENANCE CONTRACT
+"Health & Mental Hygiene, Department of",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Health & Mental Hygiene, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Health & Mental Hygiene, Department of",QUALITY CONTROL SERVICES (QC)
+"Health & Mental Hygiene, Department of",SYSTEMS INTEGRATION SERVICES (SI)
+"Health & Mental Hygiene, Department of",DATA EXCHANGE
+"Health & Mental Hygiene, Department of",APPLICATION SUPPORT
+"Health & Mental Hygiene, Department of",PROVISIONING
+"Health & Mental Hygiene, Department of",SELF-PROVISIONING
+"Health & Mental Hygiene, Department of",MAINFRAME
+"Health & Mental Hygiene, Department of",SECURE FILE TRANSFER 
+"Health & Mental Hygiene, Department of",SHAREPOINT
+"Health & Mental Hygiene, Department of","SITE B COLOCATION (NETWORK CONNECTIVITY, AND EMERGENCY SUPPORT DURING BUSINESS HOURS)"
+"Health & Mental Hygiene, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Health & Mental Hygiene, Department of",WORKSHOPS
+"Health & Mental Hygiene, Department of",CABLE INFRASTRUCTURE
+"Health & Mental Hygiene, Department of",CITYNET
+"Health & Mental Hygiene, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Health & Mental Hygiene, Department of",ADVISORY SERVICES 
+"Health & Mental Hygiene, Department of",CLOUD REVIEW
+"Health & Mental Hygiene, Department of",USER EXPERIENCE DESIGN
+"Health & Mental Hygiene, Department of",ADOBE ETLA
+"Health & Mental Hygiene, Department of",VMWARE ELA
+"Health & Mental Hygiene, Department of",MICROSOFT ELA
+"Health & Mental Hygiene, Department of",MOBILE DEVICES AND SERVICES
+"Health & Mental Hygiene, Department of",TELECOMM CONTRACT
+"Health & Mental Hygiene, Department of",VIDEO CONFERENCING SOLUTIONS
+"Health & Mental Hygiene, Department of",VoIP
+"Health & Mental Hygiene, Department of",FUNCTIONAL TESTING
+"Health & Mental Hygiene, Department of",PERFORMANCE TEST
+Health + Hospitals,APPLICATION AUTHENTICATION AND AUTHORIZATION
+Health + Hospitals,BUSINESS-AS-USUAL (ANALYTICS)
+Health + Hospitals,PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+Health + Hospitals,SOLUTION DEVELOPMENT (ANALYTICS)
+Health + Hospitals,WEB SINGLE SIGN-ON
+Health + Hospitals,IDENTITY MANAGEMENT 
+Health + Hospitals,NYC.ID/IDENTITY MANAGEMENT 
+Health + Hospitals,PASSWORD SELF-SERVICE
+Health + Hospitals,SITE-TO-SITE VPN
+Health + Hospitals,SOFTWARE SECURITY ASSURANCE
+Health + Hospitals,SSL REMOTE ACCESS
+Health + Hospitals,CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+Health + Hospitals,SHAREPOINT
+Health + Hospitals,SITE B (STERLING FOREST) MAINFRAME
+Health + Hospitals,CITYNET
+Health + Hospitals,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Health + Hospitals,ADOBE ETLA
+Health + Hospitals,VMWARE ELA
+Health + Hospitals,TELECOMM CONTRACT
+"Housing Authority, NYC",BUSINESS APPLICATION DEVELOPMENT 
+"Housing Authority, NYC",BUSINESS-AS-USUAL (ANALYTICS)
+"Housing Authority, NYC",MAPPING/LOCATION SERVICES
+"Housing Authority, NYC",SOLUTION DEVELOPMENT (ANALYTICS)
+"Housing Authority, NYC",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Housing Authority, NYC",NYC.GOV
+"Housing Authority, NYC",SITE-TO-SITE VPN
+"Housing Authority, NYC",SOFTWARE SECURITY ASSURANCE
+"Housing Authority, NYC",SSL REMOTE ACCESS
+"Housing Authority, NYC",APPLICATION SUPPORT
+"Housing Authority, NYC",PROVISIONING
+"Housing Authority, NYC",MAINFRAME
+"Housing Authority, NYC",SECURE FILE TRANSFER 
+"Housing Authority, NYC",SITE B (STERLING FOREST) MAINFRAME
+"Housing Authority, NYC",WORKSHOPS
+"Housing Authority, NYC",CABLE INFRASTRUCTURE
+"Housing Authority, NYC",CITYNET
+"Housing Authority, NYC",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Housing Authority, NYC",ADOBE ETLA
+"Housing Authority, NYC",VMWARE ELA
+"Housing Authority, NYC",MOBILE DEVICES AND SERVICES
+Housing Preservation & Development,APPLICATION AUTHENTICATION AND AUTHORIZATION
+Housing Preservation & Development,BUSINESS ANALYSIS
+Housing Preservation & Development,BUSINESS APPLICATION DEVELOPMENT 
+Housing Preservation & Development,BUSINESS-AS-USUAL (ANALYTICS)
+Housing Preservation & Development,MAPPING/LOCATION SERVICES
+Housing Preservation & Development,PROJECT MANAGEMENT 
+Housing Preservation & Development,PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+Housing Preservation & Development,SOLUTION DEVELOPMENT (ANALYTICS)
+Housing Preservation & Development,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Housing Preservation & Development,NYC.GOV
+Housing Preservation & Development,WEB SINGLE SIGN-ON
+Housing Preservation & Development,IDENTITY MANAGEMENT 
+Housing Preservation & Development,NYC.ID/IDENTITY MANAGEMENT 
+Housing Preservation & Development,PASSWORD SELF-SERVICE
+Housing Preservation & Development,SITE-TO-SITE VPN
+Housing Preservation & Development,SOFTWARE SECURITY ASSURANCE
+Housing Preservation & Development,SSL REMOTE ACCESS
+Housing Preservation & Development,CISCO MAINTENANCE CONTRACT
+Housing Preservation & Development,CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+Housing Preservation & Development,INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+Housing Preservation & Development,SYSTEMS INTEGRATION SERVICES (SI)
+Housing Preservation & Development,DATA EXCHANGE
+Housing Preservation & Development,APPLICATION SUPPORT
+Housing Preservation & Development,SERVICE DESK
+Housing Preservation & Development,PRIMARY DATA CENTER
+Housing Preservation & Development,EMAIL
+Housing Preservation & Development,PROVISIONING
+Housing Preservation & Development,SELF-PROVISIONING
+Housing Preservation & Development,MAINFRAME
+Housing Preservation & Development,LYNC 2013
+Housing Preservation & Development,SECURE FILE TRANSFER 
+Housing Preservation & Development,SHAREPOINT
+Housing Preservation & Development,SITE B (STERLING FOREST) MAINFRAME
+Housing Preservation & Development,WORKSHOPS
+Housing Preservation & Development,CABLE INFRASTRUCTURE
+Housing Preservation & Development,CITYNET
+Housing Preservation & Development,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Housing Preservation & Development,SECURE WIRELESS (LAN) SERVICES
+Housing Preservation & Development,ADVISORY SERVICES 
+Housing Preservation & Development,CLOUD REVIEW
+Housing Preservation & Development,ADOBE ETLA
+Housing Preservation & Development,VMWARE ELA
+Housing Preservation & Development,MICROSOFT ELA
+Housing Preservation & Development,MOBILE DEVICES AND SERVICES
+Housing Preservation & Development,TELECOMM CONTRACT
+Housing Preservation & Development,PERFORMANCE TEST
+"Human Rights, NYC Commission On",BUSINESS APPLICATION DEVELOPMENT 
+"Human Rights, NYC Commission On",PROJECT MANAGEMENT 
+"Human Rights, NYC Commission On",SOLUTION DEVELOPMENT (CRM)
+"Human Rights, NYC Commission On",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Human Rights, NYC Commission On",NYC.GOV
+"Human Rights, NYC Commission On",SITE-TO-SITE VPN
+"Human Rights, NYC Commission On",SOFTWARE SECURITY ASSURANCE
+"Human Rights, NYC Commission On",SSL REMOTE ACCESS
+"Human Rights, NYC Commission On",CISCO MAINTENANCE CONTRACT
+"Human Rights, NYC Commission On",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Human Rights, NYC Commission On",SERVICE DESK
+"Human Rights, NYC Commission On",PRIMARY DATA CENTER
+"Human Rights, NYC Commission On",EMAIL
+"Human Rights, NYC Commission On",PROVISIONING
+"Human Rights, NYC Commission On",MAINFRAME
+"Human Rights, NYC Commission On",SECURE FILE TRANSFER 
+"Human Rights, NYC Commission On",SHAREPOINT
+"Human Rights, NYC Commission On",SITEB SERVICES
+"Human Rights, NYC Commission On",SITE B (STERLING FOREST) MAINFRAME
+"Human Rights, NYC Commission On",CABLE INFRASTRUCTURE
+"Human Rights, NYC Commission On",CITYNET
+"Human Rights, NYC Commission On",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Human Rights, NYC Commission On",SECURE WIRELESS (LAN) SERVICES
+"Human Rights, NYC Commission On",ADVISORY SERVICES 
+"Human Rights, NYC Commission On",CLOUD REVIEW
+"Human Rights, NYC Commission On",ADOBE ETLA
+"Human Rights, NYC Commission On",MOBILE DEVICES AND SERVICES
+"Human Rights, NYC Commission On",VoIP
+"Human Rights, NYC Commission On",FUNCTIONAL TESTING
+"Information Technology And Telecommunications, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Information Technology And Telecommunications, Department of",BUSINESS ANALYSIS
+"Information Technology And Telecommunications, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Information Technology And Telecommunications, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Information Technology And Telecommunications, Department of",HUMAN CENTERED DESIGN
+"Information Technology And Telecommunications, Department of",MAPPING/LOCATION SERVICES
+"Information Technology And Telecommunications, Department of",MOBILE DEVELOPMENT 
+"Information Technology And Telecommunications, Department of",PROJECT MANAGEMENT 
+"Information Technology And Telecommunications, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Information Technology And Telecommunications, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Information Technology And Telecommunications, Department of",SOLUTION DEVELOPMENT (CRM)
+"Information Technology And Telecommunications, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Information Technology And Telecommunications, Department of",NYC.GOV
+"Information Technology And Telecommunications, Department of",WEB SINGLE SIGN-ON
+"Information Technology And Telecommunications, Department of",IDENTITY MANAGEMENT 
+"Information Technology And Telecommunications, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Information Technology And Telecommunications, Department of",PASSWORD SELF-SERVICE
+"Information Technology And Telecommunications, Department of",SITE-TO-SITE VPN
+"Information Technology And Telecommunications, Department of",SOFTWARE SECURITY ASSURANCE
+"Information Technology And Telecommunications, Department of",SSL REMOTE ACCESS
+"Information Technology And Telecommunications, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Information Technology And Telecommunications, Department of",CISCO MAINTENANCE CONTRACT
+"Information Technology And Telecommunications, Department of",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Information Technology And Telecommunications, Department of",GEOGRAPHIC INFORMATION TECHNOLOGIES AND SERVICES (GIS)
+"Information Technology And Telecommunications, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Information Technology And Telecommunications, Department of",IT SECURITY ( SECURITY CLASS II)
+"Information Technology And Telecommunications, Department of",QUALITY CONTROL SERVICES (QC)
+"Information Technology And Telecommunications, Department of",SYSTEMS INTEGRATION SERVICES (SI)
+"Information Technology And Telecommunications, Department of",DATA EXCHANGE
+"Information Technology And Telecommunications, Department of",APPLICATION SUPPORT
+"Information Technology And Telecommunications, Department of",SERVICE DESK
+"Information Technology And Telecommunications, Department of",DESKTOP SUPPORT
+"Information Technology And Telecommunications, Department of",EMAIL
+"Information Technology And Telecommunications, Department of",PROVISIONING
+"Information Technology And Telecommunications, Department of",SELF-PROVISIONING
+"Information Technology And Telecommunications, Department of",MAINFRAME
+"Information Technology And Telecommunications, Department of",LYNC 2013
+"Information Technology And Telecommunications, Department of",SECURE FILE TRANSFER 
+"Information Technology And Telecommunications, Department of",SHAREPOINT
+"Information Technology And Telecommunications, Department of",SITEB SERVICES
+"Information Technology And Telecommunications, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Information Technology And Telecommunications, Department of",WP ENGINE PLATFORM
+"Information Technology And Telecommunications, Department of",WORKSHOPS
+"Information Technology And Telecommunications, Department of",CABLE INFRASTRUCTURE
+"Information Technology And Telecommunications, Department of",CITYNET
+"Information Technology And Telecommunications, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Information Technology And Telecommunications, Department of",NETWORK LAN SUPPORT
+"Information Technology And Telecommunications, Department of",SECURE WIRELESS (LAN) SERVICES
+"Information Technology And Telecommunications, Department of",ADVISORY SERVICES 
+"Information Technology And Telecommunications, Department of",CLOUD REVIEW
+"Information Technology And Telecommunications, Department of",USER EXPERIENCE DESIGN
+"Information Technology And Telecommunications, Department of",ADOBE ETLA
+"Information Technology And Telecommunications, Department of",VMWARE ELA
+"Information Technology And Telecommunications, Department of",MICROSOFT ELA
+"Information Technology And Telecommunications, Department of",CONTACT CENTER SOLUTIONS
+"Information Technology And Telecommunications, Department of",MOBILE DEVICES AND SERVICES
+"Information Technology And Telecommunications, Department of",TELECOMM CONTRACT
+"Information Technology And Telecommunications, Department of",VIDEO CONFERENCING SOLUTIONS
+"Information Technology And Telecommunications, Department of",VoIP
+"Information Technology And Telecommunications, Department of",FUNCTIONAL TESTING
+"Information Technology And Telecommunications, Department of",PERFORMANCE TEST
+"Investigation, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Investigation, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Investigation, Department of",PROJECT MANAGEMENT 
+"Investigation, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Investigation, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Investigation, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Investigation, Department of",NYC.GOV
+"Investigation, Department of",SITE-TO-SITE VPN
+"Investigation, Department of",SOFTWARE SECURITY ASSURANCE
+"Investigation, Department of",SSL REMOTE ACCESS
+"Investigation, Department of",CISCO MAINTENANCE CONTRACT
+"Investigation, Department of",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Investigation, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Investigation, Department of",DATA EXCHANGE
+"Investigation, Department of",PROVISIONING
+"Investigation, Department of",MAINFRAME
+"Investigation, Department of",SECURE FILE TRANSFER 
+"Investigation, Department of","SITE B COLOCATION (NETWORK CONNECTIVITY, AND EMERGENCY SUPPORT DURING BUSINESS HOURS)"
+"Investigation, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Investigation, Department of",CABLE INFRASTRUCTURE
+"Investigation, Department of",CITYNET
+"Investigation, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Investigation, Department of",CLOUD REVIEW
+"Investigation, Department of",ADOBE ETLA
+"Investigation, Department of",VMWARE ELA
+"Investigation, Department of",MICROSOFT ELA
+"Investigation, Department of",MOBILE DEVICES AND SERVICES
+"Investigation, Department of",TELECOMM CONTRACT
+"Investigation, Department of",VoIP
+"Investigation, Department of",FUNCTIONAL TESTING
+"Labor Relations, NYC Office of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Labor Relations, NYC Office of",BUSINESS APPLICATION DEVELOPMENT 
+"Labor Relations, NYC Office of",PROJECT MANAGEMENT 
+"Labor Relations, NYC Office of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Labor Relations, NYC Office of",NYC.GOV
+"Labor Relations, NYC Office of",IDENTITY MANAGEMENT 
+"Labor Relations, NYC Office of",NYC.ID/IDENTITY MANAGEMENT 
+"Labor Relations, NYC Office of",PASSWORD SELF-SERVICE
+"Labor Relations, NYC Office of",SITE-TO-SITE VPN
+"Labor Relations, NYC Office of",SOFTWARE SECURITY ASSURANCE
+"Labor Relations, NYC Office of",SSL REMOTE ACCESS
+"Labor Relations, NYC Office of",CISCO MAINTENANCE CONTRACT
+"Labor Relations, NYC Office of",SERVICE DESK
+"Labor Relations, NYC Office of",PRIMARY DATA CENTER
+"Labor Relations, NYC Office of",EMAIL
+"Labor Relations, NYC Office of",PROVISIONING
+"Labor Relations, NYC Office of",SELF-PROVISIONING
+"Labor Relations, NYC Office of",MAINFRAME
+"Labor Relations, NYC Office of",SECURE FILE TRANSFER 
+"Labor Relations, NYC Office of",SITE B (STERLING FOREST) MAINFRAME
+"Labor Relations, NYC Office of",CABLE INFRASTRUCTURE
+"Labor Relations, NYC Office of",CITYNET
+"Labor Relations, NYC Office of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Labor Relations, NYC Office of",ADOBE ETLA
+"Labor Relations, NYC Office of",VMWARE ELA
+"Labor Relations, NYC Office of",MICROSOFT ELA
+"Labor Relations, NYC Office of",MOBILE DEVICES AND SERVICES
+"Labor Relations, NYC Office of",VoIP
+Landmarks Preservation Commission,BUSINESS APPLICATION DEVELOPMENT 
+Landmarks Preservation Commission,MAPPING/LOCATION SERVICES
+Landmarks Preservation Commission,PROJECT MANAGEMENT 
+Landmarks Preservation Commission,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Landmarks Preservation Commission,NYC.GOV
+Landmarks Preservation Commission,IDENTITY MANAGEMENT 
+Landmarks Preservation Commission,PASSWORD SELF-SERVICE
+Landmarks Preservation Commission,SITE-TO-SITE VPN
+Landmarks Preservation Commission,SOFTWARE SECURITY ASSURANCE
+Landmarks Preservation Commission,SSL REMOTE ACCESS
+Landmarks Preservation Commission,CISCO MAINTENANCE CONTRACT
+Landmarks Preservation Commission,SERVICE DESK
+Landmarks Preservation Commission,DESKTOP SUPPORT
+Landmarks Preservation Commission,PRIMARY DATA CENTER
+Landmarks Preservation Commission,EMAIL
+Landmarks Preservation Commission,PROVISIONING
+Landmarks Preservation Commission,LYNC 2013
+Landmarks Preservation Commission,SECURE FILE TRANSFER 
+Landmarks Preservation Commission,CABLE INFRASTRUCTURE
+Landmarks Preservation Commission,CITYNET
+Landmarks Preservation Commission,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Landmarks Preservation Commission,NETWORK LAN SUPPORT
+Landmarks Preservation Commission,USER EXPERIENCE DESIGN
+Landmarks Preservation Commission,MOBILE DEVICES AND SERVICES
+Landmarks Preservation Commission,FUNCTIONAL TESTING
+Landmarks Preservation Commission,PERFORMANCE TEST
+"Law Department, Office of the Corporation Counsel",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Law Department, Office of the Corporation Counsel",BUSINESS APPLICATION DEVELOPMENT 
+"Law Department, Office of the Corporation Counsel",BUSINESS-AS-USUAL (ANALYTICS)
+"Law Department, Office of the Corporation Counsel",MOBILE DEVELOPMENT 
+"Law Department, Office of the Corporation Counsel",PROJECT MANAGEMENT 
+"Law Department, Office of the Corporation Counsel",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Law Department, Office of the Corporation Counsel",SOLUTION DEVELOPMENT (ANALYTICS)
+"Law Department, Office of the Corporation Counsel",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Law Department, Office of the Corporation Counsel",NYC.GOV
+"Law Department, Office of the Corporation Counsel",WEB SINGLE SIGN-ON
+"Law Department, Office of the Corporation Counsel",IDENTITY MANAGEMENT 
+"Law Department, Office of the Corporation Counsel",NYC.ID/IDENTITY MANAGEMENT 
+"Law Department, Office of the Corporation Counsel",PASSWORD SELF-SERVICE
+"Law Department, Office of the Corporation Counsel",SITE-TO-SITE VPN
+"Law Department, Office of the Corporation Counsel",SOFTWARE SECURITY ASSURANCE
+"Law Department, Office of the Corporation Counsel",SSL REMOTE ACCESS
+"Law Department, Office of the Corporation Counsel",CDWG - IT GOODS AND RELATED SERVICES 
+"Law Department, Office of the Corporation Counsel",CISCO MAINTENANCE CONTRACT
+"Law Department, Office of the Corporation Counsel",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Law Department, Office of the Corporation Counsel",IT SECURITY ( SECURITY CLASS II)
+"Law Department, Office of the Corporation Counsel",DATA EXCHANGE
+"Law Department, Office of the Corporation Counsel",APPLICATION SUPPORT
+"Law Department, Office of the Corporation Counsel",PRIMARY DATA CENTER
+"Law Department, Office of the Corporation Counsel",EMAIL
+"Law Department, Office of the Corporation Counsel",PROVISIONING
+"Law Department, Office of the Corporation Counsel",SELF-PROVISIONING
+"Law Department, Office of the Corporation Counsel",MAINFRAME
+"Law Department, Office of the Corporation Counsel",LYNC 2013
+"Law Department, Office of the Corporation Counsel",SECURE FILE TRANSFER 
+"Law Department, Office of the Corporation Counsel",SITE B (STERLING FOREST) MAINFRAME
+"Law Department, Office of the Corporation Counsel",CABLE INFRASTRUCTURE
+"Law Department, Office of the Corporation Counsel",CITYNET
+"Law Department, Office of the Corporation Counsel",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Law Department, Office of the Corporation Counsel",ADVISORY SERVICES 
+"Law Department, Office of the Corporation Counsel",CLOUD REVIEW
+"Law Department, Office of the Corporation Counsel",USER EXPERIENCE DESIGN
+"Law Department, Office of the Corporation Counsel",ADOBE ETLA
+"Law Department, Office of the Corporation Counsel",MICROSOFT ELA
+"Law Department, Office of the Corporation Counsel",MOBILE DEVICES AND SERVICES
+"Law Department, Office of the Corporation Counsel",TELECOMM CONTRACT
+"Law Department, Office of the Corporation Counsel",VoIP
+"Law Department, Office of the Corporation Counsel",PERFORMANCE TEST
+"Administrative Justice Coordinator, Office of",BUSINESS APPLICATION DEVELOPMENT 
+"Administrative Justice Coordinator, Office of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Administrative Justice Coordinator, Office of",NYC.GOV
+"Administrative Justice Coordinator, Office of",SITE-TO-SITE VPN
+"Administrative Justice Coordinator, Office of",SOFTWARE SECURITY ASSURANCE
+"Administrative Justice Coordinator, Office of",SSL REMOTE ACCESS
+"Administrative Justice Coordinator, Office of",SECURE FILE TRANSFER 
+"Administrative Justice Coordinator, Office of",ADVISORY SERVICES 
+"Administrative Justice Coordinator, Office of",VMWARE ELA
+"Administrative Justice Coordinator, Office of",MOBILE DEVICES AND SERVICES
+"Mayor, Office of the",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Mayor, Office of the",BUSINESS ANALYSIS
+"Mayor, Office of the",BUSINESS APPLICATION DEVELOPMENT 
+"Mayor, Office of the",BUSINESS-AS-USUAL (ANALYTICS)
+"Mayor, Office of the",MOBILE DEVELOPMENT 
+"Mayor, Office of the",PROJECT MANAGEMENT 
+"Mayor, Office of the",SOLUTION DEVELOPMENT (ANALYTICS)
+"Mayor, Office of the",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Mayor, Office of the",NYC.GOV
+"Mayor, Office of the",IDENTITY MANAGEMENT 
+"Mayor, Office of the",NYC.ID/IDENTITY MANAGEMENT 
+"Mayor, Office of the",PASSWORD SELF-SERVICE
+"Mayor, Office of the",SITE-TO-SITE VPN
+"Mayor, Office of the",SOFTWARE SECURITY ASSURANCE
+"Mayor, Office of the",SSL REMOTE ACCESS
+"Mayor, Office of the",CDWG - IT GOODS AND RELATED SERVICES 
+"Mayor, Office of the",CISCO MAINTENANCE CONTRACT
+"Mayor, Office of the",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Mayor, Office of the",SYSTEMS INTEGRATION SERVICES (SI)
+"Mayor, Office of the",APPLICATION SUPPORT
+"Mayor, Office of the",PRIMARY DATA CENTER
+"Mayor, Office of the",PROVISIONING
+"Mayor, Office of the",SELF-PROVISIONING
+"Mayor, Office of the",MAINFRAME
+"Mayor, Office of the",SITE B (STERLING FOREST) MAINFRAME
+"Mayor, Office of the",WP ENGINE PLATFORM
+"Mayor, Office of the",WORKSHOPS
+"Mayor, Office of the",CABLE INFRASTRUCTURE
+"Mayor, Office of the",CITYNET
+"Mayor, Office of the",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Mayor, Office of the",NEW YORK WIRELESS NETWORK (NYCWIN)
+"Mayor, Office of the",ADVISORY SERVICES 
+"Mayor, Office of the",CLOUD REVIEW
+"Mayor, Office of the",ADOBE ETLA
+"Mayor, Office of the",VMWARE ELA
+"Mayor, Office of the",MICROSOFT ELA
+"Mayor, Office of the",MOBILE DEVICES AND SERVICES
+"Mayor, Office of the",TWO-WAY RADIO COMMUNICATION
+"Mayor, Office of the",FUNCTIONAL TESTING
+"Mayor, Office of the",PERFORMANCE TEST
+Center for Innovation Through Data Intelligence,BUSINESS-AS-USUAL (ANALYTICS)
+Center for Innovation Through Data Intelligence,SOLUTION DEVELOPMENT (ANALYTICS)
+Center for Innovation Through Data Intelligence,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Center for Innovation Through Data Intelligence,NYC.GOV
+Center for Innovation Through Data Intelligence,SITE-TO-SITE VPN
+Center for Innovation Through Data Intelligence,SOFTWARE SECURITY ASSURANCE
+Center for Innovation Through Data Intelligence,SSL REMOTE ACCESS
+Center for Innovation Through Data Intelligence,MOBILE DEVICES AND SERVICES
+Mayor's Advisory Committee On the Judiciary,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Advisory Committee On the Judiciary,NYC.GOV
+Mayor's Advisory Committee On the Judiciary,SITE-TO-SITE VPN
+Mayor's Advisory Committee On the Judiciary,SOFTWARE SECURITY ASSURANCE
+Mayor's Advisory Committee On the Judiciary,SSL REMOTE ACCESS
+Mayor's Advisory Committee On the Judiciary,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Advisory Committee On the Judiciary,MOBILE DEVICES AND SERVICES
+Mayor's Advisory Committee On the Judiciary,TWO-WAY RADIO COMMUNICATION
+Mayor's Commission On Gender Equality,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Commission On Gender Equality,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Commission On Gender Equality,NYC.GOV
+Mayor's Commission On Gender Equality,SITE-TO-SITE VPN
+Mayor's Commission On Gender Equality,SOFTWARE SECURITY ASSURANCE
+Mayor's Commission On Gender Equality,SSL REMOTE ACCESS
+Mayor's Commission On Gender Equality,MOBILE DEVICES AND SERVICES
+Mayor's Committee On City Marshals,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Committee On City Marshals,NYC.GOV
+Mayor's Committee On City Marshals,SITE-TO-SITE VPN
+Mayor's Committee On City Marshals,SOFTWARE SECURITY ASSURANCE
+Mayor's Committee On City Marshals,SSL REMOTE ACCESS
+Mayor's Committee On City Marshals,MAINFRAME
+Mayor's Committee On City Marshals,SITE B (STERLING FOREST) MAINFRAME
+Mayor's Committee On City Marshals,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Committee On City Marshals,VMWARE ELA
+Mayor's Committee On City Marshals,MOBILE DEVICES AND SERVICES
+Mayor's Committee On City Marshals,TWO-WAY RADIO COMMUNICATION
+Mayor's Community Affairs Unit,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Community Affairs Unit,PROJECT MANAGEMENT 
+Mayor's Community Affairs Unit,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Community Affairs Unit,NYC.GOV
+Mayor's Community Affairs Unit,SITE-TO-SITE VPN
+Mayor's Community Affairs Unit,SOFTWARE SECURITY ASSURANCE
+Mayor's Community Affairs Unit,SSL REMOTE ACCESS
+Mayor's Community Affairs Unit,PROVISIONING
+Mayor's Community Affairs Unit,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Community Affairs Unit,MOBILE DEVICES AND SERVICES
+Mayor's Community Affairs Unit,TWO-WAY RADIO COMMUNICATION
+Mayor's Community Affairs Unit,FUNCTIONAL TESTING
+Mayor's Office for International Affairs,BUSINESS-AS-USUAL (ANALYTICS)
+Mayor's Office for International Affairs,SOLUTION DEVELOPMENT (ANALYTICS)
+Mayor's Office for International Affairs,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office for International Affairs,NYC.GOV
+Mayor's Office for International Affairs,SITE-TO-SITE VPN
+Mayor's Office for International Affairs,SOFTWARE SECURITY ASSURANCE
+Mayor's Office for International Affairs,SSL REMOTE ACCESS
+Mayor's Office for International Affairs,MOBILE DEVICES AND SERVICES
+Mayor's Office for International Affairs,TWO-WAY RADIO COMMUNICATION
+Mayor's Office for People With Disabilities,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office for People With Disabilities,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office for People With Disabilities,NYC.GOV
+Mayor's Office for People With Disabilities,SITE-TO-SITE VPN
+Mayor's Office for People With Disabilities,SOFTWARE SECURITY ASSURANCE
+Mayor's Office for People With Disabilities,SSL REMOTE ACCESS
+Mayor's Office for People With Disabilities,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Office for People With Disabilities,USER EXPERIENCE DESIGN
+Mayor's Office for People With Disabilities,MOBILE DEVICES AND SERVICES
+Mayor's Office for People With Disabilities,TWO-WAY RADIO COMMUNICATION
+Mayor's Office of Criminal Justice,BUSINESS ANALYSIS
+Mayor's Office of Criminal Justice,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Criminal Justice,BUSINESS-AS-USUAL (ANALYTICS)
+Mayor's Office of Criminal Justice,MAPPING/LOCATION SERVICES
+Mayor's Office of Criminal Justice,PROJECT MANAGEMENT 
+Mayor's Office of Criminal Justice,PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+Mayor's Office of Criminal Justice,SOLUTION DEVELOPMENT (ANALYTICS)
+Mayor's Office of Criminal Justice,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Criminal Justice,NYC.GOV
+Mayor's Office of Criminal Justice,SITE-TO-SITE VPN
+Mayor's Office of Criminal Justice,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Criminal Justice,SSL REMOTE ACCESS
+Mayor's Office of Criminal Justice,CDWG - IT GOODS AND RELATED SERVICES 
+Mayor's Office of Criminal Justice,QUALITY CONTROL SERVICES (QC)
+Mayor's Office of Criminal Justice,SYSTEMS INTEGRATION SERVICES (SI)
+Mayor's Office of Criminal Justice,PRIMARY DATA CENTER
+Mayor's Office of Criminal Justice,PROVISIONING
+Mayor's Office of Criminal Justice,SELF-PROVISIONING
+Mayor's Office of Criminal Justice,SECURE FILE TRANSFER 
+Mayor's Office of Criminal Justice,SHAREPOINT
+Mayor's Office of Criminal Justice,CABLE INFRASTRUCTURE
+Mayor's Office of Criminal Justice,CITYNET
+Mayor's Office of Criminal Justice,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Mayor's Office of Criminal Justice,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Office of Criminal Justice,ADVISORY SERVICES 
+Mayor's Office of Criminal Justice,USER EXPERIENCE DESIGN
+Mayor's Office of Criminal Justice,MICROSOFT ELA
+Mayor's Office of Criminal Justice,MOBILE DEVICES AND SERVICES
+Mayor's Office of Criminal Justice,TWO-WAY RADIO COMMUNICATION
+Mayor's Office of Criminal Justice,FUNCTIONAL TESTING
+Mayor's Office of Special Enforcement,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Special Enforcement,BUSINESS-AS-USUAL (ANALYTICS)
+Mayor's Office of Special Enforcement,PROJECT MANAGEMENT 
+Mayor's Office of Special Enforcement,SOLUTION DEVELOPMENT (ANALYTICS)
+Mayor's Office of Special Enforcement,SITE-TO-SITE VPN
+Mayor's Office of Special Enforcement,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Special Enforcement,SSL REMOTE ACCESS
+Mayor's Office of Special Enforcement,SYSTEMS INTEGRATION SERVICES (SI)
+Mayor's Office of Special Enforcement,ADVISORY SERVICES 
+Mayor's Office of Special Enforcement,ADOBE ETLA
+Mayor's Office of Special Enforcement,MOBILE DEVICES AND SERVICES
+Mayor's Office of Special Enforcement,TWO-WAY RADIO COMMUNICATION
+Mayor's Office of Environmental Coordination,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Environmental Coordination,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Environmental Coordination,NYC.GOV
+Mayor's Office of Environmental Coordination,SITE-TO-SITE VPN
+Mayor's Office of Environmental Coordination,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Environmental Coordination,SSL REMOTE ACCESS
+Mayor's Office of Environmental Coordination,MOBILE DEVICES AND SERVICES
+Mayor's Office of Environmental Coordination,TWO-WAY RADIO COMMUNICATION
+Mayor's Office of Environmental Remediation,MAPPING/LOCATION SERVICES
+Mayor's Office of Environmental Remediation,PROJECT MANAGEMENT 
+Mayor's Office of Environmental Remediation,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Environmental Remediation,NYC.GOV
+Mayor's Office of Environmental Remediation,SITE-TO-SITE VPN
+Mayor's Office of Environmental Remediation,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Environmental Remediation,SSL REMOTE ACCESS
+Mayor's Office of Environmental Remediation,GEOGRAPHIC INFORMATION TECHNOLOGIES AND SERVICES (GIS)
+Mayor's Office of Environmental Remediation,SECURE FILE TRANSFER 
+Mayor's Office of Environmental Remediation,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Office of Environmental Remediation,ADVISORY SERVICES 
+Mayor's Office of Environmental Remediation,MOBILE DEVICES AND SERVICES
+Mayor's Office of Environmental Remediation,TWO-WAY RADIO COMMUNICATION
+Mayor's Office of Food Policy,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Food Policy,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Food Policy,NYC.GOV
+Mayor's Office of Food Policy,SITE-TO-SITE VPN
+Mayor's Office of Food Policy,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Food Policy,SSL REMOTE ACCESS
+Mayor's Office of Food Policy,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Office of Food Policy,MOBILE DEVICES AND SERVICES
+Mayor's Office of Immigrant Affairs,BUSINESS ANALYSIS
+Mayor's Office of Immigrant Affairs,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Immigrant Affairs,PROJECT MANAGEMENT 
+Mayor's Office of Immigrant Affairs,SOLUTION DEVELOPMENT (CRM)
+Mayor's Office of Immigrant Affairs,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Immigrant Affairs,NYC.GOV
+Mayor's Office of Immigrant Affairs,SITE-TO-SITE VPN
+Mayor's Office of Immigrant Affairs,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Immigrant Affairs,SSL REMOTE ACCESS
+Mayor's Office of Immigrant Affairs,LYNC 2013
+Mayor's Office of Immigrant Affairs,CLOUD REVIEW
+Mayor's Office of Immigrant Affairs,USER EXPERIENCE DESIGN
+Mayor's Office of Immigrant Affairs,MOBILE DEVICES AND SERVICES
+Mayor's Office of Immigrant Affairs,FUNCTIONAL TESTING
+Mayor's Office of Intergovernmental Affairs,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Intergovernmental Affairs,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Intergovernmental Affairs,NYC.GOV
+Mayor's Office of Intergovernmental Affairs,SITE-TO-SITE VPN
+Mayor's Office of Intergovernmental Affairs,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Intergovernmental Affairs,SSL REMOTE ACCESS
+Mayor's Office of Intergovernmental Affairs,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Office of Intergovernmental Affairs,MOBILE DEVICES AND SERVICES
+Mayor's Office of Intergovernmental Affairs,TWO-WAY RADIO COMMUNICATION
+Mayor's Office of Minority And Women-Owned Business Enterprises,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Minority And Women-Owned Business Enterprises,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Minority And Women-Owned Business Enterprises,NYC.GOV
+Mayor's Office of Minority And Women-Owned Business Enterprises,SITE-TO-SITE VPN
+Mayor's Office of Minority And Women-Owned Business Enterprises,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Minority And Women-Owned Business Enterprises,SSL REMOTE ACCESS
+Mayor's Office of Minority And Women-Owned Business Enterprises,SHAREPOINT
+Mayor's Office of Minority And Women-Owned Business Enterprises,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Office of Minority And Women-Owned Business Enterprises,ADVISORY SERVICES 
+Mayor's Office of Minority And Women-Owned Business Enterprises,CLOUD REVIEW
+Mayor's Office of Minority And Women-Owned Business Enterprises,ADOBE ETLA
+Mayor's Office of Minority And Women-Owned Business Enterprises,MOBILE DEVICES AND SERVICES
+Mayor's Office of Minority And Women-Owned Business Enterprises,TWO-WAY RADIO COMMUNICATION
+Mayor's Office of Operations,BUSINESS ANALYSIS
+Mayor's Office of Operations,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Operations,BUSINESS-AS-USUAL (ANALYTICS)
+Mayor's Office of Operations,MAPPING/LOCATION SERVICES
+Mayor's Office of Operations,PROJECT MANAGEMENT 
+Mayor's Office of Operations,SOLUTION DEVELOPMENT (ANALYTICS)
+Mayor's Office of Operations,SOLUTION DEVELOPMENT (CRM)
+Mayor's Office of Operations,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Operations,NYC.GOV
+Mayor's Office of Operations,SITE-TO-SITE VPN
+Mayor's Office of Operations,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Operations,SSL REMOTE ACCESS
+Mayor's Office of Operations,QUALITY CONTROL SERVICES (QC)
+Mayor's Office of Operations,PRIMARY DATA CENTER
+Mayor's Office of Operations,PROVISIONING
+Mayor's Office of Operations,SELF-PROVISIONING
+Mayor's Office of Operations,SHAREPOINT
+Mayor's Office of Operations,WORKSHOPS
+Mayor's Office of Operations,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Office of Operations,CLOUD REVIEW
+Mayor's Office of Operations,MOBILE DEVICES AND SERVICES
+Mayor's Office of Operations,TWO-WAY RADIO COMMUNICATION
+Mayor's Office of Operations,FUNCTIONAL TESTING
+Mayor's Office of Operations,PERFORMANCE TEST
+Mayor's Office for Economic Opportunity,BUSINESS ANALYSIS
+Mayor's Office for Economic Opportunity,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office for Economic Opportunity,BUSINESS-AS-USUAL (ANALYTICS)
+Mayor's Office for Economic Opportunity,HUMAN CENTERED DESIGN
+Mayor's Office for Economic Opportunity,PROJECT MANAGEMENT 
+Mayor's Office for Economic Opportunity,SOLUTION DEVELOPMENT (ANALYTICS)
+Mayor's Office for Economic Opportunity,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office for Economic Opportunity,NYC.GOV
+Mayor's Office for Economic Opportunity,SITE-TO-SITE VPN
+Mayor's Office for Economic Opportunity,SOFTWARE SECURITY ASSURANCE
+Mayor's Office for Economic Opportunity,SSL REMOTE ACCESS
+Mayor's Office for Economic Opportunity,DESKTOP SUPPORT
+Mayor's Office for Economic Opportunity,SELF-PROVISIONING
+Mayor's Office for Economic Opportunity,SECURE FILE TRANSFER 
+Mayor's Office for Economic Opportunity,WORKSHOPS
+Mayor's Office for Economic Opportunity,NETWORK LAN SUPPORT
+Mayor's Office for Economic Opportunity,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Office for Economic Opportunity,CLOUD REVIEW
+Mayor's Office for Economic Opportunity,USER EXPERIENCE DESIGN
+Mayor's Office for Economic Opportunity,VMWARE ELA
+Mayor's Office for Economic Opportunity,MOBILE DEVICES AND SERVICES
+Mayor's Office for Economic Opportunity,TWO-WAY RADIO COMMUNICATION
+Mayor's Office for Economic Opportunity,FUNCTIONAL TESTING
+Mayor's Office of Data Analytics,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Data Analytics,BUSINESS-AS-USUAL (ANALYTICS)
+Mayor's Office of Data Analytics,HUMAN CENTERED DESIGN
+Mayor's Office of Data Analytics,MAPPING/LOCATION SERVICES
+Mayor's Office of Data Analytics,SOLUTION DEVELOPMENT (ANALYTICS)
+Mayor's Office of Data Analytics,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Data Analytics,NYC.GOV
+Mayor's Office of Data Analytics,SITE-TO-SITE VPN
+Mayor's Office of Data Analytics,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Data Analytics,SSL REMOTE ACCESS
+Mayor's Office of Data Analytics,DATA EXCHANGE
+Mayor's Office of Data Analytics,APPLICATION SUPPORT
+Mayor's Office of Data Analytics,MAINFRAME
+Mayor's Office of Data Analytics,SITE B (STERLING FOREST) MAINFRAME
+Mayor's Office of Data Analytics,WP ENGINE PLATFORM
+Mayor's Office of Data Analytics,USER EXPERIENCE DESIGN
+Mayor's Office of Data Analytics,ADOBE ETLA
+Mayor's Office of Data Analytics,VMWARE ELA
+Mayor's Office of Data Analytics,MOBILE DEVICES AND SERVICES
+Mayor's Office of Recovery And Resiliency,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Recovery And Resiliency,MAPPING/LOCATION SERVICES
+Mayor's Office of Recovery And Resiliency,PROJECT MANAGEMENT 
+Mayor's Office of Recovery And Resiliency,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Recovery And Resiliency,NYC.GOV
+Mayor's Office of Recovery And Resiliency,SITE-TO-SITE VPN
+Mayor's Office of Recovery And Resiliency,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Recovery And Resiliency,SSL REMOTE ACCESS
+Mayor's Office of Recovery And Resiliency,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Office of Recovery And Resiliency,USER EXPERIENCE DESIGN
+Mayor's Office of Recovery And Resiliency,MICROSOFT ELA
+Mayor's Office of Recovery And Resiliency,MOBILE DEVICES AND SERVICES
+Mayor's Office of Recovery And Resiliency,TWO-WAY RADIO COMMUNICATION
+Mayor's Office of Strategic Partnership,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Strategic Partnership,NYC.GOV
+Mayor's Office of Strategic Partnership,SITE-TO-SITE VPN
+Mayor's Office of Strategic Partnership,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Strategic Partnership,SSL REMOTE ACCESS
+Mayor's Office of Strategic Partnership,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Office of Strategic Partnership,MOBILE DEVICES AND SERVICES
+Mayor's Office of Strategic Partnership,TWO-WAY RADIO COMMUNICATION
+Mayor's Office of Sustainability,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Sustainability,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Sustainability,NYC.GOV
+Mayor's Office of Sustainability,SITE-TO-SITE VPN
+Mayor's Office of Sustainability,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Sustainability,SSL REMOTE ACCESS
+Mayor's Office of Sustainability,ADVISORY SERVICES 
+Mayor's Office of Sustainability,MOBILE DEVICES AND SERVICES
+Mayor's Office of Workforce Development,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Workforce Development,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Workforce Development,NYC.GOV
+Mayor's Office of Workforce Development,SITE-TO-SITE VPN
+Mayor's Office of Workforce Development,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Workforce Development,SSL REMOTE ACCESS
+Mayor's Office of Workforce Development,MOBILE DEVICES AND SERVICES
+Mayor's Office to Combat Domestic Violence,BUSINESS ANALYSIS
+Mayor's Office to Combat Domestic Violence,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office to Combat Domestic Violence,PROJECT MANAGEMENT 
+Mayor's Office to Combat Domestic Violence,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office to Combat Domestic Violence,NYC.GOV
+Mayor's Office to Combat Domestic Violence,SITE-TO-SITE VPN
+Mayor's Office to Combat Domestic Violence,SOFTWARE SECURITY ASSURANCE
+Mayor's Office to Combat Domestic Violence,SSL REMOTE ACCESS
+Mayor's Office to Combat Domestic Violence,WP ENGINE PLATFORM
+Mayor's Office to Combat Domestic Violence,CABLE INFRASTRUCTURE
+Mayor's Office to Combat Domestic Violence,CITYNET
+Mayor's Office to Combat Domestic Violence,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Mayor's Office to Combat Domestic Violence,NEW YORK WIRELESS NETWORK (NYCWIN)
+Mayor's Office to Combat Domestic Violence,USER EXPERIENCE DESIGN
+Mayor's Office to Combat Domestic Violence,MOBILE DEVICES AND SERVICES
+Mayor's Office to Combat Domestic Violence,TWO-WAY RADIO COMMUNICATION
+Mayor's Office to Combat Domestic Violence,FUNCTIONAL TESTING
+Mayor's Office to Combat Domestic Violence,PERFORMANCE TEST
+Office of Citywide Events Coordination & Management,BUSINESS APPLICATION DEVELOPMENT 
+Office of Citywide Events Coordination & Management,MOBILE DEVELOPMENT 
+Office of Citywide Events Coordination & Management,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Office of Citywide Events Coordination & Management,NYC.GOV
+Office of Citywide Events Coordination & Management,SITE-TO-SITE VPN
+Office of Citywide Events Coordination & Management,SOFTWARE SECURITY ASSURANCE
+Office of Citywide Events Coordination & Management,SSL REMOTE ACCESS
+Office of Citywide Events Coordination & Management,NEW YORK WIRELESS NETWORK (NYCWIN)
+Office of Citywide Events Coordination & Management,MOBILE DEVICES AND SERVICES
+Public Design Commission of the City of New York,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Public Design Commission of the City of New York,NYC.GOV
+Public Design Commission of the City of New York,SITE-TO-SITE VPN
+Public Design Commission of the City of New York,SOFTWARE SECURITY ASSURANCE
+Public Design Commission of the City of New York,SSL REMOTE ACCESS
+Public Design Commission of the City of New York,MOBILE DEVICES AND SERVICES
+"Service, NYC",HUMAN CENTERED DESIGN
+"Service, NYC",MOBILE DEVELOPMENT 
+"Service, NYC",SITE-TO-SITE VPN
+"Service, NYC",SOFTWARE SECURITY ASSURANCE
+"Service, NYC",SSL REMOTE ACCESS
+"Service, NYC",MOBILE DEVICES AND SERVICES
+Mayor's Office of Contract Services,APPLICATION AUTHENTICATION AND AUTHORIZATION
+Mayor's Office of Contract Services,BUSINESS ANALYSIS
+Mayor's Office of Contract Services,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Contract Services,BUSINESS-AS-USUAL (ANALYTICS)
+Mayor's Office of Contract Services,PROJECT MANAGEMENT 
+Mayor's Office of Contract Services,PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+Mayor's Office of Contract Services,SOLUTION DEVELOPMENT (ANALYTICS)
+Mayor's Office of Contract Services,SOLUTION DEVELOPMENT (CRM)
+Mayor's Office of Contract Services,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Contract Services,NYC.GOV
+Mayor's Office of Contract Services,WEB SINGLE SIGN-ON
+Mayor's Office of Contract Services,IDENTITY MANAGEMENT 
+Mayor's Office of Contract Services,NYC.ID/IDENTITY MANAGEMENT 
+Mayor's Office of Contract Services,PASSWORD SELF-SERVICE
+Mayor's Office of Contract Services,SITE-TO-SITE VPN
+Mayor's Office of Contract Services,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Contract Services,SSL REMOTE ACCESS
+Mayor's Office of Contract Services,QUALITY CONTROL SERVICES (QC)
+Mayor's Office of Contract Services,SYSTEMS INTEGRATION SERVICES (SI)
+Mayor's Office of Contract Services,APPLICATION SUPPORT
+Mayor's Office of Contract Services,PRIMARY DATA CENTER
+Mayor's Office of Contract Services,EMAIL
+Mayor's Office of Contract Services,PROVISIONING
+Mayor's Office of Contract Services,SELF-PROVISIONING
+Mayor's Office of Contract Services,SECURE FILE TRANSFER 
+Mayor's Office of Contract Services,SHAREPOINT
+Mayor's Office of Contract Services,WORKSHOPS
+Mayor's Office of Contract Services,CABLE INFRASTRUCTURE
+Mayor's Office of Contract Services,CITYNET
+Mayor's Office of Contract Services,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Mayor's Office of Contract Services,CLOUD REVIEW
+Mayor's Office of Contract Services,ADOBE ETLA
+Mayor's Office of Contract Services,VMWARE ELA
+Mayor's Office of Contract Services,MICROSOFT ELA
+Mayor's Office of Contract Services,MOBILE DEVICES AND SERVICES
+Mayor's Office of Contract Services,TWO-WAY RADIO COMMUNICATION
+Mayor's Office of Contract Services,VoIP
+Mayor's Office of Contract Services,FUNCTIONAL TESTING
+Mayor's Office of Contract Services,PERFORMANCE TEST
+Mayor's Office of Housing Recovery Operations,BUSINESS ANALYSIS
+Mayor's Office of Housing Recovery Operations,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Housing Recovery Operations,BUSINESS-AS-USUAL (ANALYTICS)
+Mayor's Office of Housing Recovery Operations,PROJECT MANAGEMENT 
+Mayor's Office of Housing Recovery Operations,SOLUTION DEVELOPMENT (ANALYTICS)
+Mayor's Office of Housing Recovery Operations,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Housing Recovery Operations,NYC.GOV
+Mayor's Office of Housing Recovery Operations,SITE-TO-SITE VPN
+Mayor's Office of Housing Recovery Operations,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Housing Recovery Operations,SSL REMOTE ACCESS
+Mayor's Office of Housing Recovery Operations,CDWG - IT GOODS AND RELATED SERVICES 
+Mayor's Office of Housing Recovery Operations,CISCO MAINTENANCE CONTRACT
+Mayor's Office of Housing Recovery Operations,DATA EXCHANGE
+Mayor's Office of Housing Recovery Operations,PRIMARY DATA CENTER
+Mayor's Office of Housing Recovery Operations,EMAIL
+Mayor's Office of Housing Recovery Operations,SELF-PROVISIONING
+Mayor's Office of Housing Recovery Operations,SECURE FILE TRANSFER 
+Mayor's Office of Housing Recovery Operations,SHAREPOINT
+Mayor's Office of Housing Recovery Operations,WORKSHOPS
+Mayor's Office of Housing Recovery Operations,CABLE INFRASTRUCTURE
+Mayor's Office of Housing Recovery Operations,CITYNET
+Mayor's Office of Housing Recovery Operations,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Mayor's Office of Housing Recovery Operations,SECURE WIRELESS (LAN) SERVICES
+Mayor's Office of Housing Recovery Operations,CLOUD REVIEW
+Mayor's Office of Housing Recovery Operations,ADOBE ETLA
+Mayor's Office of Housing Recovery Operations,VMWARE ELA
+Mayor's Office of Housing Recovery Operations,MICROSOFT ELA
+Mayor's Office of Housing Recovery Operations,MOBILE DEVICES AND SERVICES
+Mayor's Office of Housing Recovery Operations,VoIP
+Mayor's Office of Housing Recovery Operations,FUNCTIONAL TESTING
+Mayor's Office of Management & Budget,BUSINESS ANALYSIS
+Mayor's Office of Management & Budget,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Management & Budget,BUSINESS-AS-USUAL (ANALYTICS)
+Mayor's Office of Management & Budget,PROJECT MANAGEMENT 
+Mayor's Office of Management & Budget,PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+Mayor's Office of Management & Budget,SOLUTION DEVELOPMENT (ANALYTICS)
+Mayor's Office of Management & Budget,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Management & Budget,NYC.GOV
+Mayor's Office of Management & Budget,WEB SINGLE SIGN-ON
+Mayor's Office of Management & Budget,AUTOMATIC USER DE-PROVISIONING
+Mayor's Office of Management & Budget,IDENTITY MANAGEMENT 
+Mayor's Office of Management & Budget,NYC.ID/IDENTITY MANAGEMENT 
+Mayor's Office of Management & Budget,PASSWORD SELF-SERVICE
+Mayor's Office of Management & Budget,SITE-TO-SITE VPN
+Mayor's Office of Management & Budget,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Management & Budget,SSL REMOTE ACCESS
+Mayor's Office of Management & Budget,CISCO MAINTENANCE CONTRACT
+Mayor's Office of Management & Budget,QUALITY CONTROL SERVICES (QC)
+Mayor's Office of Management & Budget,EMAIL
+Mayor's Office of Management & Budget,PROVISIONING
+Mayor's Office of Management & Budget,MAINFRAME
+Mayor's Office of Management & Budget,LYNC 2013
+Mayor's Office of Management & Budget,SECURE FILE TRANSFER 
+Mayor's Office of Management & Budget,SHAREPOINT
+Mayor's Office of Management & Budget,SITE B (STERLING FOREST) MAINFRAME
+Mayor's Office of Management & Budget,WORKSHOPS
+Mayor's Office of Management & Budget,CABLE INFRASTRUCTURE
+Mayor's Office of Management & Budget,CITYNET
+Mayor's Office of Management & Budget,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Mayor's Office of Management & Budget,ADVISORY SERVICES 
+Mayor's Office of Management & Budget,ADOBE ETLA
+Mayor's Office of Management & Budget,VMWARE ELA
+Mayor's Office of Management & Budget,MICROSOFT ELA
+Mayor's Office of Management & Budget,MOBILE DEVICES AND SERVICES
+Mayor's Office of Management & Budget,VoIP
+Mayor's Office of Management & Budget,FUNCTIONAL TESTING
+Mayor's Office of Media & Entertainment,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Media & Entertainment,MOBILE DEVELOPMENT 
+Mayor's Office of Media & Entertainment,PROJECT MANAGEMENT 
+Mayor's Office of Media & Entertainment,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Media & Entertainment,NYC.GOV
+Mayor's Office of Media & Entertainment,SITE-TO-SITE VPN
+Mayor's Office of Media & Entertainment,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Media & Entertainment,SSL REMOTE ACCESS
+Mayor's Office of Media & Entertainment,CDWG - IT GOODS AND RELATED SERVICES 
+Mayor's Office of Media & Entertainment,CISCO MAINTENANCE CONTRACT
+Mayor's Office of Media & Entertainment,SERVICE DESK
+Mayor's Office of Media & Entertainment,DESKTOP SUPPORT
+Mayor's Office of Media & Entertainment,EMAIL
+Mayor's Office of Media & Entertainment,PROVISIONING
+Mayor's Office of Media & Entertainment,SHAREPOINT
+Mayor's Office of Media & Entertainment,CABLE INFRASTRUCTURE
+Mayor's Office of Media & Entertainment,CITYNET
+Mayor's Office of Media & Entertainment,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Mayor's Office of Media & Entertainment,NETWORK LAN SUPPORT
+Mayor's Office of Media & Entertainment,SECURE WIRELESS (LAN) SERVICES
+Mayor's Office of Media & Entertainment,USER EXPERIENCE DESIGN
+Mayor's Office of Media & Entertainment,ADOBE ETLA
+Mayor's Office of Media & Entertainment,MOBILE DEVICES AND SERVICES
+Mayor's Office of Media & Entertainment,TWO-WAY RADIO COMMUNICATION
+Mayor's Office of Media & Entertainment,VoIP
+Mayor's Office of Technology And Innovations,BUSINESS ANALYSIS
+Mayor's Office of Technology And Innovations,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of Technology And Innovations,BUSINESS-AS-USUAL (ANALYTICS)
+Mayor's Office of Technology And Innovations,HUMAN CENTERED DESIGN
+Mayor's Office of Technology And Innovations,MAPPING/LOCATION SERVICES
+Mayor's Office of Technology And Innovations,PROJECT MANAGEMENT 
+Mayor's Office of Technology And Innovations,SOLUTION DEVELOPMENT (ANALYTICS)
+Mayor's Office of Technology And Innovations,SOLUTION DEVELOPMENT (CRM)
+Mayor's Office of Technology And Innovations,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Office of Technology And Innovations,NYC.GOV
+Mayor's Office of Technology And Innovations,SITE-TO-SITE VPN
+Mayor's Office of Technology And Innovations,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of Technology And Innovations,SSL REMOTE ACCESS
+Mayor's Office of Technology And Innovations,CDWG - IT GOODS AND RELATED SERVICES 
+Mayor's Office of Technology And Innovations,QUALITY CONTROL SERVICES (QC)
+Mayor's Office of Technology And Innovations,DESKTOP SUPPORT
+Mayor's Office of Technology And Innovations,EMAIL
+Mayor's Office of Technology And Innovations,SHAREPOINT
+Mayor's Office of Technology And Innovations,WP ENGINE PLATFORM
+Mayor's Office of Technology And Innovations,CABLE INFRASTRUCTURE
+Mayor's Office of Technology And Innovations,CITYNET
+Mayor's Office of Technology And Innovations,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Mayor's Office of Technology And Innovations,NETWORK LAN SUPPORT
+Mayor's Office of Technology And Innovations,ADVISORY SERVICES 
+Mayor's Office of Technology And Innovations,CLOUD REVIEW
+Mayor's Office of Technology And Innovations,USER EXPERIENCE DESIGN
+Mayor's Office of Technology And Innovations,ADOBE ETLA
+Mayor's Office of Technology And Innovations,VMWARE ELA
+Mayor's Office of Technology And Innovations,MICROSOFT ELA
+Mayor's Office of Technology And Innovations,MOBILE DEVICES AND SERVICES
+Mayor's Office of Technology And Innovations,FUNCTIONAL TESTING
+Mayor's Office of the Assigned Counsel Panel,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Office of the Assigned Counsel Panel,SITE-TO-SITE VPN
+Mayor's Office of the Assigned Counsel Panel,SOFTWARE SECURITY ASSURANCE
+Mayor's Office of the Assigned Counsel Panel,SSL REMOTE ACCESS
+Mayor's Office of the Assigned Counsel Panel,MOBILE DEVICES AND SERVICES
+"Parks, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Parks, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Parks, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Parks, Department of",MAPPING/LOCATION SERVICES
+"Parks, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Parks, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Parks, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Parks, Department of",NYC.GOV
+"Parks, Department of",WEB SINGLE SIGN-ON
+"Parks, Department of",IDENTITY MANAGEMENT 
+"Parks, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Parks, Department of",PASSWORD SELF-SERVICE
+"Parks, Department of",SITE-TO-SITE VPN
+"Parks, Department of",SOFTWARE SECURITY ASSURANCE
+"Parks, Department of",SSL REMOTE ACCESS
+"Parks, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Parks, Department of",CISCO MAINTENANCE CONTRACT
+"Parks, Department of",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Parks, Department of",GEOGRAPHIC INFORMATION TECHNOLOGIES AND SERVICES (GIS)
+"Parks, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Parks, Department of",QUALITY CONTROL SERVICES (QC)
+"Parks, Department of",APPLICATION SUPPORT
+"Parks, Department of",EMAIL
+"Parks, Department of",PROVISIONING
+"Parks, Department of",SELF-PROVISIONING
+"Parks, Department of",MAINFRAME
+"Parks, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Parks, Department of",WORKSHOPS
+"Parks, Department of",CABLE INFRASTRUCTURE
+"Parks, Department of",CITYNET
+"Parks, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Parks, Department of",SECURE WIRELESS (LAN) SERVICES
+"Parks, Department of",CLOUD REVIEW
+"Parks, Department of",ADOBE ETLA
+"Parks, Department of",VMWARE ELA
+"Parks, Department of",MICROSOFT ELA
+"Parks, Department of",MOBILE DEVICES AND SERVICES
+"Parks, Department of",TELECOMM CONTRACT
+"Parks, Department of",PERFORMANCE TEST
+"Police Department, New York City",BUSINESS ANALYSIS
+"Police Department, New York City",BUSINESS APPLICATION DEVELOPMENT 
+"Police Department, New York City",BUSINESS-AS-USUAL (ANALYTICS)
+"Police Department, New York City",MAPPING/LOCATION SERVICES
+"Police Department, New York City",PROJECT MANAGEMENT 
+"Police Department, New York City",SOLUTION DEVELOPMENT (ANALYTICS)
+"Police Department, New York City",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Police Department, New York City",NYC.GOV
+"Police Department, New York City",IDENTITY MANAGEMENT 
+"Police Department, New York City",PASSWORD SELF-SERVICE
+"Police Department, New York City",SITE-TO-SITE VPN
+"Police Department, New York City",SOFTWARE SECURITY ASSURANCE
+"Police Department, New York City",SSL REMOTE ACCESS
+"Police Department, New York City",CDWG - IT GOODS AND RELATED SERVICES 
+"Police Department, New York City",CISCO MAINTENANCE CONTRACT
+"Police Department, New York City",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Police Department, New York City",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Police Department, New York City",QUALITY CONTROL SERVICES (QC)
+"Police Department, New York City",SYSTEMS INTEGRATION SERVICES (SI)
+"Police Department, New York City",DATA EXCHANGE
+"Police Department, New York City",PROVISIONING
+"Police Department, New York City",MAINFRAME
+"Police Department, New York City",SECURE FILE TRANSFER 
+"Police Department, New York City",SITE B (STERLING FOREST) MAINFRAME
+"Police Department, New York City",WORKSHOPS
+"Police Department, New York City",CABLE INFRASTRUCTURE
+"Police Department, New York City",CITYNET
+"Police Department, New York City",CLOUD REVIEW
+"Police Department, New York City",USER EXPERIENCE DESIGN
+"Police Department, New York City",ADOBE ETLA
+"Police Department, New York City",VMWARE ELA
+"Police Department, New York City",MICROSOFT ELA
+"Police Department, New York City",TELECOMM CONTRACT
+"Police Department, New York City",FUNCTIONAL TESTING
+"Police Department, New York City",PERFORMANCE TEST
+"Probation, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Probation, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Probation, Department of",NYC.GOV
+"Probation, Department of",IDENTITY MANAGEMENT 
+"Probation, Department of",PASSWORD SELF-SERVICE
+"Probation, Department of",SITE-TO-SITE VPN
+"Probation, Department of",SOFTWARE SECURITY ASSURANCE
+"Probation, Department of",SSL REMOTE ACCESS
+"Probation, Department of",CISCO MAINTENANCE CONTRACT
+"Probation, Department of",DATA EXCHANGE
+"Probation, Department of",EMAIL
+"Probation, Department of",PROVISIONING
+"Probation, Department of",SELF-PROVISIONING
+"Probation, Department of",MAINFRAME
+"Probation, Department of",LYNC 2013
+"Probation, Department of",SECURE FILE TRANSFER 
+"Probation, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Probation, Department of",WP ENGINE PLATFORM
+"Probation, Department of",CABLE INFRASTRUCTURE
+"Probation, Department of",CITYNET
+"Probation, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Probation, Department of",SECURE WIRELESS (LAN) SERVICES
+"Probation, Department of",ADOBE ETLA
+"Probation, Department of",MICROSOFT ELA
+"Probation, Department of",MOBILE DEVICES AND SERVICES
+"Probation, Department of",TELECOMM CONTRACT
+"Probation, Department of",VoIP
+"Records & Information Services, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Records & Information Services, Department of",BUSINESS ANALYSIS
+"Records & Information Services, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Records & Information Services, Department of",HUMAN CENTERED DESIGN
+"Records & Information Services, Department of",PROJECT MANAGEMENT 
+"Records & Information Services, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Records & Information Services, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Records & Information Services, Department of",NYC.GOV
+"Records & Information Services, Department of",WEB SINGLE SIGN-ON
+"Records & Information Services, Department of",IDENTITY MANAGEMENT 
+"Records & Information Services, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Records & Information Services, Department of",PASSWORD SELF-SERVICE
+"Records & Information Services, Department of",SITE-TO-SITE VPN
+"Records & Information Services, Department of",SOFTWARE SECURITY ASSURANCE
+"Records & Information Services, Department of",SSL REMOTE ACCESS
+"Records & Information Services, Department of",CISCO MAINTENANCE CONTRACT
+"Records & Information Services, Department of",APPLICATION SUPPORT
+"Records & Information Services, Department of",SERVICE DESK
+"Records & Information Services, Department of",PRIMARY DATA CENTER
+"Records & Information Services, Department of",EMAIL
+"Records & Information Services, Department of",PROVISIONING
+"Records & Information Services, Department of",SELF-PROVISIONING
+"Records & Information Services, Department of",MAINFRAME
+"Records & Information Services, Department of",LYNC 2013
+"Records & Information Services, Department of",SHAREPOINT
+"Records & Information Services, Department of",SITEB SERVICES
+"Records & Information Services, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Records & Information Services, Department of",WORKSHOPS
+"Records & Information Services, Department of",CABLE INFRASTRUCTURE
+"Records & Information Services, Department of",CITYNET
+"Records & Information Services, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Records & Information Services, Department of",SECURE WIRELESS (LAN) SERVICES
+"Records & Information Services, Department of",ADVISORY SERVICES 
+"Records & Information Services, Department of",CLOUD REVIEW
+"Records & Information Services, Department of",USER EXPERIENCE DESIGN
+"Records & Information Services, Department of",ADOBE ETLA
+"Records & Information Services, Department of",MICROSOFT ELA
+"Records & Information Services, Department of",MOBILE DEVICES AND SERVICES
+"Records & Information Services, Department of",VoIP
+"Records & Information Services, Department of",FUNCTIONAL TESTING
+"Records & Information Services, Department of",PERFORMANCE TEST
+"Records & Information Services, Department of",QUALITY ASSURANCE SUPPORT 
+"Sanitation, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Sanitation, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Sanitation, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Sanitation, Department of",MAPPING/LOCATION SERVICES
+"Sanitation, Department of",MOBILE DEVELOPMENT 
+"Sanitation, Department of",PROJECT MANAGEMENT 
+"Sanitation, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Sanitation, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Sanitation, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Sanitation, Department of",NYC.GOV
+"Sanitation, Department of",WEB SINGLE SIGN-ON
+"Sanitation, Department of",IDENTITY MANAGEMENT 
+"Sanitation, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Sanitation, Department of",PASSWORD SELF-SERVICE
+"Sanitation, Department of",SITE-TO-SITE VPN
+"Sanitation, Department of",SOFTWARE SECURITY ASSURANCE
+"Sanitation, Department of",SSL REMOTE ACCESS
+"Sanitation, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Sanitation, Department of",CISCO MAINTENANCE CONTRACT
+"Sanitation, Department of",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Sanitation, Department of",GEOGRAPHIC INFORMATION TECHNOLOGIES AND SERVICES (GIS)
+"Sanitation, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Sanitation, Department of",SYSTEMS INTEGRATION SERVICES (SI)
+"Sanitation, Department of",DATA EXCHANGE
+"Sanitation, Department of",APPLICATION SUPPORT
+"Sanitation, Department of",SERVICE DESK
+"Sanitation, Department of",EMAIL
+"Sanitation, Department of",PROVISIONING
+"Sanitation, Department of",SELF-PROVISIONING
+"Sanitation, Department of",MAINFRAME
+"Sanitation, Department of",LYNC 2013
+"Sanitation, Department of",SECURE FILE TRANSFER 
+"Sanitation, Department of",SHAREPOINT
+"Sanitation, Department of",SITEB SERVICES
+"Sanitation, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Sanitation, Department of",WP ENGINE PLATFORM
+"Sanitation, Department of",WORKSHOPS
+"Sanitation, Department of",CABLE INFRASTRUCTURE
+"Sanitation, Department of",CITYNET
+"Sanitation, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Sanitation, Department of",SECURE WIRELESS (LAN) SERVICES
+"Sanitation, Department of",ADVISORY SERVICES 
+"Sanitation, Department of",CLOUD REVIEW
+"Sanitation, Department of",ADOBE ETLA
+"Sanitation, Department of",VMWARE ELA
+"Sanitation, Department of",MICROSOFT ELA
+"Sanitation, Department of",CONTACT CENTER SOLUTIONS
+"Sanitation, Department of",MOBILE DEVICES AND SERVICES
+"Sanitation, Department of",TELECOMM CONTRACT
+"Sanitation, Department of",VIDEO CONFERENCING SOLUTIONS
+"Sanitation, Department of",VoIP
+"Sanitation, Department of",FUNCTIONAL TESTING
+"Sanitation, Department of",PERFORMANCE TEST
+"Sanitation, Department of",QUALITY ASSURANCE SUPPORT 
+"Small Business Services, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Small Business Services, Department of",BUSINESS ANALYSIS
+"Small Business Services, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Small Business Services, Department of",HUMAN CENTERED DESIGN
+"Small Business Services, Department of",MAPPING/LOCATION SERVICES
+"Small Business Services, Department of",PROJECT MANAGEMENT 
+"Small Business Services, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Small Business Services, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Small Business Services, Department of",NYC.GOV
+"Small Business Services, Department of",WEB SINGLE SIGN-ON
+"Small Business Services, Department of",IDENTITY MANAGEMENT 
+"Small Business Services, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Small Business Services, Department of",PASSWORD SELF-SERVICE
+"Small Business Services, Department of",SITE-TO-SITE VPN
+"Small Business Services, Department of",SOFTWARE SECURITY ASSURANCE
+"Small Business Services, Department of",SSL REMOTE ACCESS
+"Small Business Services, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Small Business Services, Department of",CISCO MAINTENANCE CONTRACT
+"Small Business Services, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Small Business Services, Department of",QUALITY CONTROL SERVICES (QC)
+"Small Business Services, Department of",SYSTEMS INTEGRATION SERVICES (SI)
+"Small Business Services, Department of",DATA EXCHANGE
+"Small Business Services, Department of",APPLICATION SUPPORT
+"Small Business Services, Department of",PRIMARY DATA CENTER
+"Small Business Services, Department of",EMAIL
+"Small Business Services, Department of",PROVISIONING
+"Small Business Services, Department of",SELF-PROVISIONING
+"Small Business Services, Department of",LYNC 2013
+"Small Business Services, Department of",SECURE FILE TRANSFER 
+"Small Business Services, Department of",SHAREPOINT
+"Small Business Services, Department of",WORKSHOPS
+"Small Business Services, Department of",CABLE INFRASTRUCTURE
+"Small Business Services, Department of",CITYNET
+"Small Business Services, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Small Business Services, Department of",ADVISORY SERVICES 
+"Small Business Services, Department of",CLOUD REVIEW
+"Small Business Services, Department of",USER EXPERIENCE DESIGN
+"Small Business Services, Department of",ADOBE ETLA
+"Small Business Services, Department of",VMWARE ELA
+"Small Business Services, Department of",MICROSOFT ELA
+"Small Business Services, Department of",MOBILE DEVICES AND SERVICES
+"Small Business Services, Department of",TELECOMM CONTRACT
+"Small Business Services, Department of",FUNCTIONAL TESTING
+"Small Business Services, Department of",PERFORMANCE TEST
+"Small Business Services, Department of",QUALITY ASSURANCE SUPPORT 
+"Social Service, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Social Service, Department of",NYC.GOV
+"Social Services, Department of /HRA",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Social Services, Department of /HRA",BUSINESS ANALYSIS
+"Social Services, Department of /HRA",BUSINESS APPLICATION DEVELOPMENT 
+"Social Services, Department of /HRA",BUSINESS-AS-USUAL (ANALYTICS)
+"Social Services, Department of /HRA",MAPPING/LOCATION SERVICES
+"Social Services, Department of /HRA",MOBILE DEVELOPMENT 
+"Social Services, Department of /HRA",PROJECT MANAGEMENT 
+"Social Services, Department of /HRA",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Social Services, Department of /HRA",SOLUTION DEVELOPMENT (ANALYTICS)
+"Social Services, Department of /HRA",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Social Services, Department of /HRA",NYC.GOV
+"Social Services, Department of /HRA",WEB SINGLE SIGN-ON
+"Social Services, Department of /HRA",IDENTITY MANAGEMENT 
+"Social Services, Department of /HRA",NYC.ID/IDENTITY MANAGEMENT 
+"Social Services, Department of /HRA",PASSWORD SELF-SERVICE
+"Social Services, Department of /HRA",SITE-TO-SITE VPN
+"Social Services, Department of /HRA",SOFTWARE SECURITY ASSURANCE
+"Social Services, Department of /HRA",SSL REMOTE ACCESS
+"Social Services, Department of /HRA",CDWG - IT GOODS AND RELATED SERVICES 
+"Social Services, Department of /HRA",CISCO MAINTENANCE CONTRACT
+"Social Services, Department of /HRA",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Social Services, Department of /HRA",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Social Services, Department of /HRA",QUALITY CONTROL SERVICES (QC)
+"Social Services, Department of /HRA",SYSTEMS INTEGRATION SERVICES (SI)
+"Social Services, Department of /HRA",APPLICATION SUPPORT
+"Social Services, Department of /HRA",PROVISIONING
+"Social Services, Department of /HRA",SELF-PROVISIONING
+"Social Services, Department of /HRA",MAINFRAME
+"Social Services, Department of /HRA",SECURE FILE TRANSFER 
+"Social Services, Department of /HRA",SITE B (STERLING FOREST) MAINFRAME
+"Social Services, Department of /HRA",WORKSHOPS
+"Social Services, Department of /HRA",CITYNET
+"Social Services, Department of /HRA",ADVISORY SERVICES 
+"Social Services, Department of /HRA",CLOUD REVIEW
+"Social Services, Department of /HRA",ADOBE ETLA
+"Social Services, Department of /HRA",VMWARE ELA
+"Social Services, Department of /HRA",MICROSOFT ELA
+"Social Services, Department of /HRA",MOBILE DEVICES AND SERVICES
+"Social Services, Department of /HRA",TELECOMM CONTRACT
+"Social Services, Department of /HRA",VIDEO CONFERENCING SOLUTIONS
+"Social Services, Department of /HRA",FUNCTIONAL TESTING
+"Social Services, Department of /HRA",PERFORMANCE TEST
+"Social Services, Department of /HRA",QUALITY ASSURANCE SUPPORT 
+"Social Services, Department of /DHS",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Social Services, Department of /DHS",BUSINESS ANALYSIS
+"Social Services, Department of /DHS",BUSINESS APPLICATION DEVELOPMENT 
+"Social Services, Department of /DHS",BUSINESS-AS-USUAL (ANALYTICS)
+"Social Services, Department of /DHS",MAPPING/LOCATION SERVICES
+"Social Services, Department of /DHS",PROJECT MANAGEMENT 
+"Social Services, Department of /DHS",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Social Services, Department of /DHS",SOLUTION DEVELOPMENT (ANALYTICS)
+"Social Services, Department of /DHS",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Social Services, Department of /DHS",NYC.GOV
+"Social Services, Department of /DHS",WEB SINGLE SIGN-ON
+"Social Services, Department of /DHS",IDENTITY MANAGEMENT 
+"Social Services, Department of /DHS",NYC.ID/IDENTITY MANAGEMENT 
+"Social Services, Department of /DHS",PASSWORD SELF-SERVICE
+"Social Services, Department of /DHS",SITE-TO-SITE VPN
+"Social Services, Department of /DHS",SOFTWARE SECURITY ASSURANCE
+"Social Services, Department of /DHS",SSL REMOTE ACCESS
+"Social Services, Department of /DHS",CDWG - IT GOODS AND RELATED SERVICES 
+"Social Services, Department of /DHS",CISCO MAINTENANCE CONTRACT
+"Social Services, Department of /DHS",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Social Services, Department of /DHS",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Social Services, Department of /DHS",QUALITY CONTROL SERVICES (QC)
+"Social Services, Department of /DHS",SYSTEMS INTEGRATION SERVICES (SI)
+"Social Services, Department of /DHS",SERVICE DESK
+"Social Services, Department of /DHS",PROVISIONING
+"Social Services, Department of /DHS",MAINFRAME
+"Social Services, Department of /DHS",SECURE FILE TRANSFER 
+"Social Services, Department of /DHS",SITE B (STERLING FOREST) MAINFRAME
+"Social Services, Department of /DHS",CABLE INFRASTRUCTURE
+"Social Services, Department of /DHS",CITYNET
+"Social Services, Department of /DHS",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Social Services, Department of /DHS",ADVISORY SERVICES 
+"Social Services, Department of /DHS",ADOBE ETLA
+"Social Services, Department of /DHS",VMWARE ELA
+"Social Services, Department of /DHS",MICROSOFT ELA
+"Social Services, Department of /DHS",MOBILE DEVICES AND SERVICES
+"Social Services, Department of /DHS",TELECOMM CONTRACT
+"Social Services, Department of /DHS",VIDEO CONFERENCING SOLUTIONS
+"Social Services, Department of /DHS",VoIP
+"Social Services, Department of /DHS",FUNCTIONAL TESTING
+"Social Services, Department of /DHS",PERFORMANCE TEST
+Taxi & Limousine Commission,BUSINESS ANALYSIS
+Taxi & Limousine Commission,BUSINESS APPLICATION DEVELOPMENT 
+Taxi & Limousine Commission,BUSINESS-AS-USUAL (ANALYTICS)
+Taxi & Limousine Commission,HUMAN CENTERED DESIGN
+Taxi & Limousine Commission,PROJECT MANAGEMENT 
+Taxi & Limousine Commission,SOLUTION DEVELOPMENT (ANALYTICS)
+Taxi & Limousine Commission,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Taxi & Limousine Commission,NYC.GOV
+Taxi & Limousine Commission,IDENTITY MANAGEMENT 
+Taxi & Limousine Commission,PASSWORD SELF-SERVICE
+Taxi & Limousine Commission,SITE-TO-SITE VPN
+Taxi & Limousine Commission,SOFTWARE SECURITY ASSURANCE
+Taxi & Limousine Commission,SSL REMOTE ACCESS
+Taxi & Limousine Commission,CDWG - IT GOODS AND RELATED SERVICES 
+Taxi & Limousine Commission,CISCO MAINTENANCE CONTRACT
+Taxi & Limousine Commission,INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+Taxi & Limousine Commission,APPLICATION SUPPORT
+Taxi & Limousine Commission,PRIMARY DATA CENTER
+Taxi & Limousine Commission,EMAIL
+Taxi & Limousine Commission,PROVISIONING
+Taxi & Limousine Commission,MAINFRAME
+Taxi & Limousine Commission,LYNC 2013
+Taxi & Limousine Commission,SECURE FILE TRANSFER 
+Taxi & Limousine Commission,SHAREPOINT
+Taxi & Limousine Commission,SITE B (STERLING FOREST) MAINFRAME
+Taxi & Limousine Commission,WORKSHOPS
+Taxi & Limousine Commission,CABLE INFRASTRUCTURE
+Taxi & Limousine Commission,CITYNET
+Taxi & Limousine Commission,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Taxi & Limousine Commission,SECURE WIRELESS (LAN) SERVICES
+Taxi & Limousine Commission,ADVISORY SERVICES 
+Taxi & Limousine Commission,CLOUD REVIEW
+Taxi & Limousine Commission,USER EXPERIENCE DESIGN
+Taxi & Limousine Commission,ADOBE ETLA
+Taxi & Limousine Commission,VMWARE ELA
+Taxi & Limousine Commission,MICROSOFT ELA
+Taxi & Limousine Commission,CONTACT CENTER SOLUTIONS
+Taxi & Limousine Commission,MOBILE DEVICES AND SERVICES
+Taxi & Limousine Commission,TELECOMM CONTRACT
+Taxi & Limousine Commission,TWO-WAY RADIO COMMUNICATION
+Taxi & Limousine Commission,VoIP
+Taxi & Limousine Commission,FUNCTIONAL TESTING
+Taxi & Limousine Commission,PERFORMANCE TEST
+Taxi & Limousine Commission,QUALITY ASSURANCE SUPPORT 
+"Transportation, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Transportation, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Transportation, Department of",MAPPING/LOCATION SERVICES
+"Transportation, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Transportation, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Transportation, Department of",NYC.GOV
+"Transportation, Department of",IDENTITY MANAGEMENT 
+"Transportation, Department of",PASSWORD SELF-SERVICE
+"Transportation, Department of",SITE-TO-SITE VPN
+"Transportation, Department of",SOFTWARE SECURITY ASSURANCE
+"Transportation, Department of",SSL REMOTE ACCESS
+"Transportation, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Transportation, Department of",CISCO MAINTENANCE CONTRACT
+"Transportation, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Transportation, Department of",QUALITY CONTROL SERVICES (QC)
+"Transportation, Department of",SYSTEMS INTEGRATION SERVICES (SI)
+"Transportation, Department of",PROVISIONING
+"Transportation, Department of",MAINFRAME
+"Transportation, Department of",SECURE FILE TRANSFER 
+"Transportation, Department of","SITE B COLOCATION (NETWORK CONNECTIVITY, AND EMERGENCY SUPPORT DURING BUSINESS HOURS)"
+"Transportation, Department of",WORKSHOPS
+"Transportation, Department of",CITYNET
+"Transportation, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Transportation, Department of",CLOUD REVIEW
+"Transportation, Department of",ADOBE ETLA
+"Transportation, Department of",VMWARE ELA
+"Transportation, Department of",MICROSOFT ELA
+"Transportation, Department of",MOBILE DEVICES AND SERVICES
+"Transportation, Department of",TELECOMM CONTRACT
+"Veteran's Services, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Veteran's Services, Department of",PROJECT MANAGEMENT 
+"Veteran's Services, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Veteran's Services, Department of",NYC.GOV
+"Veteran's Services, Department of",SITE-TO-SITE VPN
+"Veteran's Services, Department of",SOFTWARE SECURITY ASSURANCE
+"Veteran's Services, Department of",SSL REMOTE ACCESS
+"Veteran's Services, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Veteran's Services, Department of",PRIMARY DATA CENTER
+"Veteran's Services, Department of",EMAIL
+"Veteran's Services, Department of",PROVISIONING
+"Veteran's Services, Department of",SHAREPOINT
+"Veteran's Services, Department of",CABLE INFRASTRUCTURE
+"Veteran's Services, Department of",CITYNET
+"Veteran's Services, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Veteran's Services, Department of",NETWORK LAN SUPPORT
+"Veteran's Services, Department of",SECURE WIRELESS (LAN) SERVICES
+"Veteran's Services, Department of",CLOUD REVIEW
+"Veteran's Services, Department of",ADOBE ETLA
+"Veteran's Services, Department of",MICROSOFT ELA
+"Veteran's Services, Department of",MOBILE DEVICES AND SERVICES
+"Youth And Community Development, Department of",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Youth And Community Development, Department of",BUSINESS APPLICATION DEVELOPMENT 
+"Youth And Community Development, Department of",BUSINESS-AS-USUAL (ANALYTICS)
+"Youth And Community Development, Department of",PUBLIC ACCOUNT MANAGEMENT (NYC.ID) 
+"Youth And Community Development, Department of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Youth And Community Development, Department of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Youth And Community Development, Department of",NYC.GOV
+"Youth And Community Development, Department of",WEB SINGLE SIGN-ON
+"Youth And Community Development, Department of",IDENTITY MANAGEMENT 
+"Youth And Community Development, Department of",NYC.ID/IDENTITY MANAGEMENT 
+"Youth And Community Development, Department of",PASSWORD SELF-SERVICE
+"Youth And Community Development, Department of",SITE-TO-SITE VPN
+"Youth And Community Development, Department of",SOFTWARE SECURITY ASSURANCE
+"Youth And Community Development, Department of",SSL REMOTE ACCESS
+"Youth And Community Development, Department of",CDWG - IT GOODS AND RELATED SERVICES 
+"Youth And Community Development, Department of",CISCO MAINTENANCE CONTRACT
+"Youth And Community Development, Department of",INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+"Youth And Community Development, Department of",SYSTEMS INTEGRATION SERVICES (SI)
+"Youth And Community Development, Department of",SERVICE DESK
+"Youth And Community Development, Department of",PRIMARY DATA CENTER
+"Youth And Community Development, Department of",EMAIL
+"Youth And Community Development, Department of",PROVISIONING
+"Youth And Community Development, Department of",SELF-PROVISIONING
+"Youth And Community Development, Department of",SECURE FILE TRANSFER 
+"Youth And Community Development, Department of",SHAREPOINT
+"Youth And Community Development, Department of",SITE B (STERLING FOREST) MAINFRAME
+"Youth And Community Development, Department of",WORKSHOPS
+"Youth And Community Development, Department of",CABLE INFRASTRUCTURE
+"Youth And Community Development, Department of",CITYNET
+"Youth And Community Development, Department of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Youth And Community Development, Department of",SECURE WIRELESS (LAN) SERVICES
+"Youth And Community Development, Department of",VMWARE ELA
+"Youth And Community Development, Department of",MICROSOFT ELA
+"Youth And Community Development, Department of",CONTACT CENTER SOLUTIONS
+"Youth And Community Development, Department of",MOBILE DEVICES AND SERVICES
+"Youth And Community Development, Department of",TELECOMM CONTRACT
+"Youth And Community Development, Department of",VIDEO CONFERENCING SOLUTIONS
+"Youth And Community Development, Department of",VoIP
+Board of Health (DoHMH),BUSINESS APPLICATION DEVELOPMENT 
+Board of Health (DoHMH),BUSINESS-AS-USUAL (ANALYTICS)
+Board of Health (DoHMH),MAPPING/LOCATION SERVICES
+Board of Health (DoHMH),SOLUTION DEVELOPMENT (ANALYTICS)
+Board of Health (DoHMH),SITE-TO-SITE VPN
+Board of Health (DoHMH),SOFTWARE SECURITY ASSURANCE
+Board of Health (DoHMH),SSL REMOTE ACCESS
+Board of Health (DoHMH),MAINFRAME
+Board of Health (DoHMH),SITE B (STERLING FOREST) MAINFRAME
+Board of Health (DoHMH),ADOBE ETLA
+Board of Health (DoHMH),VMWARE ELA
+Board of Health (DoHMH),MOBILE DEVICES AND SERVICES
+Campaign Finance Board,SITE-TO-SITE VPN
+Campaign Finance Board,SOFTWARE SECURITY ASSURANCE
+Campaign Finance Board,SSL REMOTE ACCESS
+Campaign Finance Board,CDWG - IT GOODS AND RELATED SERVICES 
+Campaign Finance Board,CISCO MAINTENANCE CONTRACT
+Campaign Finance Board,INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+Campaign Finance Board,PRIMARY DATA CENTER
+Campaign Finance Board,MAINFRAME
+Campaign Finance Board,CABLE INFRASTRUCTURE
+Campaign Finance Board,CITYNET
+Campaign Finance Board,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Campaign Finance Board,CLOUD REVIEW
+Campaign Finance Board,ADOBE ETLA
+Campaign Finance Board,MICROSOFT ELA
+Campaign Finance Board,MOBILE DEVICES AND SERVICES
+Campaign Finance Board,VoIP
+Civilian Complaint Review Board,BUSINESS APPLICATION DEVELOPMENT 
+Civilian Complaint Review Board,PROJECT MANAGEMENT 
+Civilian Complaint Review Board,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Civilian Complaint Review Board,NYC.GOV
+Civilian Complaint Review Board,SITE-TO-SITE VPN
+Civilian Complaint Review Board,SOFTWARE SECURITY ASSURANCE
+Civilian Complaint Review Board,SSL REMOTE ACCESS
+Civilian Complaint Review Board,CISCO MAINTENANCE CONTRACT
+Civilian Complaint Review Board,APPLICATION SUPPORT
+Civilian Complaint Review Board,PRIMARY DATA CENTER
+Civilian Complaint Review Board,EMAIL
+Civilian Complaint Review Board,PROVISIONING
+Civilian Complaint Review Board,"SITE B COLOCATION (NETWORK CONNECTIVITY, AND EMERGENCY SUPPORT DURING BUSINESS HOURS)"
+Civilian Complaint Review Board,WORKSHOPS
+Civilian Complaint Review Board,CABLE INFRASTRUCTURE
+Civilian Complaint Review Board,CITYNET
+Civilian Complaint Review Board,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Civilian Complaint Review Board,ADVISORY SERVICES 
+Civilian Complaint Review Board,CLOUD REVIEW
+Civilian Complaint Review Board,ADOBE ETLA
+Civilian Complaint Review Board,MICROSOFT ELA
+Civilian Complaint Review Board,MOBILE DEVICES AND SERVICES
+Civilian Complaint Review Board,VoIP
+Community Boards,BUSINESS APPLICATION DEVELOPMENT 
+Community Boards,PROJECT MANAGEMENT 
+Community Boards,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Community Boards,NYC.GOV
+Community Boards,SITE-TO-SITE VPN
+Community Boards,SOFTWARE SECURITY ASSURANCE
+Community Boards,SSL REMOTE ACCESS
+Community Boards,DESKTOP SUPPORT
+Community Boards,EMAIL
+Community Boards,LYNC 2013
+Community Boards,SECURE FILE TRANSFER 
+Community Boards,WP ENGINE PLATFORM
+Community Boards,CABLE INFRASTRUCTURE
+Community Boards,CITYNET
+Community Boards,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Community Boards,NETWORK LAN SUPPORT
+Community Boards,NEW YORK WIRELESS NETWORK (NYCWIN)
+Community Boards,USER EXPERIENCE DESIGN
+Community Boards,ADOBE ETLA
+Community Boards,MICROSOFT ELA
+Community Boards,MOBILE DEVICES AND SERVICES
+Community Boards,TWO-WAY RADIO COMMUNICATION
+Community Boards,VoIP
+Conflicts of Interest Board,BUSINESS ANALYSIS
+Conflicts of Interest Board,BUSINESS APPLICATION DEVELOPMENT 
+Conflicts of Interest Board,PROJECT MANAGEMENT 
+Conflicts of Interest Board,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Conflicts of Interest Board,NYC.GOV
+Conflicts of Interest Board,SITE-TO-SITE VPN
+Conflicts of Interest Board,SOFTWARE SECURITY ASSURANCE
+Conflicts of Interest Board,SSL REMOTE ACCESS
+Conflicts of Interest Board,APPLICATION SUPPORT
+Conflicts of Interest Board,PROVISIONING
+Conflicts of Interest Board,SECURE FILE TRANSFER 
+Conflicts of Interest Board,WORKSHOPS
+Conflicts of Interest Board,CABLE INFRASTRUCTURE
+Conflicts of Interest Board,CITYNET
+Conflicts of Interest Board,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Conflicts of Interest Board,NEW YORK WIRELESS NETWORK (NYCWIN)
+Conflicts of Interest Board,ADVISORY SERVICES 
+Conflicts of Interest Board,CLOUD REVIEW
+Conflicts of Interest Board,ADOBE ETLA
+Conflicts of Interest Board,VMWARE ELA
+Conflicts of Interest Board,MOBILE DEVICES AND SERVICES
+Conflicts of Interest Board,TWO-WAY RADIO COMMUNICATION
+Conflicts of Interest Board,VoIP
+Conflicts of Interest Board,FUNCTIONAL TESTING
+"Correction, Board of",PROJECT MANAGEMENT 
+"Correction, Board of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Correction, Board of",NYC.GOV
+"Correction, Board of",SITE-TO-SITE VPN
+"Correction, Board of",SOFTWARE SECURITY ASSURANCE
+"Correction, Board of",SSL REMOTE ACCESS
+"Correction, Board of",DESKTOP SUPPORT
+"Correction, Board of",EMAIL
+"Correction, Board of",PROVISIONING
+"Correction, Board of",SELF-PROVISIONING
+"Correction, Board of",LYNC 2013
+"Correction, Board of",SECURE FILE TRANSFER 
+"Correction, Board of",CABLE INFRASTRUCTURE
+"Correction, Board of",CITYNET
+"Correction, Board of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Correction, Board of",NEW YORK WIRELESS NETWORK (NYCWIN)
+"Correction, Board of",MICROSOFT ELA
+"Correction, Board of",MOBILE DEVICES AND SERVICES
+"Correction, Board of",TWO-WAY RADIO COMMUNICATION
+"Education Retirement System, Board of",BUSINESS-AS-USUAL (ANALYTICS)
+"Education Retirement System, Board of",PROJECT MANAGEMENT 
+"Education Retirement System, Board of",SOLUTION DEVELOPMENT (ANALYTICS)
+"Education Retirement System, Board of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Education Retirement System, Board of",NYC.GOV
+"Education Retirement System, Board of",SITE-TO-SITE VPN
+"Education Retirement System, Board of",SOFTWARE SECURITY ASSURANCE
+"Education Retirement System, Board of",SSL REMOTE ACCESS
+"Education Retirement System, Board of",PROVISIONING
+"Education Retirement System, Board of",MAINFRAME
+"Education Retirement System, Board of",SITEB SERVICES
+"Elections, Board of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Elections, Board of",NYC.GOV
+"Elections, Board of",SITE-TO-SITE VPN
+"Elections, Board of",SOFTWARE SECURITY ASSURANCE
+"Elections, Board of",SSL REMOTE ACCESS
+"Elections, Board of",CDWG - IT GOODS AND RELATED SERVICES 
+"Elections, Board of",APPLICATION SUPPORT
+"Elections, Board of",MAINFRAME
+"Elections, Board of",SECURE FILE TRANSFER 
+"Elections, Board of",CABLE INFRASTRUCTURE
+"Elections, Board of",CITYNET
+"Elections, Board of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Elections, Board of",ADOBE ETLA
+"Elections, Board of",VMWARE ELA
+"Elections, Board of",MICROSOFT ELA
+"Elections, Board of",MOBILE DEVICES AND SERVICES
+"Elections, Board of",TELECOMM CONTRACT
+"Elections, Board of",FUNCTIONAL TESTING
+"Employees Retirement System Board of Trustees, NYC",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Employees Retirement System Board of Trustees, NYC",IDENTITY MANAGEMENT 
+"Employees Retirement System Board of Trustees, NYC",NYC.ID/IDENTITY MANAGEMENT 
+"Employees Retirement System Board of Trustees, NYC",PASSWORD SELF-SERVICE
+"Employees Retirement System Board of Trustees, NYC",SITE-TO-SITE VPN
+"Employees Retirement System Board of Trustees, NYC",SOFTWARE SECURITY ASSURANCE
+"Employees Retirement System Board of Trustees, NYC",SSL REMOTE ACCESS
+"Employees Retirement System Board of Trustees, NYC",SITE B (STERLING FOREST) MAINFRAME
+"Employees Retirement System Board of Trustees, NYC",CABLE INFRASTRUCTURE
+"Employees Retirement System Board of Trustees, NYC",CITYNET
+"Employees Retirement System Board of Trustees, NYC",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Employees Retirement System Board of Trustees, NYC",ADOBE ETLA
+"Employees Retirement System Board of Trustees, NYC",VMWARE ELA
+"Employees Retirement System Board of Trustees, NYC",TELECOMM CONTRACT
+Environmental Control Board (OATH),BUSINESS APPLICATION DEVELOPMENT 
+Environmental Control Board (OATH),BUSINESS-AS-USUAL (ANALYTICS)
+Environmental Control Board (OATH),SOLUTION DEVELOPMENT (ANALYTICS)
+Environmental Control Board (OATH),WEBSITE DESIGN BUILD AND MAINTENANCE  
+Environmental Control Board (OATH),NYC.GOV
+Environmental Control Board (OATH),SITE-TO-SITE VPN
+Environmental Control Board (OATH),SOFTWARE SECURITY ASSURANCE
+Environmental Control Board (OATH),SSL REMOTE ACCESS
+Environmental Control Board (OATH),CISCO MAINTENANCE CONTRACT
+Environmental Control Board (OATH),INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+Environmental Control Board (OATH),DATA EXCHANGE
+Environmental Control Board (OATH),EMAIL
+Environmental Control Board (OATH),PROVISIONING
+Environmental Control Board (OATH),MAINFRAME
+Environmental Control Board (OATH),CABLE INFRASTRUCTURE
+Environmental Control Board (OATH),CITYNET
+Environmental Control Board (OATH),DATA CONNECTIVITY (CIRCUIT ORDERS)
+Environmental Control Board (OATH),SECURE WIRELESS (LAN) SERVICES
+Environmental Control Board (OATH),ADOBE ETLA
+Environmental Control Board (OATH),VMWARE ELA
+Environmental Control Board (OATH),CONTACT CENTER SOLUTIONS
+Environmental Control Board (OATH),VIDEO CONFERENCING SOLUTIONS
+Environmental Control Board (OATH),VoIP
+In-Rem foreclosure Release Board (DOF),APPLICATION AUTHENTICATION AND AUTHORIZATION
+In-Rem foreclosure Release Board (DOF),WEB SINGLE SIGN-ON
+In-Rem foreclosure Release Board (DOF),IDENTITY MANAGEMENT 
+In-Rem foreclosure Release Board (DOF),NYC.ID/IDENTITY MANAGEMENT 
+In-Rem foreclosure Release Board (DOF),PASSWORD SELF-SERVICE
+In-Rem foreclosure Release Board (DOF),SITE-TO-SITE VPN
+In-Rem foreclosure Release Board (DOF),SOFTWARE SECURITY ASSURANCE
+In-Rem foreclosure Release Board (DOF),SSL REMOTE ACCESS
+Loft Board (HPD),BUSINESS APPLICATION DEVELOPMENT 
+Loft Board (HPD),WEBSITE DESIGN BUILD AND MAINTENANCE  
+Loft Board (HPD),NYC.GOV
+Loft Board (HPD),SITE-TO-SITE VPN
+Loft Board (HPD),SOFTWARE SECURITY ASSURANCE
+Loft Board (HPD),SSL REMOTE ACCESS
+Loft Board (HPD),SITEB SERVICES
+Procurement Policy Board,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Procurement Policy Board,NYC.GOV
+Procurement Policy Board,SITE-TO-SITE VPN
+Procurement Policy Board,SOFTWARE SECURITY ASSURANCE
+Procurement Policy Board,SSL REMOTE ACCESS
+Procurement Policy Board,SITE B (STERLING FOREST) MAINFRAME
+Rent Guidelines Board,BUSINESS APPLICATION DEVELOPMENT 
+Rent Guidelines Board,BUSINESS-AS-USUAL (ANALYTICS)
+Rent Guidelines Board,SOLUTION DEVELOPMENT (ANALYTICS)
+Rent Guidelines Board,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Rent Guidelines Board,NYC.GOV
+Rent Guidelines Board,SITE-TO-SITE VPN
+Rent Guidelines Board,SOFTWARE SECURITY ASSURANCE
+Rent Guidelines Board,SSL REMOTE ACCESS
+Rent Guidelines Board,SITE B (STERLING FOREST) MAINFRAME
+"Standards And Appeals, Board of",BUSINESS APPLICATION DEVELOPMENT 
+"Standards And Appeals, Board of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Standards And Appeals, Board of",NYC.GOV
+"Standards And Appeals, Board of",SITE-TO-SITE VPN
+"Standards And Appeals, Board of",SOFTWARE SECURITY ASSURANCE
+"Standards And Appeals, Board of",SSL REMOTE ACCESS
+"Standards And Appeals, Board of",EMAIL
+"Standards And Appeals, Board of",SECURE FILE TRANSFER 
+"Standards And Appeals, Board of",CABLE INFRASTRUCTURE
+"Standards And Appeals, Board of",CITYNET
+Water Board (DEP),WEBSITE DESIGN BUILD AND MAINTENANCE  
+Water Board (DEP),NYC.GOV
+Water Board (DEP),SITE-TO-SITE VPN
+Water Board (DEP),SOFTWARE SECURITY ASSURANCE
+Water Board (DEP),SSL REMOTE ACCESS
+Water Board (DEP),MAINFRAME
+Water Board (DEP),VMWARE ELA
+Water Board (DEP),MOBILE DEVICES AND SERVICES
+Workforce Investment Board (Mayor's Office of Workforce Development),WEBSITE DESIGN BUILD AND MAINTENANCE  
+Workforce Investment Board (Mayor's Office of Workforce Development),NYC.GOV
+Workforce Investment Board (Mayor's Office of Workforce Development),SITE-TO-SITE VPN
+Workforce Investment Board (Mayor's Office of Workforce Development),SOFTWARE SECURITY ASSURANCE
+Workforce Investment Board (Mayor's Office of Workforce Development),SSL REMOTE ACCESS
+Workforce Investment Board (Mayor's Office of Workforce Development),NEW YORK WIRELESS NETWORK (NYCWIN)
+Workforce Investment Board (Mayor's Office of Workforce Development),TWO-WAY RADIO COMMUNICATION
+City Planning Commission,WEBSITE DESIGN BUILD AND MAINTENANCE  
+City Planning Commission,NYC.GOV
+City Planning Commission,SITE-TO-SITE VPN
+City Planning Commission,SOFTWARE SECURITY ASSURANCE
+City Planning Commission,SSL REMOTE ACCESS
+City Planning Commission,MICROSOFT ELA
+City Planning Commission,MOBILE DEVICES AND SERVICES
+City Planning Commission,VoIP
+"Civil Service Commission, City",PROJECT MANAGEMENT 
+"Civil Service Commission, City",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Civil Service Commission, City",NYC.GOV
+"Civil Service Commission, City",SITE-TO-SITE VPN
+"Civil Service Commission, City",SOFTWARE SECURITY ASSURANCE
+"Civil Service Commission, City",SSL REMOTE ACCESS
+"Civil Service Commission, City",DESKTOP SUPPORT
+"Civil Service Commission, City",EMAIL
+"Civil Service Commission, City",CABLE INFRASTRUCTURE
+"Civil Service Commission, City",CITYNET
+"Civil Service Commission, City",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Civil Service Commission, City",NETWORK LAN SUPPORT
+"Civil Service Commission, City",TWO-WAY RADIO COMMUNICATION
+"Civil Service Commission, City",VoIP
+Equal Employment Practices Commission,BUSINESS APPLICATION DEVELOPMENT 
+Equal Employment Practices Commission,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Equal Employment Practices Commission,NYC.GOV
+Equal Employment Practices Commission,SITE-TO-SITE VPN
+Equal Employment Practices Commission,SOFTWARE SECURITY ASSURANCE
+Equal Employment Practices Commission,SSL REMOTE ACCESS
+Equal Employment Practices Commission,SERVICE DESK
+Equal Employment Practices Commission,DESKTOP SUPPORT
+Equal Employment Practices Commission,EMAIL
+Equal Employment Practices Commission,PROVISIONING
+Equal Employment Practices Commission,LYNC 2013
+Equal Employment Practices Commission,SITE B (STERLING FOREST) MAINFRAME
+Equal Employment Practices Commission,CABLE INFRASTRUCTURE
+Equal Employment Practices Commission,CITYNET
+Equal Employment Practices Commission,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Equal Employment Practices Commission,NETWORK LAN SUPPORT
+Equal Employment Practices Commission,SECURE WIRELESS (LAN) SERVICES
+Equal Employment Practices Commission,VoIP
+"Police Corruption, Commission to Combat",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Police Corruption, Commission to Combat",NYC.GOV
+"Police Corruption, Commission to Combat",SITE-TO-SITE VPN
+"Police Corruption, Commission to Combat",SOFTWARE SECURITY ASSURANCE
+"Police Corruption, Commission to Combat",SSL REMOTE ACCESS
+"Police Corruption, Commission to Combat",CABLE INFRASTRUCTURE
+"Police Corruption, Commission to Combat",CITYNET
+"Tax Commission, the (OATA)",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Tax Commission, the (OATA)",NYC.GOV
+"Tax Commission, the (OATA)",SITE-TO-SITE VPN
+"Tax Commission, the (OATA)",SOFTWARE SECURITY ASSURANCE
+"Tax Commission, the (OATA)",SSL REMOTE ACCESS
+"Tax Commission, the (OATA)",MAINFRAME
+"Actuary, NYC Office of",BUSINESS APPLICATION DEVELOPMENT 
+"Actuary, NYC Office of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Actuary, NYC Office of",NYC.GOV
+"Actuary, NYC Office of",IDENTITY MANAGEMENT 
+"Actuary, NYC Office of",PASSWORD SELF-SERVICE
+"Actuary, NYC Office of",SITE-TO-SITE VPN
+"Actuary, NYC Office of",SOFTWARE SECURITY ASSURANCE
+"Actuary, NYC Office of",SSL REMOTE ACCESS
+"Actuary, NYC Office of",MAINFRAME
+"Actuary, NYC Office of",SECURE FILE TRANSFER 
+"Actuary, NYC Office of",SITE B (STERLING FOREST) MAINFRAME
+"Actuary, NYC Office of",CABLE INFRASTRUCTURE
+"Actuary, NYC Office of",CITYNET
+"Actuary, NYC Office of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Actuary, NYC Office of",ADOBE ETLA
+"Actuary, NYC Office of",MICROSOFT ELA
+"Actuary, NYC Office of",MOBILE DEVICES AND SERVICES
+"Actuary, NYC Office of",VoIP
+Borough President - Bronx,MAPPING/LOCATION SERVICES
+Borough President - Bronx,SITE-TO-SITE VPN
+Borough President - Bronx,SOFTWARE SECURITY ASSURANCE
+Borough President - Bronx,SSL REMOTE ACCESS
+Borough President - Bronx,MAINFRAME
+Borough President - Bronx,SHAREPOINT
+Borough President - Bronx,SITE B (STERLING FOREST) MAINFRAME
+Borough President - Bronx,CABLE INFRASTRUCTURE
+Borough President - Bronx,CITYNET
+Borough President - Bronx,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Borough President - Bronx,VMWARE ELA
+Borough President - Bronx,MICROSOFT ELA
+Borough President - Bronx,MOBILE DEVICES AND SERVICES
+Borough President - Brooklyn,MAPPING/LOCATION SERVICES
+Borough President - Brooklyn,PROJECT MANAGEMENT 
+Borough President - Brooklyn,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Borough President - Brooklyn,NYC.GOV
+Borough President - Brooklyn,SITE-TO-SITE VPN
+Borough President - Brooklyn,SOFTWARE SECURITY ASSURANCE
+Borough President - Brooklyn,SSL REMOTE ACCESS
+Borough President - Brooklyn,EMAIL
+Borough President - Brooklyn,PROVISIONING
+Borough President - Brooklyn,MAINFRAME
+Borough President - Brooklyn,SHAREPOINT
+Borough President - Brooklyn,SITE B (STERLING FOREST) MAINFRAME
+Borough President - Brooklyn,WORKSHOPS
+Borough President - Brooklyn,CABLE INFRASTRUCTURE
+Borough President - Brooklyn,CITYNET
+Borough President - Brooklyn,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Borough President - Brooklyn,SECURE WIRELESS (LAN) SERVICES
+Borough President - Brooklyn,CLOUD REVIEW
+Borough President - Brooklyn,VMWARE ELA
+Borough President - Brooklyn,MICROSOFT ELA
+Borough President - Brooklyn,MOBILE DEVICES AND SERVICES
+Borough President - Manhattan,MAPPING/LOCATION SERVICES
+Borough President - Manhattan,PROJECT MANAGEMENT 
+Borough President - Manhattan,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Borough President - Manhattan,NYC.GOV
+Borough President - Manhattan,SITE-TO-SITE VPN
+Borough President - Manhattan,SOFTWARE SECURITY ASSURANCE
+Borough President - Manhattan,SSL REMOTE ACCESS
+Borough President - Manhattan,EMAIL
+Borough President - Manhattan,MAINFRAME
+Borough President - Manhattan,SHAREPOINT
+Borough President - Manhattan,SITE B (STERLING FOREST) MAINFRAME
+Borough President - Manhattan,CABLE INFRASTRUCTURE
+Borough President - Manhattan,CITYNET
+Borough President - Manhattan,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Borough President - Manhattan,ADOBE ETLA
+Borough President - Manhattan,VMWARE ELA
+Borough President - Manhattan,MICROSOFT ELA
+Borough President - Manhattan,MOBILE DEVICES AND SERVICES
+Borough President - Queens,MAPPING/LOCATION SERVICES
+Borough President - Queens,SITE-TO-SITE VPN
+Borough President - Queens,SOFTWARE SECURITY ASSURANCE
+Borough President - Queens,SSL REMOTE ACCESS
+Borough President - Queens,MAINFRAME
+Borough President - Queens,SHAREPOINT
+Borough President - Queens,SITE B (STERLING FOREST) MAINFRAME
+Borough President - Queens,CABLE INFRASTRUCTURE
+Borough President - Queens,CITYNET
+Borough President - Queens,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Borough President - Queens,VMWARE ELA
+Borough President - Queens,MICROSOFT ELA
+Borough President - Queens,MOBILE DEVICES AND SERVICES
+Borough President - Queens,VoIP
+Borough President - Staten Island,MAPPING/LOCATION SERVICES
+Borough President - Staten Island,PROJECT MANAGEMENT 
+Borough President - Staten Island,SITE-TO-SITE VPN
+Borough President - Staten Island,SOFTWARE SECURITY ASSURANCE
+Borough President - Staten Island,SSL REMOTE ACCESS
+Borough President - Staten Island,MAINFRAME
+Borough President - Staten Island,SHAREPOINT
+Borough President - Staten Island,SITE B (STERLING FOREST) MAINFRAME
+Borough President - Staten Island,CABLE INFRASTRUCTURE
+Borough President - Staten Island,CITYNET
+Borough President - Staten Island,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Borough President - Staten Island,MOBILE DEVICES AND SERVICES
+City Clerk & Clerk of the Council,BUSINESS ANALYSIS
+City Clerk & Clerk of the Council,BUSINESS APPLICATION DEVELOPMENT 
+City Clerk & Clerk of the Council,PROJECT MANAGEMENT 
+City Clerk & Clerk of the Council,WEBSITE DESIGN BUILD AND MAINTENANCE  
+City Clerk & Clerk of the Council,NYC.GOV
+City Clerk & Clerk of the Council,SITE-TO-SITE VPN
+City Clerk & Clerk of the Council,SOFTWARE SECURITY ASSURANCE
+City Clerk & Clerk of the Council,SSL REMOTE ACCESS
+City Clerk & Clerk of the Council,APPLICATION SUPPORT
+City Clerk & Clerk of the Council,EMAIL
+City Clerk & Clerk of the Council,PROVISIONING
+City Clerk & Clerk of the Council,CABLE INFRASTRUCTURE
+City Clerk & Clerk of the Council,CITYNET
+City Clerk & Clerk of the Council,DATA CONNECTIVITY (CIRCUIT ORDERS)
+City Clerk & Clerk of the Council,USER EXPERIENCE DESIGN
+City Clerk & Clerk of the Council,MOBILE DEVICES AND SERVICES
+City Clerk & Clerk of the Council,FUNCTIONAL TESTING
+County Clerk - Bronx County,SITE-TO-SITE VPN
+County Clerk - Bronx County,SOFTWARE SECURITY ASSURANCE
+County Clerk - Bronx County,SSL REMOTE ACCESS
+County Clerk - Bronx County,MOBILE DEVICES AND SERVICES
+County Clerk - Kings County,SITE-TO-SITE VPN
+County Clerk - Kings County,SOFTWARE SECURITY ASSURANCE
+County Clerk - Kings County,SSL REMOTE ACCESS
+County Clerk - Kings County,MOBILE DEVICES AND SERVICES
+County Clerk - New York County,SITE-TO-SITE VPN
+County Clerk - New York County,SOFTWARE SECURITY ASSURANCE
+County Clerk - New York County,SSL REMOTE ACCESS
+County Clerk - New York County,EMAIL
+County Clerk - New York County,MOBILE DEVICES AND SERVICES
+County Clerk - Queens County,SITE-TO-SITE VPN
+County Clerk - Queens County,SOFTWARE SECURITY ASSURANCE
+County Clerk - Queens County,SSL REMOTE ACCESS
+County Clerk - Queens County,MOBILE DEVICES AND SERVICES
+County Clerk - Richmond County,SITE-TO-SITE VPN
+County Clerk - Richmond County,SOFTWARE SECURITY ASSURANCE
+County Clerk - Richmond County,SSL REMOTE ACCESS
+County Clerk - Richmond County,SITE B (STERLING FOREST) MAINFRAME
+County Clerk - Richmond County,MOBILE DEVICES AND SERVICES
+City Council,SITE-TO-SITE VPN
+City Council,SOFTWARE SECURITY ASSURANCE
+City Council,SSL REMOTE ACCESS
+City Council,CDWG - IT GOODS AND RELATED SERVICES 
+City Council,CISCO MAINTENANCE CONTRACT
+City Council,APPLICATION SUPPORT
+City Council,SECURE FILE TRANSFER 
+City Council,SHAREPOINT
+City Council,CABLE INFRASTRUCTURE
+City Council,CITYNET
+City Council,DATA CONNECTIVITY (CIRCUIT ORDERS)
+City Council,VMWARE ELA
+City Council,TELECOMM CONTRACT
+City Council,VoIP
+"Collective Bargaining, Office of",BUSINESS APPLICATION DEVELOPMENT 
+"Collective Bargaining, Office of",PROJECT MANAGEMENT 
+"Collective Bargaining, Office of",SITE-TO-SITE VPN
+"Collective Bargaining, Office of",SOFTWARE SECURITY ASSURANCE
+"Collective Bargaining, Office of",SSL REMOTE ACCESS
+"Collective Bargaining, Office of",SERVICE DESK
+"Collective Bargaining, Office of",EMAIL
+"Collective Bargaining, Office of",CABLE INFRASTRUCTURE
+"Collective Bargaining, Office of",CITYNET
+"Collective Bargaining, Office of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Collective Bargaining, Office of",ADOBE ETLA
+"Collective Bargaining, Office of",MICROSOFT ELA
+"Collective Bargaining, Office of",MOBILE DEVICES AND SERVICES
+"Collective Bargaining, Office of",TWO-WAY RADIO COMMUNICATION
+"Comptroller, Office of the New York City",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Comptroller, Office of the New York City",BUSINESS APPLICATION DEVELOPMENT 
+"Comptroller, Office of the New York City",NYC.ID/IDENTITY MANAGEMENT 
+"Comptroller, Office of the New York City",SITE-TO-SITE VPN
+"Comptroller, Office of the New York City",SOFTWARE SECURITY ASSURANCE
+"Comptroller, Office of the New York City",SSL REMOTE ACCESS
+"Comptroller, Office of the New York City",CDWG - IT GOODS AND RELATED SERVICES 
+"Comptroller, Office of the New York City",CISCO MAINTENANCE CONTRACT
+"Comptroller, Office of the New York City",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Comptroller, Office of the New York City",SECURE FILE TRANSFER 
+"Comptroller, Office of the New York City",CABLE INFRASTRUCTURE
+"Comptroller, Office of the New York City",CITYNET
+"Comptroller, Office of the New York City",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Comptroller, Office of the New York City",CLOUD REVIEW
+"Comptroller, Office of the New York City",ADOBE ETLA
+"Comptroller, Office of the New York City",MICROSOFT ELA
+"Comptroller, Office of the New York City",MOBILE DEVICES AND SERVICES
+"Comptroller, Office of the New York City",TELECOMM CONTRACT
+District Attorney - Bronx County,WEBSITE DESIGN BUILD AND MAINTENANCE  
+District Attorney - Bronx County,NYC.GOV
+District Attorney - Bronx County,SITE-TO-SITE VPN
+District Attorney - Bronx County,SOFTWARE SECURITY ASSURANCE
+District Attorney - Bronx County,SSL REMOTE ACCESS
+District Attorney - Bronx County,CISCO MAINTENANCE CONTRACT
+District Attorney - Bronx County,CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+District Attorney - Bronx County,INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+District Attorney - Bronx County,DATA EXCHANGE
+District Attorney - Bronx County,EMAIL
+District Attorney - Bronx County,MAINFRAME
+District Attorney - Bronx County,SECURE FILE TRANSFER 
+District Attorney - Bronx County,CABLE INFRASTRUCTURE
+District Attorney - Bronx County,CITYNET
+District Attorney - Bronx County,DATA CONNECTIVITY (CIRCUIT ORDERS)
+District Attorney - Bronx County,ADOBE ETLA
+District Attorney - Bronx County,VMWARE ELA
+District Attorney - Bronx County,MICROSOFT ELA
+District Attorney - Bronx County,MOBILE DEVICES AND SERVICES
+District Attorney - Bronx County,TELECOMM CONTRACT
+District Attorney - Kings County,BUSINESS APPLICATION DEVELOPMENT 
+District Attorney - Kings County,PROJECT MANAGEMENT 
+District Attorney - Kings County,SITE-TO-SITE VPN
+District Attorney - Kings County,SOFTWARE SECURITY ASSURANCE
+District Attorney - Kings County,SSL REMOTE ACCESS
+District Attorney - Kings County,DATA EXCHANGE
+District Attorney - Kings County,SECURE FILE TRANSFER 
+District Attorney - Kings County,SITE B (STERLING FOREST) MAINFRAME
+District Attorney - Kings County,CABLE INFRASTRUCTURE
+District Attorney - Kings County,CITYNET
+District Attorney - Kings County,DATA CONNECTIVITY (CIRCUIT ORDERS)
+District Attorney - Kings County,CLOUD REVIEW
+District Attorney - Kings County,ADOBE ETLA
+District Attorney - Kings County,VMWARE ELA
+District Attorney - Kings County,MICROSOFT ELA
+District Attorney - Kings County,MOBILE DEVICES AND SERVICES
+District Attorney - Kings County,TELECOMM CONTRACT
+District Attorney - Kings County,FUNCTIONAL TESTING
+District Attorney - New York County,PROJECT MANAGEMENT 
+District Attorney - New York County,SITE-TO-SITE VPN
+District Attorney - New York County,SOFTWARE SECURITY ASSURANCE
+District Attorney - New York County,SSL REMOTE ACCESS
+District Attorney - New York County,INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+District Attorney - New York County,QUALITY CONTROL SERVICES (QC)
+District Attorney - New York County,DATA EXCHANGE
+District Attorney - New York County,PROVISIONING
+District Attorney - New York County,MAINFRAME
+District Attorney - New York County,SECURE FILE TRANSFER 
+District Attorney - New York County,CABLE INFRASTRUCTURE
+District Attorney - New York County,CITYNET
+District Attorney - New York County,DATA CONNECTIVITY (CIRCUIT ORDERS)
+District Attorney - New York County,ADOBE ETLA
+District Attorney - New York County,VMWARE ELA
+District Attorney - New York County,MICROSOFT ELA
+District Attorney - New York County,MOBILE DEVICES AND SERVICES
+District Attorney - New York County,TELECOMM CONTRACT
+District Attorney - New York County,FUNCTIONAL TESTING
+District Attorney - Queens County,PROJECT MANAGEMENT 
+District Attorney - Queens County,SITE-TO-SITE VPN
+District Attorney - Queens County,SOFTWARE SECURITY ASSURANCE
+District Attorney - Queens County,SSL REMOTE ACCESS
+District Attorney - Queens County,INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4)
+District Attorney - Queens County,DATA EXCHANGE
+District Attorney - Queens County,SECURE FILE TRANSFER 
+District Attorney - Queens County,CABLE INFRASTRUCTURE
+District Attorney - Queens County,CITYNET
+District Attorney - Queens County,DATA CONNECTIVITY (CIRCUIT ORDERS)
+District Attorney - Queens County,NEW YORK WIRELESS NETWORK (NYCWIN)
+District Attorney - Queens County,ADOBE ETLA
+District Attorney - Queens County,MOBILE DEVICES AND SERVICES
+District Attorney - Queens County,TWO-WAY RADIO COMMUNICATION
+District Attorney - Queens County,FUNCTIONAL TESTING
+District Attorney - Richmond County,BUSINESS ANALYSIS
+District Attorney - Richmond County,PROJECT MANAGEMENT 
+District Attorney - Richmond County,SITE-TO-SITE VPN
+District Attorney - Richmond County,SOFTWARE SECURITY ASSURANCE
+District Attorney - Richmond County,SSL REMOTE ACCESS
+District Attorney - Richmond County,DATA EXCHANGE
+District Attorney - Richmond County,EMAIL
+District Attorney - Richmond County,SECURE FILE TRANSFER 
+District Attorney - Richmond County,SITE B (STERLING FOREST) MAINFRAME
+District Attorney - Richmond County,CABLE INFRASTRUCTURE
+District Attorney - Richmond County,CITYNET
+District Attorney - Richmond County,DATA CONNECTIVITY (CIRCUIT ORDERS)
+District Attorney - Richmond County,SECURE WIRELESS (LAN) SERVICES
+District Attorney - Richmond County,VMWARE ELA
+District Attorney - Richmond County,MICROSOFT ELA
+District Attorney - Richmond County,MOBILE DEVICES AND SERVICES
+District Attorney - Richmond County,TELECOMM CONTRACT
+District Attorney - Richmond County,FUNCTIONAL TESTING
+FBI - Criminal Justice Information Services Division,SITE-TO-SITE VPN
+FBI - Criminal Justice Information Services Division,SOFTWARE SECURITY ASSURANCE
+FBI - Criminal Justice Information Services Division,SSL REMOTE ACCESS
+Financial Information Services Agency,BUSINESS APPLICATION DEVELOPMENT 
+Financial Information Services Agency,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Financial Information Services Agency,NYC.GOV
+Financial Information Services Agency,SITE-TO-SITE VPN
+Financial Information Services Agency,SOFTWARE SECURITY ASSURANCE
+Financial Information Services Agency,SSL REMOTE ACCESS
+Financial Information Services Agency,CDWG - IT GOODS AND RELATED SERVICES 
+Financial Information Services Agency,CISCO MAINTENANCE CONTRACT
+Financial Information Services Agency,CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+Financial Information Services Agency,PROVISIONING
+Financial Information Services Agency,MAINFRAME
+Financial Information Services Agency,SHAREPOINT
+Financial Information Services Agency,"SITE B COLOCATION (NETWORK CONNECTIVITY, AND EMERGENCY SUPPORT DURING BUSINESS HOURS)"
+Financial Information Services Agency,SITE B (STERLING FOREST) MAINFRAME
+Financial Information Services Agency,WORKSHOPS
+Financial Information Services Agency,CITYNET
+Financial Information Services Agency,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Financial Information Services Agency,USER EXPERIENCE DESIGN
+Financial Information Services Agency,ADOBE ETLA
+Financial Information Services Agency,VMWARE ELA
+Financial Information Services Agency,MICROSOFT ELA
+Financial Information Services Agency,VoIP
+"Payroll Administration, Office of",BUSINESS APPLICATION DEVELOPMENT 
+"Payroll Administration, Office of",PROJECT MANAGEMENT 
+"Payroll Administration, Office of",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Payroll Administration, Office of",NYC.GOV
+"Payroll Administration, Office of",IDENTITY MANAGEMENT 
+"Payroll Administration, Office of",NYC.ID/IDENTITY MANAGEMENT 
+"Payroll Administration, Office of",SITE-TO-SITE VPN
+"Payroll Administration, Office of",SOFTWARE SECURITY ASSURANCE
+"Payroll Administration, Office of",SSL REMOTE ACCESS
+"Payroll Administration, Office of",CDWG - IT GOODS AND RELATED SERVICES 
+"Payroll Administration, Office of",CISCO MAINTENANCE CONTRACT
+"Payroll Administration, Office of",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"Payroll Administration, Office of",PROVISIONING
+"Payroll Administration, Office of",MAINFRAME
+"Payroll Administration, Office of",SECURE FILE TRANSFER 
+"Payroll Administration, Office of",SHAREPOINT
+"Payroll Administration, Office of","SITE B COLOCATION (NETWORK CONNECTIVITY, AND EMERGENCY SUPPORT DURING BUSINESS HOURS)"
+"Payroll Administration, Office of",SITE B (STERLING FOREST) MAINFRAME
+"Payroll Administration, Office of",WORKSHOPS
+"Payroll Administration, Office of",CITYNET
+"Payroll Administration, Office of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Payroll Administration, Office of",ADOBE ETLA
+"Payroll Administration, Office of",VMWARE ELA
+"Payroll Administration, Office of",MICROSOFT ELA
+"Payroll Administration, Office of",TELECOMM CONTRACT
+"Payroll Administration, Office of",VoIP
+"Independent Budget Office, NYC",SITE-TO-SITE VPN
+"Independent Budget Office, NYC",SOFTWARE SECURITY ASSURANCE
+"Independent Budget Office, NYC",SSL REMOTE ACCESS
+"Independent Budget Office, NYC",MAINFRAME
+"Independent Budget Office, NYC",SECURE FILE TRANSFER 
+"Independent Budget Office, NYC",CABLE INFRASTRUCTURE
+"Independent Budget Office, NYC",CITYNET
+"Independent Budget Office, NYC",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Independent Budget Office, NYC",ADOBE ETLA
+"Independent Budget Office, NYC",MOBILE DEVICES AND SERVICES
+"Independent Budget Office, NYC",VoIP
+Metropolitan Transportation Authority,BUSINESS APPLICATION DEVELOPMENT 
+Metropolitan Transportation Authority,SITE-TO-SITE VPN
+Metropolitan Transportation Authority,SOFTWARE SECURITY ASSURANCE
+Metropolitan Transportation Authority,SSL REMOTE ACCESS
+Metropolitan Transportation Authority,CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+Metropolitan Transportation Authority,DATA EXCHANGE
+Metropolitan Transportation Authority,CITYNET
+Metropolitan Transportation Authority,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Metropolitan Transportation Authority,TELECOMM CONTRACT
+NYs Unified Court System Office of Court Administration,BUSINESS ANALYSIS
+NYs Unified Court System Office of Court Administration,PROJECT MANAGEMENT 
+NYs Unified Court System Office of Court Administration,SITE-TO-SITE VPN
+NYs Unified Court System Office of Court Administration,SOFTWARE SECURITY ASSURANCE
+NYs Unified Court System Office of Court Administration,SSL REMOTE ACCESS
+NYs Unified Court System Office of Court Administration,DATA EXCHANGE
+NYs Unified Court System Office of Court Administration,PROVISIONING
+NYs Unified Court System Office of Court Administration,FUNCTIONAL TESTING
+Public Administrator - New York County,BUSINESS APPLICATION DEVELOPMENT 
+Public Administrator - New York County,PROJECT MANAGEMENT 
+Public Administrator - New York County,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Public Administrator - New York County,NYC.GOV
+Public Administrator - New York County,SITE-TO-SITE VPN
+Public Administrator - New York County,SOFTWARE SECURITY ASSURANCE
+Public Administrator - New York County,SSL REMOTE ACCESS
+Public Administrator - New York County,DESKTOP SUPPORT
+Public Administrator - New York County,EMAIL
+Public Administrator - New York County,PROVISIONING
+Public Administrator - New York County,MAINFRAME
+Public Administrator - New York County,SITE B (STERLING FOREST) MAINFRAME
+Public Administrator - New York County,CABLE INFRASTRUCTURE
+Public Administrator - New York County,CITYNET
+Public Administrator - New York County,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Public Administrator - New York County,NETWORK LAN SUPPORT
+Public Administrator - New York County,ADVISORY SERVICES 
+Public Administrator - New York County,MOBILE DEVICES AND SERVICES
+Public Administrator - Bronx County,SITE-TO-SITE VPN
+Public Administrator - Bronx County,SOFTWARE SECURITY ASSURANCE
+Public Administrator - Bronx County,SSL REMOTE ACCESS
+Public Administrator - Bronx County,PROVISIONING
+Public Administrator - Bronx County,MAINFRAME
+Public Administrator - Bronx County,SITE B (STERLING FOREST) MAINFRAME
+Public Administrator - Bronx County,CABLE INFRASTRUCTURE
+Public Administrator - Bronx County,CITYNET
+Public Administrator - Bronx County,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Public Administrator - Bronx County,MOBILE DEVICES AND SERVICES
+Public Administrator - Kings County,BUSINESS APPLICATION DEVELOPMENT 
+Public Administrator - Kings County,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Public Administrator - Kings County,NYC.GOV
+Public Administrator - Kings County,SITE-TO-SITE VPN
+Public Administrator - Kings County,SOFTWARE SECURITY ASSURANCE
+Public Administrator - Kings County,SSL REMOTE ACCESS
+Public Administrator - Kings County,EMAIL
+Public Administrator - Kings County,MAINFRAME
+Public Administrator - Kings County,SITE B (STERLING FOREST) MAINFRAME
+Public Administrator - Kings County,CABLE INFRASTRUCTURE
+Public Administrator - Kings County,CITYNET
+Public Administrator - Kings County,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Public Administrator - Kings County,MOBILE DEVICES AND SERVICES
+Public Administrator - Queens County,SITE-TO-SITE VPN
+Public Administrator - Queens County,SOFTWARE SECURITY ASSURANCE
+Public Administrator - Queens County,SSL REMOTE ACCESS
+Public Administrator - Queens County,MAINFRAME
+Public Administrator - Queens County,SITE B (STERLING FOREST) MAINFRAME
+Public Administrator - Queens County,CABLE INFRASTRUCTURE
+Public Administrator - Queens County,CITYNET
+Public Administrator - Queens County,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Public Administrator - Queens County,MOBILE DEVICES AND SERVICES
+Public Administrator - Richmond County,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Public Administrator - Richmond County,NYC.GOV
+Public Administrator - Richmond County,SITE-TO-SITE VPN
+Public Administrator - Richmond County,SOFTWARE SECURITY ASSURANCE
+Public Administrator - Richmond County,SSL REMOTE ACCESS
+Public Administrator - Richmond County,EMAIL
+Public Administrator - Richmond County,MAINFRAME
+Public Administrator - Richmond County,LYNC 2013
+Public Administrator - Richmond County,SITE B (STERLING FOREST) MAINFRAME
+Public Administrator - Richmond County,CABLE INFRASTRUCTURE
+Public Administrator - Richmond County,CITYNET
+Public Administrator - Richmond County,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Public Administrator - Richmond County,MOBILE DEVICES AND SERVICES
+Public Advocate for the City of New York,SITE-TO-SITE VPN
+Public Advocate for the City of New York,SOFTWARE SECURITY ASSURANCE
+Public Advocate for the City of New York,SSL REMOTE ACCESS
+Public Advocate for the City of New York,MAINFRAME
+Public Advocate for the City of New York,CABLE INFRASTRUCTURE
+Public Advocate for the City of New York,CITYNET
+Public Advocate for the City of New York,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Public Advocate for the City of New York,NEW YORK WIRELESS NETWORK (NYCWIN)
+Public Advocate for the City of New York,TWO-WAY RADIO COMMUNICATION
+"School Construction Authority, NYC",SITE-TO-SITE VPN
+"School Construction Authority, NYC",SOFTWARE SECURITY ASSURANCE
+"School Construction Authority, NYC",SSL REMOTE ACCESS
+"School Construction Authority, NYC",CISCO MAINTENANCE CONTRACT
+"School Construction Authority, NYC",CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS
+"School Construction Authority, NYC",MAINFRAME
+"School Construction Authority, NYC",CITYNET
+"School Construction Authority, NYC",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"School Construction Authority, NYC",TELECOMM CONTRACT
+"Special Narcotics, Office of",SITE-TO-SITE VPN
+"Special Narcotics, Office of",SOFTWARE SECURITY ASSURANCE
+"Special Narcotics, Office of",SSL REMOTE ACCESS
+"Special Narcotics, Office of",CISCO MAINTENANCE CONTRACT
+"Special Narcotics, Office of",CABLE INFRASTRUCTURE
+"Special Narcotics, Office of",CITYNET
+"Special Narcotics, Office of",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Special Narcotics, Office of",ADVISORY SERVICES 
+"Special Narcotics, Office of",ADOBE ETLA
+"Special Narcotics, Office of",VMWARE ELA
+"Tax Appeals, Office of Administrative",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Tax Appeals, Office of Administrative",NYC.GOV
+"Tax Appeals, Office of Administrative",SITE-TO-SITE VPN
+"Tax Appeals, Office of Administrative",SOFTWARE SECURITY ASSURANCE
+"Tax Appeals, Office of Administrative",SSL REMOTE ACCESS
+"Tax Appeals, Office of Administrative",EMAIL
+"Tax Appeals, Office of Administrative",SHAREPOINT
+"Tax Appeals, Office of Administrative",SITE B (STERLING FOREST) MAINFRAME
+"Tax Appeals, Office of Administrative",TWO-WAY RADIO COMMUNICATION
+"Tax Appeals, Office of Administrative",VoIP
+"Transitional Finance Authority, NYC",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Transitional Finance Authority, NYC",NYC.GOV
+"Transitional Finance Authority, NYC",SITE-TO-SITE VPN
+"Transitional Finance Authority, NYC",SOFTWARE SECURITY ASSURANCE
+"Transitional Finance Authority, NYC",SSL REMOTE ACCESS
+"Transitional Finance Authority, NYC",SITE B (STERLING FOREST) MAINFRAME
+"Water Finance Authority, NYC Municipal",WEBSITE DESIGN BUILD AND MAINTENANCE  
+"Water Finance Authority, NYC Municipal",NYC.GOV
+"Water Finance Authority, NYC Municipal",SITE-TO-SITE VPN
+"Water Finance Authority, NYC Municipal",SOFTWARE SECURITY ASSURANCE
+"Water Finance Authority, NYC Municipal",SSL REMOTE ACCESS
+Brooklyn Bridge Park Corporation,SITE-TO-SITE VPN
+Brooklyn Bridge Park Corporation,SOFTWARE SECURITY ASSURANCE
+Brooklyn Bridge Park Corporation,SSL REMOTE ACCESS
+Brooklyn Bridge Park Corporation,SERVICE DESK
+Brooklyn Bridge Park Corporation,DESKTOP SUPPORT
+Brooklyn Bridge Park Corporation,CABLE INFRASTRUCTURE
+Brooklyn Bridge Park Corporation,CITYNET
+Brooklyn Bridge Park Corporation,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Brooklyn Bridge Park Corporation,CLOUD REVIEW
+Brooklyn Bridge Park Corporation,ADOBE ETLA
+Brooklyn Bridge Park Corporation,VMWARE ELA
+Brooklyn Bridge Park Corporation,MOBILE DEVICES AND SERVICES
+Brooklyn Bridge Park Corporation,VoIP
+Brooklyn Navy Yard Development Corporation,SITE-TO-SITE VPN
+Brooklyn Navy Yard Development Corporation,SOFTWARE SECURITY ASSURANCE
+Brooklyn Navy Yard Development Corporation,SSL REMOTE ACCESS
+Brooklyn Navy Yard Development Corporation,MOBILE DEVICES AND SERVICES
+City University of New York,BUSINESS APPLICATION DEVELOPMENT 
+City University of New York,SITE-TO-SITE VPN
+City University of New York,SOFTWARE SECURITY ASSURANCE
+City University of New York,SSL REMOTE ACCESS
+City University of New York,CDWG - IT GOODS AND RELATED SERVICES 
+City University of New York,SECURE FILE TRANSFER 
+City University of New York,TELECOMM CONTRACT
+Coordinated Assistance Network,SITE-TO-SITE VPN
+Coordinated Assistance Network,SOFTWARE SECURITY ASSURANCE
+Coordinated Assistance Network,SSL REMOTE ACCESS
+"Economic Development Corporation, NYC",BUSINESS-AS-USUAL (ANALYTICS)
+"Economic Development Corporation, NYC",SOLUTION DEVELOPMENT (ANALYTICS)
+"Economic Development Corporation, NYC",SITE-TO-SITE VPN
+"Economic Development Corporation, NYC",SOFTWARE SECURITY ASSURANCE
+"Economic Development Corporation, NYC",SSL REMOTE ACCESS
+"Economic Development Corporation, NYC",CISCO MAINTENANCE CONTRACT
+"Economic Development Corporation, NYC",SITE B (STERLING FOREST) MAINFRAME
+"Economic Development Corporation, NYC",WORKSHOPS
+"Economic Development Corporation, NYC",CITYNET
+"Economic Development Corporation, NYC",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Economic Development Corporation, NYC",TELECOMM CONTRACT
+Family Justice Centers (OCDV),BUSINESS APPLICATION DEVELOPMENT 
+Family Justice Centers (OCDV),WEBSITE DESIGN BUILD AND MAINTENANCE  
+Family Justice Centers (OCDV),NYC.GOV
+Family Justice Centers (OCDV),SITE-TO-SITE VPN
+Family Justice Centers (OCDV),SOFTWARE SECURITY ASSURANCE
+Family Justice Centers (OCDV),SSL REMOTE ACCESS
+Family Justice Centers (OCDV),DATA EXCHANGE
+Family Justice Centers (OCDV),APPLICATION SUPPORT
+Family Justice Centers (OCDV),DESKTOP SUPPORT
+Family Justice Centers (OCDV),EMAIL
+Family Justice Centers (OCDV),PROVISIONING
+Family Justice Centers (OCDV),LYNC 2013
+Family Justice Centers (OCDV),CABLE INFRASTRUCTURE
+Family Justice Centers (OCDV),CITYNET
+Family Justice Centers (OCDV),DATA CONNECTIVITY (CIRCUIT ORDERS)
+Family Justice Centers (OCDV),NETWORK LAN SUPPORT
+Family Justice Centers (OCDV),USER EXPERIENCE DESIGN
+Family Justice Centers (OCDV),ADOBE ETLA
+Family Justice Centers (OCDV),MOBILE DEVICES AND SERVICES
+Family Justice Centers (OCDV),VIDEO CONFERENCING SOLUTIONS
+Family Justice Centers (OCDV),VoIP
+Family Justice Centers (OCDV),FUNCTIONAL TESTING
+Fiscal Year 2005 Securitization Corporation,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Fiscal Year 2005 Securitization Corporation,NYC.GOV
+Fiscal Year 2005 Securitization Corporation,SITE-TO-SITE VPN
+Fiscal Year 2005 Securitization Corporation,SOFTWARE SECURITY ASSURANCE
+Fiscal Year 2005 Securitization Corporation,SSL REMOTE ACCESS
+Fiscal Year 2005 Securitization Corporation,SITE B (STERLING FOREST) MAINFRAME
+"Governors Island, Trust for",PROJECT MANAGEMENT 
+"Governors Island, Trust for",SITE-TO-SITE VPN
+"Governors Island, Trust for",SOFTWARE SECURITY ASSURANCE
+"Governors Island, Trust for",SSL REMOTE ACCESS
+"Governors Island, Trust for",SERVICE DESK
+"Governors Island, Trust for",DESKTOP SUPPORT
+"Governors Island, Trust for",EMAIL
+"Governors Island, Trust for",MAINFRAME
+"Governors Island, Trust for",LYNC 2013
+"Governors Island, Trust for",CABLE INFRASTRUCTURE
+"Governors Island, Trust for",CITYNET
+"Governors Island, Trust for",DATA CONNECTIVITY (CIRCUIT ORDERS)
+"Governors Island, Trust for",NETWORK LAN SUPPORT
+"Governors Island, Trust for",MOBILE DEVICES AND SERVICES
+"Governors Island, Trust for",VoIP
+Gracie Mansion Conservancy,BUSINESS APPLICATION DEVELOPMENT 
+Gracie Mansion Conservancy,SITE-TO-SITE VPN
+Gracie Mansion Conservancy,SOFTWARE SECURITY ASSURANCE
+Gracie Mansion Conservancy,SSL REMOTE ACCESS
+"Housing Development Corporation, NYC",APPLICATION AUTHENTICATION AND AUTHORIZATION
+"Housing Development Corporation, NYC",WEB SINGLE SIGN-ON
+"Housing Development Corporation, NYC",IDENTITY MANAGEMENT 
+"Housing Development Corporation, NYC",NYC.ID/IDENTITY MANAGEMENT 
+"Housing Development Corporation, NYC",PASSWORD SELF-SERVICE
+"Housing Development Corporation, NYC",SITE-TO-SITE VPN
+"Housing Development Corporation, NYC",SOFTWARE SECURITY ASSURANCE
+"Housing Development Corporation, NYC",SSL REMOTE ACCESS
+"Housing Development Corporation, NYC",PROVISIONING
+"Housing Development Corporation, NYC",ADOBE ETLA
+"Housing Development Corporation, NYC",VMWARE ELA
+Hudson Yards Development Corporation,SITE-TO-SITE VPN
+Hudson Yards Development Corporation,SOFTWARE SECURITY ASSURANCE
+Hudson Yards Development Corporation,SSL REMOTE ACCESS
+Hudson Yards Development Corporation,PROVISIONING
+Hudson Yards Infrastructure Corporation,BUSINESS APPLICATION DEVELOPMENT 
+Hudson Yards Infrastructure Corporation,SITE-TO-SITE VPN
+Hudson Yards Infrastructure Corporation,SOFTWARE SECURITY ASSURANCE
+Hudson Yards Infrastructure Corporation,SSL REMOTE ACCESS
+Hudson Yards Infrastructure Corporation,DATA EXCHANGE
+Legal Aid Society,PROJECT MANAGEMENT 
+Legal Aid Society,SITE-TO-SITE VPN
+Legal Aid Society,SOFTWARE SECURITY ASSURANCE
+Legal Aid Society,SSL REMOTE ACCESS
+Legal Aid Society,PROVISIONING
+Legal Aid Society,FUNCTIONAL TESTING
+Library -- Brooklyn Public Library,SITE-TO-SITE VPN
+Library -- Brooklyn Public Library,SOFTWARE SECURITY ASSURANCE
+Library -- Brooklyn Public Library,SSL REMOTE ACCESS
+Library -- Brooklyn Public Library,SECURE FILE TRANSFER 
+Library -- Brooklyn Public Library,CITYNET
+Library -- Brooklyn Public Library,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Library -- Brooklyn Public Library,VMWARE ELA
+Library -- Brooklyn Public Library,TELECOMM CONTRACT
+Library -- New York Public Library,SITE-TO-SITE VPN
+Library -- New York Public Library,SOFTWARE SECURITY ASSURANCE
+Library -- New York Public Library,SSL REMOTE ACCESS
+Library -- New York Public Library,SECURE FILE TRANSFER 
+Library -- New York Public Library,CITYNET
+Library -- New York Public Library,DATA CONNECTIVITY (CIRCUIT ORDERS)
+Library -- New York Public Library,ADOBE ETLA
+Library -- New York Public Library,VMWARE ELA
+Library -- New York Public Library,TELECOMM CONTRACT
+Library -- Queens Borough Public Library,SITE-TO-SITE VPN
+Library -- Queens Borough Public Library,SOFTWARE SECURITY ASSURANCE
+Library -- Queens Borough Public Library,SSL REMOTE ACCESS
+Library -- Queens Borough Public Library,SECURE FILE TRANSFER 
+Library -- Queens Borough Public Library,WORKSHOPS
+Library -- Queens Borough Public Library,CITYNET
+Library -- Queens Borough Public Library,ADOBE ETLA
+Library -- Queens Borough Public Library,VMWARE ELA
+Library -- Queens Borough Public Library,TELECOMM CONTRACT
+Lower Manhattan Development Corporation,SITE-TO-SITE VPN
+Lower Manhattan Development Corporation,SOFTWARE SECURITY ASSURANCE
+Lower Manhattan Development Corporation,SSL REMOTE ACCESS
+Mayor's Fund to Advance NYC,BUSINESS APPLICATION DEVELOPMENT 
+Mayor's Fund to Advance NYC,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Mayor's Fund to Advance NYC,NYC.GOV
+Mayor's Fund to Advance NYC,SITE-TO-SITE VPN
+Mayor's Fund to Advance NYC,SOFTWARE SECURITY ASSURANCE
+Mayor's Fund to Advance NYC,SSL REMOTE ACCESS
+Mayor's Fund to Advance NYC,CLOUD REVIEW
+Police Pension Fund,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Police Pension Fund,NYC.GOV
+Police Pension Fund,SITE-TO-SITE VPN
+Police Pension Fund,SOFTWARE SECURITY ASSURANCE
+Police Pension Fund,SSL REMOTE ACCESS
+Police Pension Fund,CABLE INFRASTRUCTURE
+Police Pension Fund,CITYNET
+Police Pension Fund,ADVISORY SERVICES 
+Police Pension Fund,MICROSOFT ELA
+Sales Tax Asset Receivable Corporation,WEBSITE DESIGN BUILD AND MAINTENANCE  
+Sales Tax Asset Receivable Corporation,NYC.GOV
+Sales Tax Asset Receivable Corporation,SITE-TO-SITE VPN
+Sales Tax Asset Receivable Corporation,SOFTWARE SECURITY ASSURANCE
+Sales Tax Asset Receivable Corporation,SSL REMOTE ACCESS
+Sales Tax Asset Receivable Corporation,TWO-WAY RADIO COMMUNICATION
+Teachers' Retirement System,SITE-TO-SITE VPN
+Teachers' Retirement System,SOFTWARE SECURITY ASSURANCE
+Teachers' Retirement System,SSL REMOTE ACCESS
+Teachers' Retirement System,WORKSHOPS
+Teachers' Retirement System,CITYNET
+Teachers' Retirement System,ADOBE ETLA
+Teachers' Retirement System,VMWARE ELA
+Teachers' Retirement System,MICROSOFT ELA
+Teachers' Retirement System,TELECOMM CONTRACT
+Teachers' Retirement System,TWO-WAY RADIO COMMUNICATION
+The Bronx Defenders,SITE-TO-SITE VPN
+The Bronx Defenders,SOFTWARE SECURITY ASSURANCE
+The Bronx Defenders,SSL REMOTE ACCESS
+The Bronx Defenders,MICROSOFT ELA
+The Bronx Defenders,TWO-WAY RADIO COMMUNICATION

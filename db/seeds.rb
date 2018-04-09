@@ -163,18 +163,35 @@ def engagement_types_import
   end
 end
 
-roles_import
-agencies_import
-staff_import
-arms_agencies_import
-cios_agencies_import
-commissioners_agencies_import
-divisions_import
-services_import
-connection_types_import
+def agency_services_import
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'Agency Services Import File 3-28-18.csv'))
+  csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+  csv.each do |row|
+    t = AgencyService.new
+    t.agency = Agency.find_by(name: row[0].strip.upcase)
+    t.service = Service.find_by(title: row["Service"].strip.upcase)
+    if t.agency.present? && t.service.present?
+      puts t.agency.acronym + " " + t.service.title
+      t.save
+    else
+      puts 'having a problem with either' + row[0].strip.upcase + ' or ' + row["Service"].strip.upcase
+    end
+  end
+end
+
+# roles_import
+# agencies_import
+# staff_import
+# arms_agencies_import
+# cios_agencies_import
+# commissioners_agencies_import
+# divisions_import
+# services_import
+# connection_types_import
 # connections_import
-engagement_types_import
+# engagement_types_import
 # engagements_import
+agency_services_import
 
 
 User.create(email: 'sasteiner@doitt.nyc.gov', password: '123')
