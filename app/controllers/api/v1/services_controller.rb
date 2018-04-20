@@ -49,7 +49,9 @@ class Api::V1::ServicesController < ApplicationController
 
   def show
     s = Service.find(params[:id])
-    service_details = {id: s.id, title: s.title, description: s.description, sla: s.sla, sdl: s.sdl, division: s.division, deputy_commissioner: s.division.deputy_commissioner, service_owner: s.service_owner}
+    agencies = s.agencies.map { |e| {id: e.id, name: e.name, acronym: e.acronym} }
+    total_agencies = Agency.all.size
+    service_details = {id: s.id, title: s.title, description: s.description, sla: s.sla, sdl: s.sdl, division: s.division, deputy_commissioner: s.division.deputy_commissioner, service_owner: s.service_owner, agencies: agencies, total_agencies: total_agencies}
     render json: service_details
   end
 

@@ -1,51 +1,69 @@
-﻿title,description,sdl_first_name,sdl_last_name,service_owner_first_name,service_owner_last_name,division
-BUSINESS APPLICATION DEVELOPMENT ,Build a new app or enhance an existing app,Prince,Gupta,Ron,DiBiase,Business Solutions Delivery
-DATA EXCHANGE,Connect local apps and systems to city wide data feeds,Gregory,Soto,Prince,Gupta,Business Solutions Delivery
-MAPPING/LOCATION SERVICES,Build or enhance an app with GIS for info and analysis,Tim,Keane,Tim,Keane,Business Solutions Delivery
-MOBILE DEVELOPMENT ,Build a new mobile app or enhance an existing app,Prince,Gupta,Ron,DiBiase,Business Solutions Delivery
-PERFORMANCE TEST,Pre-launch infrastructure & efficiency analysis,Vidhya,Shanmugam,Doug,Dolan,Business Solutions Delivery
-QUALITY ASSURANCE SUPPORT ,Onboarding an agency onto QA tools and training,Gregory,Dvorkin,Doug,Dolan,Business Solutions Delivery
-USER EXPERIENCE DESIGN,Bring a UX designer on a DoITT Project,Lois,Last,Dominic,Berg,Business Solutions Delivery
-WEBSITE DESIGN BUILD AND MAINTENANCE  ,"Build, enhance, or maintain a website",Prince,Gupta,Dominic,Berg,Business Solutions Delivery
-WORKSHOPS,Knowledge sharing for agency best practices and workshops,Kathleen,O'Brien,Michael,Hayes,Business Solutions Delivery
-WP ENGINE PLATFORM,Migrate or create a WP site hosted by DoITT (non secure),Christopher,Long,Dominic,Berg,Business Solutions Delivery
-CABLE INFRASTRUCTURE,"Voice, data, & specialized cable installation (physical)",Talal,Qureshi,Sampath,Rengarajan,Infrastructure Management
-CONTACT CENTER SOLUTIONS,Setting up a call center with rule based routing (lang.),Talal,Qureshi,Sampath,Rengarajan,Infrastructure Management
-DATA CONNECTIVITY,Assess city internet service access needs and installation,Talal,Qureshi,Sampath,Rengarajan,Infrastructure Management
-EMAIL,Onboarding internal or external email service,Diane,Witek,Ken,McKenna,Infrastructure Management
-INFRASTRUCTURE PROVISIONING,Spin up a VM to host an app,Jorge,Diaz,JP,Nicosia,Infrastructure Management
-INFRASTRUCTURE SELF PROVISIONING,BOM info to spin up a VM to host an app,Ahailia,Ramlogan,Al,Frangella,Infrastructure Management
-MAINFRAME,Spin up mainframe for DB intesive apps,Diane,Sciabarra,Diane,Sciabarra,Infrastructure Management
-MOBILE DEVICES AND SERVICES,"Cellphone, tablet, and data card hardware & service",Cesar,Bayas,Vito,Granato,Infrastructure Management
-NEW YORK WIRELESS NETWORK (NYCWIN),First responder secure wireless hardware and internet ,Joseph,Deker,Frank,Aghili,Infrastructure Management
-SECURE WIRELESS (LAN) SERVICES,Secure employee and guest local wifi,Talal,Qureshi,Sampath,Rengarajan,Infrastructure Management
-SHAREPOINT,A website CMS ,John,Scaduto,Ken,McKenna,Infrastructure Management
-SITEB SERVICES,Disaster app backup and recovery service,Helen,McCormack,Helen,McCormack,Infrastructure Management
-TWO-WAY RADIO COMMUNICATION,Access to Citywide Radio Network (CRN),Henry,Lukacik,Frank,Aghili,Infrastructure Management
-VIDEO CONFERENCING SOLUTIONS,"Room, PC, and Cell video conferencing",Talal,Qureshi,Sampath,Rengarajan,Infrastructure Management
-VOICE SERVICES AND DEVICES,Landline telephones and access code for phone service,Talal,Qureshi,Sampath,Rengarajan,Infrastructure Management
-APPLICATION AUTHENTICATION AND AUTHORIZATION,Use NYC.ID to handle auth for internal city services,Rakesh,Patel,Geoff,Brown,Information Security
-AUTOMATIC USER DE-PROVISIONING,Automated or maual system to de-provision users,Rakesh,Patel,Daniel,Nunez,Information Security
-IDENTITY MANAGEMENT ,Onboard Agency users to citywide ID Management,Rakesh,Patel,Daniel,Nunez,Information Security
-MCAFEE DESKTOP AND SERVER ANTI-VIRUS HOSTED SOLUTION ,Antivirus SaaS on DoITT's licence agreement,Jamie,Arnold,Quiessence,Phillips,Information Security
-NYC.ID/IDENTITY MANAGEMENT ,Onboard Agency users to citywide ID Management,Rakesh,Patel,Daniel,Nunez,Information Security
-PASSWORD SELF-SERVICE,Agency user password retrieval via cityshare,Rakesh,Patel,Daniel,Nunez,Information Security
-PUBLIC ACCOUNT MANAGEMENT (NYC.ID) ,Use NYC.ID for account management on public apps,Rakesh,Patel,Geoff,Brown,Information Security
-SITE-TO-SITE VPN,Connect remote offices to city services with VPNs ,Karan,Nagpal,Daniel,Nunez,Infrastructure Management
-SOFTWARE SECURITY ASSURANCE,Compliance verification for citywide security policies,Victoria,Koveshnikov,Malik,Bernard,Information Security
-SSL REMOTE ACCESS,"Remote desktop, application, and data access ",Karan,Nagpal,Daniel,Nunez,Infrastructure Management
-WEB SINGLE SIGN-ON,Use SM login to access NYC.ID for SSO capability,Rakesh,Patel,Geoff,Brown,Information Security
-ADVISORY SERVICES ,"Tech strategy, eval, review",Steve,Bezman,Donald,Sunderland,Enterprise and Solution Architecture
-CLOUD REVIEW,Validate cloud use case,Rod,Berger,Steve,Bezman,Enterprise and Solution Architecture
-ADOBE ETLA,Access to Adobe ELA,James,Mayor,Harriet,King,First Deputy Commissioner
-CDWG - IT GOODS AND RELATED SERVICES ,Purchase IT Hardware,John,Katsorhis,John,Katsorhis,First Deputy Commissioner
-CISCO MAINTENANCE CONTRACT,Initial or renewal of CISCO hardware/software,John,Gioia,John,Gioia,First Deputy Commissioner
-CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS,Renew Oracle hardware and software,John,Gioia,John,Gioia,First Deputy Commissioner
-GEOGRAPHIC INFORMATION TECHNOLOGIES AND SERVICES (GIS),GIS app dev service via an approved contractor,Tim,Keane,Tim,Keane,Business Solutions Delivery
-INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4),Create an RFP for IT consulting services,Michael,Williams,Michael,Williams,First Deputy Commissioner
-IT SECURITY ( SECURITY CLASS II),Preventing and fixing malicious technology threats,Kevin,Timoney,Michael,Williams,First Deputy Commissioner
-MICROSOFT ELA,Access to Microsoft ELA,James,Mayor,Dina,Desiderio,First Deputy Commissioner
-QUALITY CONTROL SERVICES (QC),App dev service via an approved contractor,Kevin,Timoney,Michael,Williams,First Deputy Commissioner
-SYSTEMS INTEGRATION SERVICES (SI),System integration service via an approved contractor,Kevin,Timoney,Michael,Williams,First Deputy Commissioner
-VMWARE ELA,Access to Vmware ELA,James,Mayor,Dina,Desiderio,First Deputy Commissioner
-CITYWIDE SERVICE DESK,Onboard agency to DoITT technical support,Licinia,Lugo,April,Turner,Service Management
+﻿title,description,sdl_first_name,sdl_last_name,service_owner_first_name,service_owner_last_name,division,category,core
+BUSINESS APPLICATION DEVELOPMENT ,Build a new app or enhance an existing app,Prince,Gupta,Ron,DiBiase,Business Solutions Delivery,APPLICATION SERVICES ,false
+DATA EXCHANGE,Connect local apps and systems to city wide data feeds,Gregory,Soto,Prince,Gupta,Business Solutions Delivery,DATA EXCHANGE SERVICES,FALSE
+MAPPING/LOCATION SERVICES,Build or enhance an app with GIS for info and analysis,Tim,Keane,Tim,Keane,Business Solutions Delivery,APPLICATION SERVICES ,FALSE
+MOBILE DEVELOPMENT ,Build a new mobile app or enhance an existing app,Prince,Gupta,Ron,DiBiase,Business Solutions Delivery,APPLICATION SERVICES ,FALSE
+PERFORMANCE TEST,Pre-launch infrastructure & efficiency analysis,Vidhya,Shanmugam,Doug,Dolan,Business Solutions Delivery,TESTING SERVICES,FALSE
+QUALITY ASSURANCE SUPPORT ,Onboarding an agency onto QA tools and training,Gregory,Dvorkin,Doug,Dolan,Business Solutions Delivery,TESTING SERVICES,FALSE
+USER EXPERIENCE DESIGN,Bring a UX designer on a DoITT Project,Lois,Last,Dominic,Berg,Business Solutions Delivery,PROFESSIONAL SERVICES,FALSE
+WEBSITE DESIGN BUILD AND MAINTENANCE  ,"Build, enhance, or maintain a website",Prince,Gupta,Dominic,Berg,Business Solutions Delivery,APPLICATION SERVICES ,FALSE
+WORKSHOPS,Knowledge sharing for agency best practices and workshops,Kathleen,O'Brien,Michael,Hayes,Business Solutions Delivery,METHODOLOGY AND TRAINING ,FALSE
+WP ENGINE PLATFORM,Migrate or create a WP site hosted by DoITT (non secure),Christopher,Long,Dominic,Berg,Business Solutions Delivery,HOSTING SERVICES,FALSE
+CABLE INFRASTRUCTURE,"Voice, data, & specialized cable installation (physical)",Talal,Qureshi,Sampath,Rengarajan,Infrastructure Management,NETWORK,FALSE
+CONTACT CENTER SOLUTIONS,Setting up a call center with rule based routing (lang.),Talal,Qureshi,Sampath,Rengarajan,Infrastructure Management,TELECOM,FALSE
+DATA CONNECTIVITY,Assess city internet service access needs and installation,Talal,Qureshi,Sampath,Rengarajan,Infrastructure Management,NETWORK,FALSE
+EMAIL,Onboarding internal or external email service,Diane,Witek,Ken,McKenna,Infrastructure Management,HOSTING SERVICES,TRUE
+PROVISIONING,Spin up a VM to host an app,Jorge,Diaz,JP,Nicosia,Infrastructure Management,HOSTING SERVICES,TRUE
+SELF-PROVISIONING,BOM info to spin up a VM to host an app,Ahailia,Ramlogan,Al,Frangella,Infrastructure Management,HOSTING SERVICES,TRUE
+MAINFRAME,Spin up mainframe for DB intesive apps,Diane,Sciabarra,Diane,Sciabarra,Infrastructure Management,HOSTING SERVICES,FALSE
+MOBILE DEVICES AND SERVICES,"Cellphone, tablet, and data card hardware & service",Cesar,Bayas,Vito,Granato,Infrastructure Management,TELECOM,FALSE
+NEW YORK WIRELESS NETWORK (NYCWIN),First responder secure wireless hardware and internet ,Joseph,Deker,Frank,Aghili,Infrastructure Management,NETWORK,FALSE
+SECURE WIRELESS (LAN) SERVICES,Secure employee and guest local wifi,Talal,Qureshi,Sampath,Rengarajan,Infrastructure Management,NETWORK,FALSE
+SHAREPOINT,A website CMS ,John,Scaduto,Ken,McKenna,Infrastructure Management,HOSTING SERVICES,FALSE
+SITEB SERVICES,Disaster app backup and recovery service,Helen,McCormack,Helen,McCormack,Infrastructure Management,HOSTING SERVICES,FALSE
+TWO-WAY RADIO COMMUNICATION,Access to Citywide Radio Network (CRN),Henry,Lukacik,Frank,Aghili,Infrastructure Management,TELECOM,FALSE
+VIDEO CONFERENCING SOLUTIONS,"Room, PC, and Cell video conferencing",Talal,Qureshi,Sampath,Rengarajan,Infrastructure Management,TELECOM,FALSE
+VOIP,Landline telephones and access code for phone service,Talal,Qureshi,Sampath,Rengarajan,Infrastructure Management,TELECOM,TRUE
+APPLICATION AUTHENTICATION AND AUTHORIZATION,Use NYC.ID to handle auth for internal city services,Rakesh,Patel,Geoff,Brown,Information Security,APPLICATION SERVICES ,FALSE
+AUTOMATIC USER DE-PROVISIONING,Automated or maual system to de-provision users,Rakesh,Patel,Daniel,Nunez,Information Security,CITYWIDE CYBERSECURITY,FALSE
+IDENTITY MANAGEMENT ,Onboard Agency users to citywide ID Management,Rakesh,Patel,Daniel,Nunez,Information Security,CITYWIDE CYBERSECURITY,FALSE
+MCAFEE DESKTOP AND SERVER ANTI-VIRUS HOSTED SOLUTION ,Antivirus SaaS on DoITT's licence agreement,Jamie,Arnold,Quiessence,Phillips,Information Security,"SOFTWARE LICENSES, ENTERPRISE LICENSE AGREEMENTS (ELA) & SOLUTIONS",FALSE
+NYC.ID/IDENTITY MANAGEMENT ,Onboard Agency users to citywide ID Management,Rakesh,Patel,Daniel,Nunez,Information Security,CITYWIDE CYBERSECURITY,FALSE
+PASSWORD SELF-SERVICE,Agency user password retrieval via cityshare,Rakesh,Patel,Daniel,Nunez,Information Security,CITYWIDE CYBERSECURITY,FALSE
+PUBLIC ACCOUNT MANAGEMENT (NYC.ID) ,Use NYC.ID for account management on public apps,Rakesh,Patel,Geoff,Brown,Information Security,APPLICATION SERVICES ,FALSE
+SITE-TO-SITE VPN,Connect remote offices to city services with VPNs ,Karan,Nagpal,Daniel,Nunez,Infrastructure Management,CITYWIDE CYBERSECURITY,FALSE
+SOFTWARE SECURITY ASSURANCE,Compliance verification for citywide security policies,Victoria,Koveshnikov,Malik,Bernard,Information Security,CITYWIDE CYBERSECURITY,FALSE
+SSL REMOTE ACCESS,"Remote desktop, application, and data access ",Karan,Nagpal,Daniel,Nunez,Infrastructure Management,CITYWIDE CYBERSECURITY,FALSE
+WEB SINGLE SIGN-ON,Use SM login to access NYC.ID for SSO capability,Rakesh,Patel,Geoff,Brown,Information Security,CITYWIDE CYBERSECURITY,FALSE
+ADVISORY SERVICES ,"Tech strategy, eval, review",Steve,Bezman,Donald,Sunderland,Enterprise and Solution Architecture,PROFESSIONAL SERVICES,FALSE
+CLOUD REVIEW,Validate cloud use case,Rod,Berger,Steve,Bezman,Enterprise and Solution Architecture,PROFESSIONAL SERVICES,FALSE
+ADOBE ETLA,Access to Adobe ELA,James,Mayor,Harriet,King,First Deputy Commissioner,"SOFTWARE LICENSES, ENTERPRISE LICENSE AGREEMENTS (ELA) & SOLUTIONS",FALSE
+CDWG - IT GOODS AND RELATED SERVICES ,Purchase IT Hardware,John,Katsorhis,John,Katsorhis,First Deputy Commissioner,CITYWIDE IT GOODS AND SERVICES CONTRACTS,FALSE
+CISCO MAINTENANCE CONTRACT,Initial or renewal of CISCO hardware/software,John,Gioia,John,Gioia,First Deputy Commissioner,CITYWIDE IT GOODS AND SERVICES CONTRACTS,FALSE
+CITYWIDE MASTER AGREEMENT FOR ORACLE HARDWARE AND SOFTWARE SUPPORT RENEWALS,Renew Oracle hardware and software,John,Gioia,John,Gioia,First Deputy Commissioner,CITYWIDE IT GOODS AND SERVICES CONTRACTS,FALSE
+GEOGRAPHIC INFORMATION TECHNOLOGIES AND SERVICES (GIS),GIS app dev service via an approved contractor,Tim,Keane,Tim,Keane,Business Solutions Delivery,CITYWIDE IT GOODS AND SERVICES CONTRACTS,FALSE
+INFORMATION TECHNOLOGY CONSULTANT SERVICES (ITCS 4),Create an RFP for IT consulting services,Michael,Williams,Michael,Williams,First Deputy Commissioner,CITYWIDE IT GOODS AND SERVICES CONTRACTS,FALSE
+IT SECURITY ( SECURITY CLASS II),Preventing and fixing malicious technology threats,Kevin,Timoney,Michael,Williams,First Deputy Commissioner,CITYWIDE IT GOODS AND SERVICES CONTRACTS,FALSE
+MICROSOFT ELA,Access to Microsoft ELA,James,Mayor,Dina,Desiderio,First Deputy Commissioner,"SOFTWARE LICENSES, ENTERPRISE LICENSE AGREEMENTS (ELA) & SOLUTIONS",FALSE
+QUALITY CONTROL SERVICES (QC),App dev service via an approved contractor,Kevin,Timoney,Michael,Williams,First Deputy Commissioner,CITYWIDE IT GOODS AND SERVICES CONTRACTS,FALSE
+SYSTEMS INTEGRATION SERVICES (SI),System integration service via an approved contractor,Kevin,Timoney,Michael,Williams,First Deputy Commissioner,CITYWIDE IT GOODS AND SERVICES CONTRACTS,FALSE
+VMWARE ELA,Access to Vmware ELA,James,Mayor,Dina,Desiderio,First Deputy Commissioner,"SOFTWARE LICENSES, ENTERPRISE LICENSE AGREEMENTS (ELA) & SOLUTIONS",FALSE
+SERVICE DESK,Onboard agency to DoITT technical support,Licinia,Lugo,April,Turner,Service Management,HOSTING SERVICES,TRUE
+CITYNET,Onboard to NYC intranet,,,,,Infrastructure Management,NETWORK,TRUE
+NYC.GOV,"Design, build, and host agency website on .gov domain",Christopher,Long,Christopher,Long,Business Solutions Delivery,APPLICATION SERVICES ,TRUE
+PRIMARY DATA CENTER,"DoITT hosts most, if not all, of the IT infrastructure for an agency",,,,,Infrastructure Management,HOSTING SERVICES,TRUE
+APPLICATION SUPPORT,,,,,,Infrastructure Management,HOSTING SERVICES,FALSE
+BUSINESS ANALYSIS,,,,,,Business Solutions Delivery,APPLICATION SERVICES ,FALSE
+BUSINESS-AS-USUAL (ANALYTICS),,,,,,Business Solutions Delivery,APPLICATION SERVICES ,FALSE
+DESKTOP SUPPORT,,,,,,Infrastructure Management,HOSTING SERVICES,FALSE
+FUNCTIONAL TESTING,,,,,,Business Solutions Delivery,TESTING SERVICES,FALSE
+HUMAN CENTERED DESIGN,,,,,,Business Solutions Delivery,APPLICATION SERVICES ,FALSE
+LYNC 2013,,,,,,Infrastructure Management,HOSTING SERVICES,FALSE
+NETWORK LAN SUPPORT,,,,,,Infrastructure Management,NETWORK,FALSE
+PROJECT MANAGEMENT,,,,,,Business Solutions Delivery,APPLICATION SERVICES ,FALSE
+SECURE FILE TRANSFER,,,,,,Infrastructure Management,HOSTING SERVICES,FALSE
+SITE B (STERLING FOREST) MAINFRAME,,,,,,Infrastructure Management,HOSTING SERVICES,FALSE
+"SITE B COLOCATION (NETWORK CONNECTIVITY, AND EMERGENCY SUPPORT DURING BUSINESS HOURS)",,,,,,Infrastructure Management,HOSTING SERVICES,FALSE
+SOLUTION DEVELOPMENT (ANALYTICS),,,,,,Business Solutions Delivery,APPLICATION SERVICES ,FALSE
+SOLUTION DEVELOPMENT (CRM),,,,,,Business Solutions Delivery,APPLICATION SERVICES ,FALSE
+TELECOMM CONTRACT,,,,,,First Deputy Commissioner,TELECOM,FALSE

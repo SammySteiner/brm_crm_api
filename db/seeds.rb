@@ -26,7 +26,7 @@ def agencies_import
   csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
   csv.each do |row|
     t = Agency.new
-    t.name = row["name"].strip
+    t.name = row[0].strip
     t.acronym = row['acronym']
     t.category = row['category'].strip
     t.mayoral = row['mayoral'].strip
@@ -75,14 +75,22 @@ def services_import
   csv.each do |row|
     t = Service.new
     t.title = row[0].strip
-    t.description = row["description"].strip
-    sdl_first = row['sdl_first_name'].strip
-    sdl_last = row['sdl_last_name'].strip
-    t.sdl_id = Staff.find_by(first_name:sdl_first, last_name:sdl_last).id
-    service_owner_first = row['service_owner_first_name'].strip
-    service_owner_last = row['service_owner_last_name'].strip
-    t.service_owner_id = Staff.find_by(first_name:service_owner_first, last_name:service_owner_last).id
+    if row["description"].present?
+      t.description = row["description"].strip
+    end
+    if row['sdl_first_name'].present?
+      sdl_first = row['sdl_first_name'].strip
+      sdl_last = row['sdl_last_name'].strip
+      t.sdl_id = Staff.find_by(first_name:sdl_first, last_name:sdl_last).id
+    end
+    if row['service_owner_first_name'].present?
+      service_owner_first = row['service_owner_first_name'].strip
+      service_owner_last = row['service_owner_last_name'].strip
+      t.service_owner_id = Staff.find_by(first_name:service_owner_first, last_name:service_owner_last).id
+    end
     division = Division.find_by(name: row["division"])
+    t.core = row["core"]
+    t.service_category = ServiceCategory.find_by(name: row["category"].strip)
     t.division_id = division.id
     puts t.title
     t.save
@@ -163,35 +171,62 @@ def engagement_types_import
   end
 end
 
+def service_categories_import
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'service_categories.csv'))
+  csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+  csv.each do |row|
+    t = ServiceCategory.new
+    t.name = row["﻿service_category"].strip
+    puts t.name
+    t.save
+  end
+end
+
 def agency_services_import
   csv_text = File.read(Rails.root.join('lib', 'seeds', 'Agency Services Import File 3-28-18.csv'))
   csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+  problem_agnecies = []
+  problem_servives = []
   csv.each do |row|
     t = AgencyService.new
     t.agency = Agency.find_by(name: row[0].strip.upcase)
     t.service = Service.find_by(title: row["Service"].strip.upcase)
     if t.agency.present? && t.service.present?
-      puts t.agency.acronym + " " + t.service.title
+      if t.agency.acronym.present?
+        puts t.agency.acronym + " " + t.service.title
+      else
+        puts t.agency.name + " " + t.service.title
+      end
       t.save
     else
-      puts 'having a problem with either' + row[0].strip.upcase + ' or ' + row["Service"].strip.upcase
+      if t.agency.present?
+        problem_servives << row["Service"].strip.upcase
+      else
+        problem_agnecies << row[0].strip.upcase
+      end
     end
   end
+  puts 'problems with agencies'
+  problem_agnecies.uniq.map { |e| puts e }
+  puts 'problems with services'
+  problem_servives.uniq.map { |e| puts e  }
 end
 
-# roles_import
-# agencies_import
-# staff_import
-# arms_agencies_import
-# cios_agencies_import
-# commissioners_agencies_import
-# divisions_import
-# services_import
-# connection_types_import
-# connections_import
-# engagement_types_import
-# engagements_import
+roles_import
+agencies_import
+staff_import
+arms_agencies_import
+cios_agencies_import
+commissioners_agencies_import
+divisions_import
+service_categories_import
+services_import
 agency_services_import
+connection_types_import
+# connections_import
+engagement_types_import
+# engagements_import
+
 
 
 User.create(email: 'sasteiner@doitt.nyc.gov', password: '123')
@@ -205,7 +240,7 @@ User.create(email: 'sasteiner@doitt.nyc.gov', password: '123')
     StaffConnection.create(staff_id: agency.cio.id, connection: c)
   end
   rand(1..3).times do
-    service = Service.find(rand(1..50))
+    service = Service.includes(:sdl).where.not(sdl_id: nil).sample
     e = Engagement.new(
       report: Faker::Hipster.sentence,
       notes: Faker::Hipster.paragraph,
@@ -235,5 +270,3 @@ User.create(email: 'sasteiner@doitt.nyc.gov', password: '123')
   end
   puts c.notes
 end
-
-# created_by_id: Staff.find_by(email: User.find(@current_user).email)

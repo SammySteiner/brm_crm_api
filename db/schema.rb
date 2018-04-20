@@ -144,16 +144,25 @@ ActiveRecord::Schema.define(version: 20180409123002) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "service_categories", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "services", force: :cascade do |t|
     t.string "title"
     t.text "description"
     t.integer "sla"
     t.integer "sdl_id"
     t.integer "service_owner_id"
+    t.boolean "core"
     t.bigint "division_id"
+    t.bigint "service_category_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["division_id"], name: "index_services_on_division_id"
+    t.index ["service_category_id"], name: "index_services_on_service_category_id"
   end
 
   create_table "staff_connections", force: :cascade do |t|

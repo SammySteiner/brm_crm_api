@@ -1,5 +1,5 @@
 class Api::V1::AgenciesController < ApplicationController
-  before_action :authorize_user!
+  # before_action :authorize_user!
 
   def index
     agencies = Agency.includes(:arm, :cio, :commissioner)
@@ -26,7 +26,9 @@ class Api::V1::AgenciesController < ApplicationController
 
   def show
     a = Agency.find(params[:id])
-    agency_details = {id: a.id, name: a.name, acronym: a.acronym, mayoral: a.mayoral, citynet: a.citynet, category: a.category, address: a.address, commissioner: a.commissioner, cio: a.cio, arm: a.arm}
+    services = a.services.map { |e| {id: e.id, title: e.title, core: e.core, service_category: e.service_category.name} }
+    service_categories = ServiceCategory.all.map { |e| {name: e.name, count: e.services.size} }
+    agency_details = {id: a.id, name: a.name, acronym: a.acronym, mayoral: a.mayoral, citynet: a.citynet, category: a.category, address: a.address, commissioner: a.commissioner, cio: a.cio, arm: a.arm, services: services, service_categories: service_categories}
     render json: agency_details
   end
 
