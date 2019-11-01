@@ -91,8 +91,8 @@ class Api::V1::ConnectionsController < ApplicationController
     arms = Staff.where(role: Role.find_by(title: "ARM")).map { |arm|  arm.fullname }
     agencies = Agency.select(:id, :name, :acronym).map { |a|  {name: a.name, acronym: a.acronym}}
     staff = Staff.all.map { |s| {id: s.id, fullname: s.fullname} }
-    unresolved_engagements = Engagement.includes(:service, :engagement_type, :connections => [:agency]).where(resolved_on: nil).map { |e| {title: e.title, id: e.id} }
-    info = {types: types, arms: arms, agencies: agencies, staff: staff, unresolved_engagements: unresolved_engagements}
+    agency_engagements = Engagement.includes(:service, :engagement_type, :connections => [:agency]).map { |e| {title: e.title, id: e.id} }
+    info = {types: types, arms: arms, agencies: agencies, staff: staff, agency_engagements: agency_engagements}
     render json: info
   end
 
